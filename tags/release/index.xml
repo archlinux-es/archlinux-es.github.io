@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Release on Arch Linux en Español</title>
+    <link>https://archlinux-es.github.io/tags/release/</link>
+    <description>Recent content in Release on Arch Linux en Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Tue, 06 Mar 2018 22:52:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://archlinux-es.github.io/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arch Linux 2018.03.01 disponible</title>
+      <link>https://archlinux-es.github.io/2018/03/06/arch-linux-2018-03-01-disponible/</link>
+      <pubDate>Tue, 06 Mar 2018 22:52:00 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2018/03/06/arch-linux-2018-03-01-disponible/</guid>
+      <description>Ya está disponible para la descarga la ISO de Arch Linux 2018.03.01 , incluye el kernel 4.15.6.
+Pueden pasar por la página de descarga para bajarla.</description>
+    </item>
+    
+  </channel>
+</rss>

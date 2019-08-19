@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iso on Arch Linux en Español</title>
+    <link>https://archlinux-es.github.io/tags/iso/</link>
+    <description>Recent content in Iso on Arch Linux en Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Wed, 05 Sep 2018 20:22:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://archlinux-es.github.io/tags/iso/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ya está disponible la ISO de Arch Linux 2018.09.01</title>
+      <link>https://archlinux-es.github.io/2018/09/05/ya-esta-disponible-la-iso-de-arch-linux-2018-09-01/</link>
+      <pubDate>Wed, 05 Sep 2018 20:22:09 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2018/09/05/ya-esta-disponible-la-iso-de-arch-linux-2018-09-01/</guid>
+      <description>Ya se puede descargar** la última versión de la ISO de Arch Linux ** para instalar vía CD o USB.
+La ISO de Arch Linux 2018.09.01 incluye el kernel 4.18.5 entre otras actualizaciones.
+Pueden encontrar los datos y enlaces en la sección de descarga
+Recuerden que la ISO es únicamente para nuevos usuarios/instalaciones. Los usuarios actuales de Arch Linux deben actualizar su sistema mediante pacman -Syu</description>
+    </item>
+    
+    <item>
+      <title>Arch Linux 2018.03.01 disponible</title>
+      <link>https://archlinux-es.github.io/2018/03/06/arch-linux-2018-03-01-disponible/</link>
+      <pubDate>Tue, 06 Mar 2018 22:52:00 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2018/03/06/arch-linux-2018-03-01-disponible/</guid>
+      <description>Ya está disponible para la descarga la ISO de Arch Linux 2018.03.01 , incluye el kernel 4.15.6.
+Pueden pasar por la página de descarga para bajarla.</description>
+    </item>
+    
+    <item>
+      <title>Ya está disponible la ISO de Arch Linux 2017.12.01</title>
+      <link>https://archlinux-es.github.io/2017/12/10/ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</link>
+      <pubDate>Sun, 10 Dec 2017 23:59:38 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2017/12/10/ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</guid>
+      <description>Ya se puede descargar** la última version de la ISO de Arch Linux del 2017** para instalar vía CD o USB.
+Pueden encontrar los datos y enlaces en la sección de descarga
+Recuerden que la ISO es únicamente para nuevos usuarios/instalaciones. Los usuarios actuales de Arch Linux deben actualizar su sistema mediante pacman -Syu</description>
+    </item>
+    
+  </channel>
+</rss>

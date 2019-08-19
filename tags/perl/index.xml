@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perl on Arch Linux en Español</title>
+    <link>https://archlinux-es.github.io/tags/perl/</link>
+    <description>Recent content in Perl on Arch Linux en Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Sun, 10 Sep 2017 13:00:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://archlinux-es.github.io/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Perl: Cambio en la ruta de la biblioteca de módulos</title>
+      <link>https://archlinux-es.github.io/2017/09/10/perl-cambio-en-la-ruta-de-la-biblioteca-de-modulos/</link>
+      <pubDate>Sun, 10 Sep 2017 13:00:48 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2017/09/10/perl-cambio-en-la-ruta-de-la-biblioteca-de-modulos/</guid>
+      <description>El paquete de Perl ahora utiliza una ruta versionada para los módulos compilados. Esto quiere decir que los módulos compilados para una versión distinta de Perl no serán cargados y deberán ser recompilados.
+Un hook de Pacman advierte sobre los módulos afectados durante la actualización, mostrando una salida como la siguiente:
+WARNING: &#39;/usr/lib/perl5/vendor_perl&#39; contains data from at least 143 packages which will NOT be used by the installed perl interpreter. -&amp;gt; Run the following command to get a list of affected packages: pacman -Qqo &#39;/usr/lib/perl5/vendor_perl&#39;  Deberás recompilar todos los paquetes afectados contra la nueva versión de Perl antes de poder utilizarlos nuevamente.</description>
+    </item>
+    
+  </channel>
+</rss>

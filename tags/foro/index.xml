@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foro on Arch Linux en Español</title>
+    <link>https://archlinux-es.github.io/tags/foro/</link>
+    <description>Recent content in Foro on Arch Linux en Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Sun, 27 May 2018 01:00:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://archlinux-es.github.io/tags/foro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Foro con registro de nuevos usuarios desactivado</title>
+      <link>https://archlinux-es.github.io/2018/05/26/foro-en-modo-solo-lectura-a-partir-del-4-de-junio-2018/</link>
+      <pubDate>Sun, 27 May 2018 01:00:54 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2018/05/26/foro-en-modo-solo-lectura-a-partir-del-4-de-junio-2018/</guid>
+      <description>Luego de más de 13 años del foro de Arch Linux en Español, he decidido desactivar el registro de nuevos usuarios y evaluar el futuro de este, sea el pase a solo lectura o la migración a otra plataforma (discourse).
+Los resultados de la encuesta, conversaciones en el foro y las publicaciones en redes con la consulta popular respecto de su futuro no fueron satisfactorios debido a la baja participación. Llegue a la conclusión de que por el momento, no se justifica sostener el foro en su versión y formato actual.</description>
+    </item>
+    
+    <item>
+      <title>Recordatorio: Vota y comenta por que conservar el foro en español!</title>
+      <link>https://archlinux-es.github.io/2018/05/24/recordatorio-vota-y-comenta-por-que-conservar-el-foro-en-espanol/</link>
+      <pubDate>Thu, 24 May 2018 15:37:18 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2018/05/24/recordatorio-vota-y-comenta-por-que-conservar-el-foro-en-espanol/</guid>
+      <description>Recordá que tenemos la encuesta:
+https://twitter.com/archlinuxes/status/997969731549302784
+Opina por que consideras que debemos conservar el foro en linea!</description>
+    </item>
+    
+    <item>
+      <title>Encuesta: Baja del Foro de Arch en Español</title>
+      <link>https://archlinux-es.github.io/2018/05/19/encuesta-baja-del-foro-de-arch-en-espanol/</link>
+      <pubDate>Sat, 19 May 2018 22:40:49 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2018/05/19/encuesta-baja-del-foro-de-arch-en-espanol/</guid>
+      <description>En los últimos meses se ha notado una baja muy significativa en el trafico y actividad en los https://foros.archlinux-es.org, por lo que estoy considerado darlos de baja, reutilizando el tiempo y recursos que lleva mantenerlos en mejorar la portada y tal vez impulsar las redes sociales.
+Para esto he creado una encuesta en Twitter, me pareció el mecanismo más sencillo y rápido.
+Pueden votar aquí:
+https://twitter.com/archlinuxes/status/997969731549302784
+Las opciones luego serán evaluar si:</description>
+    </item>
+    
+    <item>
+      <title>Actualización de portada y foros archlinux-es.org 2017</title>
+      <link>https://archlinux-es.github.io/2017/11/13/reactivando-el-sitio-archlinux-es-org-2017/</link>
+      <pubDate>Mon, 13 Nov 2017 14:00:13 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/2017/11/13/reactivando-el-sitio-archlinux-es-org-2017/</guid>
+      <description>Luego de poco más de un mes de mantenimiento, ya está el nuevo hosting de archlinux-es.org habilitado en Linode (*). El foro aún no estaría funcionando ya que la migración de hosting desde Red Hat OpenShift hacía Linode incluyo la actualización desde PHP 5.5 hacía PHP 7 y de MySQL 5.5 hacía MySQL 5.7, situación que causo algunos retrasos e inconvenientes que aún estoy solucionando.
+En los próximos días estaré aplicando los cambios necesarios para que phpBB funcione correctamente y comenzare las pruebas de migración hacía Discourse.</description>
+    </item>
+    
+  </channel>
+</rss>
