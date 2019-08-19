@@ -45,6 +45,44 @@
             </h3>
             <a href="./index.xml" title="Arch Linux en Español RSS Feed" class="rss-icon"><img width="16" height="16" src="./rss.png" alt="RSS Feed" /></a>
                 
+                <h4><a href="https://archlinux-es.github.io/posts/2019-07-11-libbloom-1-6-2-requiere-intervencion-manual/" title="libbloom &gt;= 1.6-2 Requiere Intervencion Manual"> libbloom &gt;= 1.6-2 Requiere Intervencion Manual</a></h4>
+                <p class="timestamp">2019-07-11<p>
+                <div class="article-content">
+                    <p>El paquete de libbloom previo a 1.6-2 tenia un enlace soname faltante. Esto ha sido corregido en 1.6-2, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados creados por ldconfig.</p>
+
+<p>Si al actualizar, recibes un error del tipo:</p>
+
+<p><code>libbloom: /usr/lib/libbloom.so.1 exists in filesystem</code></p>
+
+<p>Utilizar la bandera para sobre-escribir el archivo con pacman:</p>
+
+<pre><code>pacman -Syu --overwrite user/lib/libbloom.so.1
+</code></pre>
+
+                </div>
+                
+                <h4><a href="https://archlinux-es.github.io/posts/2019-06-27-mariadb-10-4-x-requiere-intervencion-manual/" title="Mariadb 10 4 X Requiere Intervencion Manual"> Mariadb 10 4 X Requiere Intervencion Manual</a></h4>
+                <p class="timestamp">2019-06-27<p>
+                <div class="article-content">
+                    <p>La actualización de Mariadb 10.4.6-1 y posteriores, cambian el formato de la configuración de acuerdo a lo recomendado por el proyecto upstream.</p>
+
+<p>El archivo de configuración principal se ha movido desde /etc/mysql/my.cnf (incluyendo el directorio /etc/mysql/my.cnf.d/) hacía /etc/my.cnf (y /etc/my.cnf.d/). Asegurarse de mover la configuración.</p>
+
+<p>Los servicios instanciados como mariadb@foo.service ya no se configuran en archivos separados (como /etc/mysql/myfoo.conf). En lugar de esto, moverlos hacía bloques de configuracion  con un sufijo de grupo en el archivo de configuración general, uno por cada servicio. Un bloque debe parecerse a lo siguiente:</p>
+
+<pre><code>[mysqld.foo]
+datadir = /var/lib/mysql-foo
+socket = /run/mysqld/mysqld-foo.sock
+...
+</code></pre>
+
+<p>Como toda actualización de caracteristicas de Mariadb, esto requiere que el directorio de datos sea actualizado. La nueva configuración a correr es la siguiente:</p>
+
+<pre><code>systemctl restart mariadb.service &amp;&amp; mariadb-upgrade -u root -p
+</code></pre>
+
+                </div>
+                
                 <h4><a href="https://archlinux-es.github.io/2018/09/11/se-realizo-el-arch-linux-ama-en-reddit/" title="Se realizo el Arch Linux AMA en Reddit"> Se realizo el Arch Linux AMA en Reddit</a></h4>
                 <p class="timestamp">2018-09-11<p>
                 <div class="article-content">

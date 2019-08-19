@@ -6,10 +6,34 @@
     <description>Recent content in Posts on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 11 Sep 2018 19:39:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2019 19:39:51 -0300</lastBuildDate>
     
 	<atom:link href="https://archlinux-es.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>libbloom &gt;= 1.6-2 Requiere Intervencion Manual</title>
+      <link>https://archlinux-es.github.io/posts/2019-07-11-libbloom-1-6-2-requiere-intervencion-manual/</link>
+      <pubDate>Thu, 11 Jul 2019 19:39:51 -0300</pubDate>
+      
+      <guid>https://archlinux-es.github.io/posts/2019-07-11-libbloom-1-6-2-requiere-intervencion-manual/</guid>
+      <description>El paquete de libbloom previo a 1.6-2 tenia un enlace soname faltante. Esto ha sido corregido en 1.6-2, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados creados por ldconfig.
+Si al actualizar, recibes un error del tipo:
+libbloom: /usr/lib/libbloom.so.1 exists in filesystem
+Utilizar la bandera para sobre-escribir el archivo con pacman:
+pacman -Syu --overwrite user/lib/libbloom.so.1  </description>
+    </item>
+    
+    <item>
+      <title>Mariadb 10 4 X Requiere Intervencion Manual</title>
+      <link>https://archlinux-es.github.io/posts/2019-06-27-mariadb-10-4-x-requiere-intervencion-manual/</link>
+      <pubDate>Thu, 27 Jun 2019 19:34:42 -0300</pubDate>
+      
+      <guid>https://archlinux-es.github.io/posts/2019-06-27-mariadb-10-4-x-requiere-intervencion-manual/</guid>
+      <description>La actualización de Mariadb 10.4.6-1 y posteriores, cambian el formato de la configuración de acuerdo a lo recomendado por el proyecto upstream.
+El archivo de configuración principal se ha movido desde /etc/mysql/my.cnf (incluyendo el directorio /etc/mysql/my.cnf.d/) hacía /etc/my.cnf (y /etc/my.cnf.d/). Asegurarse de mover la configuración.
+Los servicios instanciados como mariadb@foo.service ya no se configuran en archivos separados (como /etc/mysql/myfoo.conf). En lugar de esto, moverlos hacía bloques de configuracion con un sufijo de grupo en el archivo de configuración general, uno por cada servicio.</description>
+    </item>
     
     <item>
       <title>Se realizo el Arch Linux AMA en Reddit</title>
