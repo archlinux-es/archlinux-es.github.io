@@ -6,21 +6,10 @@
     <description>Recent content in Posts on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Sun, 26 May 2019 16:19:54 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 19:39:36 +0000</lastBuildDate>
     
 	<atom:link href="https://archlinux-es.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Arch Conf in October</title>
-      <link>https://archlinux-es.github.io/posts/arch_conf_in_october/</link>
-      <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
-      
-      <guid>https://archlinux-es.github.io/posts/arch_conf_in_october/</guid>
-      <description>Fellow Archers!
-We are happy to announce, that we will be hosting a community-centric (developers, trusted users and support staff) event in October (the weekend of the 5th and 6th to be exact) this year. For more information, see the about page.
-Arch Conf will happen at Native Space (the community space of Native Instruments GmbH). For details on the exact location and how to get there, please check out the travel page.</description>
-    </item>
     
     <item>
       <title>Se realizo el Arch Linux AMA en Reddit</title>
@@ -129,9 +118,9 @@ Pueden pasar por la página de descarga para bajarla.</description>
       <pubDate>Mon, 05 Mar 2018 22:45:57 +0000</pubDate>
       
       <guid>https://archlinux-es.github.io/2018/03/05/actualizacion-de-zita-resampler-1-6-0-1-a-1-6-0-2-requiere-intervencion-manual/</guid>
-      <description> Al paquete de zita-resampler 1.6.0-1 le faltaba un enlace simbólico a una biblioteca, que fue re-agregado a 1.6.0-2. Si instalaste 1.6.0-1, ldconfig habrá creado el enlace simbólico al momento de la instalación, y va a causar un conflicto con el que se incluye en 1.6.0-2. En ese caso, eliminar manualmente /usr/lib/libzita-resampler.so.1 antes de actualizar el paquete.
+      <description>Al paquete de zita-resampler 1.6.0-1 le faltaba un enlace simbólico a una biblioteca, que fue re-agregado a 1.6.0-2. Si instalaste 1.6.0-1, ldconfig habrá creado el enlace simbólico al momento de la instalación, y va a causar un conflicto con el que se incluye en 1.6.0-2. En ese caso, eliminar manualmente /usr/lib/libzita-resampler.so.1 antes de actualizar el paquete.
 Resumiendo, si poseen zita-resampler 1.6.0-1 y tienen problemas al actualizar:
-rm /usr/lib/libzita-resampler.so.1 </description>
+# rm /usr/lib/libzita-resampler.so.1</description>
     </item>
     
     <item>
