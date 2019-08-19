@@ -1,0 +1,14 @@
+---
+title: "Ya está disponible la ISO de Arch Linux 2018.09.01 "
+date: 2018-09-05T16:19:54-03:00
+---
+
+
+Ya se puede descargar la última versión de la ISO de Arch Linux para instalar vía CD o USB.
+
+La ISO de Arch Linux 2018.09.01 incluye el kernel 4.18.5 entre otras actualizaciones.
+
+Pueden encontrar los datos y enlaces en la sección de descarga
+
+Recuerden que la ISO es únicamente para nuevos usuarios/instalaciones. 
+Los usuarios actuales de Arch Linux deben actualizar su sistema mediante pacman -Syu

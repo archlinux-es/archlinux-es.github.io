@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch Linux en Español</title>
+    <link>https://archlinux-es.github.io/</link>
+    <description>Recent content on Arch Linux en Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Sun, 26 May 2019 16:19:54 -0300</lastBuildDate>
+    
+	<atom:link href="https://archlinux-es.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bienvenidos al sitio de Arch Linux en Español</title>
+      <link>https://archlinux-es.github.io/pages/about/</link>
+      <pubDate>Sun, 26 May 2019 16:19:54 -0300</pubDate>
+      
+      <guid>https://archlinux-es.github.io/pages/about/</guid>
+      <description>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
+Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
+    </item>
+    
+    <item>
+      <title>Arch Conf in October</title>
+      <link>https://archlinux-es.github.io/posts/arch_conf_in_october/</link>
+      <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
+      
+      <guid>https://archlinux-es.github.io/posts/arch_conf_in_october/</guid>
+      <description>Fellow Archers!
+We are happy to announce, that we will be hosting a community-centric (developers, trusted users and support staff) event in October (the weekend of the 5th and 6th to be exact) this year. For more information, see the about page.
+Arch Conf will happen at Native Space (the community space of Native Instruments GmbH). For details on the exact location and how to get there, please check out the travel page.</description>
+    </item>
+    
+    <item>
+      <title>Become a Sponsor</title>
+      <link>https://archlinux-es.github.io/pages/sponsoring/</link>
+      <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
+      
+      <guid>https://archlinux-es.github.io/pages/sponsoring/</guid>
+      <description>On October 5th and 6th 2019 we will host a community centric event for the Arch Linux staff (developers, trusted users and support staff) in Berlin.
+Native Instruments GmbH was so kind to sponsor their community location for this event, which is located next to their offices in the Kreuzberg district.
+However, Arch Linux consists of an international group of volunteers, that work on several facets of the distribution. To enable us to bring as many of our team to Berlin this year, we need your support!</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://archlinux-es.github.io/pages/schedule/</link>
+      <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
+      
+      <guid>https://archlinux-es.github.io/pages/schedule/</guid>
+      <description>The schedule has not yet been completed.</description>
+    </item>
+    
+    <item>
+      <title>Travel Information</title>
+      <link>https://archlinux-es.github.io/pages/travel/</link>
+      <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
+      
+      <guid>https://archlinux-es.github.io/pages/travel/</guid>
+      <description>Address The conference takes place at Native Space, Schlesische Straße 30, 10997 Berlin.
+Public Transport The public transport stops closest to Native Space are
+ Bus stop Taborstraße (2min walk) U Schlesisches Tor (7min walk) S Warschauer Straße (12min walk)  If you have an Android Phone, the Transportr app works very well with the public transport API of Berlin.
+Airplane Berlin&amp;rsquo;s two major airports Schönefeld (SXF) and Tegel (TXL) are fairly well connected with public transport.</description>
+    </item>
+    
+  </channel>
+</rss>
