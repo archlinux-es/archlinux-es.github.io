@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Thu, 11 Jul 2019 19:39:51 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2003 04:37:38 +0000</lastBuildDate>
     
 	<atom:link href="https://archlinux-es.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comunidad Hispana de Arch Linux</title>
+      <link>https://archlinux-es.github.io/comunidad-hispana-de-arch-linux/</link>
+      <pubDate>Sun, 20 Jul 2003 04:37:38 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/comunidad-hispana-de-arch-linux/</guid>
+      <description>Bienvenidos al sitio de Arch Linux en Español
+Este es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
+Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
+    </item>
     
     <item>
       <title>libbloom &gt;= 1.6-2 Requiere Intervencion Manual</title>
@@ -825,17 +836,6 @@ Los usuarios podrán mantener GRUB _legacy_ instalado y totalmente operativo e
     </item>
     
     <item>
-      <title>Comunidad Hispana de Arch Linux</title>
-      <link>https://archlinux-es.github.io/2012/07/20/comunidad-hispana-de-arch-linux/</link>
-      <pubDate>Fri, 20 Jul 2012 04:37:38 +0000</pubDate>
-      
-      <guid>https://archlinux-es.github.io/2012/07/20/comunidad-hispana-de-arch-linux/</guid>
-      <description>Bienvenidos al sitio de Arch Linux en Español
-Este es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
-Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
-    </item>
-    
-    <item>
       <title>Systemd-tools sustituye a udev</title>
       <link>https://archlinux-es.github.io/2012/06/03/systemd-tools-sustituye-a-udev/</link>
       <pubDate>Sun, 03 Jun 2012 05:39:13 +0000</pubDate>
@@ -843,6 +843,16 @@ Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmen
       <guid>https://archlinux-es.github.io/2012/06/03/systemd-tools-sustituye-a-udev/</guid>
       <description>Hemos unido systemd y udev; aunque todavía estarán disponibles en paquetes separados. Sin embargo, y para hacerlo todo más sencillo, ahora udev formará parte de un paquete llamado systemd-tools. Este paquete contiene una serie de herramientas independientes que se pueden ejecutar sin systemd. Ni que decir tiene que esto también significa que el conjunto de systemd en su totalidad se encuentra en el repositorio core.
 Confirmar la sustitución de systemd-tools por udev cuando se pregunte al actualizar.</description>
+    </item>
+    
+    <item>
+      <title>2008 08 14 Prueba Sitio Django</title>
+      <link>https://archlinux-es.github.io/posts/2008-08-14-prueba-sitio-django/</link>
+      <pubDate>Thu, 14 Aug 2008 21:33:42 -0300</pubDate>
+      
+      <guid>https://archlinux-es.github.io/posts/2008-08-14-prueba-sitio-django/</guid>
+      <description>Probando la nueva portada de Arch Hispano!
+Estamos implementando la migración hacia Django como administrador de contenidos del portal Hispano de Arch. Pueden encontrar errores y/o problemas mientras se lleva a cabo la implementación, les pedimos tengan paciencia y reporten cualquier problema en el foro: http://www.archlinux-es.org/foros/viewforum.php?f=7</description>
     </item>
     
   </channel>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://archlinux-es.github.io/comunidad-hispana-de-arch-linux/</loc>
+    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://archlinux-es.github.io/posts/2019-07-11-libbloom-1-6-2-requiere-intervencion-manual/</loc>
     <lastmod>2019-07-11T19:39:51-03:00</lastmod>
   </url>
@@ -408,13 +413,13 @@
   </url>
   
   <url>
-    <loc>https://archlinux-es.github.io/2012/07/20/comunidad-hispana-de-arch-linux/</loc>
-    <lastmod>2012-07-20T04:37:38+00:00</lastmod>
+    <loc>https://archlinux-es.github.io/2012/06/03/systemd-tools-sustituye-a-udev/</loc>
+    <lastmod>2012-06-03T05:39:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://archlinux-es.github.io/2012/06/03/systemd-tools-sustituye-a-udev/</loc>
-    <lastmod>2012-06-03T05:39:13+00:00</lastmod>
+    <loc>https://archlinux-es.github.io/posts/2008-08-14-prueba-sitio-django/</loc>
+    <lastmod>2008-08-14T21:33:42-03:00</lastmod>
   </url>
   
   <url>
@@ -443,7 +448,7 @@
   
   <url>
     <loc>https://archlinux-es.github.io/</loc>
-    <lastmod>2019-07-11T19:39:51-03:00</lastmod>
+    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -592,7 +597,7 @@
   
   <url>
     <loc>https://archlinux-es.github.io/categories/noticias/</loc>
-    <lastmod>2018-09-11T19:39:36+00:00</lastmod>
+    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -640,7 +645,7 @@
   
   <url>
     <loc>https://archlinux-es.github.io/posts/</loc>
-    <lastmod>2019-07-11T19:39:51-03:00</lastmod>
+    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   

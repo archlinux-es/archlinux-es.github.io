@@ -6,10 +6,21 @@
     <description>Recent content in Noticias on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 11 Sep 2018 19:39:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2003 04:37:38 +0000</lastBuildDate>
     
 	<atom:link href="https://archlinux-es.github.io/categories/noticias/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comunidad Hispana de Arch Linux</title>
+      <link>https://archlinux-es.github.io/comunidad-hispana-de-arch-linux/</link>
+      <pubDate>Sun, 20 Jul 2003 04:37:38 +0000</pubDate>
+      
+      <guid>https://archlinux-es.github.io/comunidad-hispana-de-arch-linux/</guid>
+      <description>Bienvenidos al sitio de Arch Linux en Español
+Este es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
+Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
+    </item>
     
     <item>
       <title>Se realizo el Arch Linux AMA en Reddit</title>
@@ -798,17 +809,6 @@ Mientras terminamos de trabajar, los invitamos a pasar por el foro hispano, el p
       <guid>https://archlinux-es.github.io/2012/07/23/el-grub-clasico-se-queda-sin-soporte/</guid>
       <description>GRUB 2.x se encuentra ahora en el repositorio [core]. Debido a esto, el paquete que corresponde a la versión previa de GRUB (o GRUB legacy; es decir, la 0.9x) va a quedarse sin soporte. Tal es esto que, de ahora en adelante, estará disponible en AUR.
 Los usuarios podrán mantener GRUB _legacy_ instalado y totalmente operativo en sus equipos. Sin embargo, se recomienda la actualización a la versión 2.x o la sustitución por cualquier otro de los gestores de arranque que todavía cuentan con soporte parte de los desarrolladores.</description>
-    </item>
-    
-    <item>
-      <title>Comunidad Hispana de Arch Linux</title>
-      <link>https://archlinux-es.github.io/2012/07/20/comunidad-hispana-de-arch-linux/</link>
-      <pubDate>Fri, 20 Jul 2012 04:37:38 +0000</pubDate>
-      
-      <guid>https://archlinux-es.github.io/2012/07/20/comunidad-hispana-de-arch-linux/</guid>
-      <description>Bienvenidos al sitio de Arch Linux en Español
-Este es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
-Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
     </item>
     
     <item>
