@@ -13,10 +13,10 @@
     
     <item>
       <title>Finaliza el soporte para la arquitectura i686</title>
-      <link>https://archlinux-es.github.io/2017/11/13/finaliza-el-soporte-para-la-arquitectura-i686/</link>
+      <link>https://archlinux-es.github.io/posts/2017-11-14-finaliza-el-soporte-para-la-arquitectura-i686/</link>
       <pubDate>Tue, 14 Nov 2017 01:32:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/11/13/finaliza-el-soporte-para-la-arquitectura-i686/</guid>
+      <guid>https://archlinux-es.github.io/posts/2017-11-14-finaliza-el-soporte-para-la-arquitectura-i686/</guid>
       <description>Siguiendo los 9 meses del periodo de deprecación, el soporte para la arquitectura i686 ha sido terminado definitivamente el día 8/11/17. Para el fin de noviembre, los paquetes i686 serán removidos de los espejos (mirrors) y luego del archivo histórico de paquetes. El repositorio [multilib] no se verá afectado por el cambio.
 Para los usuarios que no puedan actualizar su hardware hacía la arquitectura x86_64 (amd64), la comunidad ha creado un fork alternativo llamado Arch Linux 32.</description>
     </item>

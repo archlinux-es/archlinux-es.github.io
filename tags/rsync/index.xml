@@ -13,10 +13,10 @@
     
     <item>
       <title>Se descontinua el uso de la herramienta ABS y el rsync endpoint</title>
-      <link>https://archlinux-es.github.io/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</link>
+      <link>https://archlinux-es.github.io/posts/2017-06-28-se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</link>
       <pubDate>Wed, 28 Jun 2017 15:38:49 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</guid>
+      <guid>https://archlinux-es.github.io/posts/2017-06-28-se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</guid>
       <description>Debido al alto costo de mantenimiento de los scripts relacionados al Arch Build System (ABS), hemos decidido descontinuar la herramienta abs y por lo tanto el mecanismo de rsync para obtener PKGBUILDs.
 La herramienta asp, disponible actualmente en [extra], provee funcionalidad similar a la de abs.
 asp export pkgname puede ser utilizado como una alternativa directa; pueden encontrar mayor información sobre como utilizarla en la documentación.

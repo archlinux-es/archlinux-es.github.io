@@ -13,10 +13,10 @@
     
     <item>
       <title>Posibles problemas con juegos de Steam portados por Feral Interactive</title>
-      <link>https://archlinux-es.github.io/2017/09/13/posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</link>
+      <link>https://archlinux-es.github.io/posts/2017-09-13-posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</link>
       <pubDate>Wed, 13 Sep 2017 15:31:19 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/09/13/posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</guid>
+      <guid>https://archlinux-es.github.io/posts/2017-09-13-posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</guid>
       <description>ACTUALIZACIÓN: 15/09/17, ya está resuelto. Leer aquí.
 Algunos juegos de Steam portados por Feral Interactive a Linux (y SteamOS), aparentemente están teniendo inconvenientes [1] desde hace un par de días. Según dicen los reportes, tiene que ver con la última actualización de glibc [2] y algo de los scripts de Feral.
 Los juegos que pueden tener inconvenientes son: Total War: Warhammer, Dirt Rally, Mad Max, Deus Ex Mankind, Tomb Raider, Company of Heroes 2, GRID Autosport, Alien Isolation, Shadow of Mordor, los XCOM, entre otros posiblemente [3]</description>

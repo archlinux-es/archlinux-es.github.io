@@ -13,10 +13,10 @@
     
     <item>
       <title>Ya está disponible la ISO de Arch Linux 2017.12.01</title>
-      <link>https://archlinux-es.github.io/2017/12/10/ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</link>
+      <link>https://archlinux-es.github.io/posts/2017-12-10-ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</link>
       <pubDate>Sun, 10 Dec 2017 23:59:38 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/12/10/ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</guid>
+      <guid>https://archlinux-es.github.io/posts/2017-12-10-ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</guid>
       <description>Ya se puede descargar** la última version de la ISO de Arch Linux del 2017** para instalar vía CD o USB.
 Pueden encontrar los datos y enlaces en la sección de descarga
 Recuerden que la ISO es únicamente para nuevos usuarios/instalaciones. Los usuarios actuales de Arch Linux deben actualizar su sistema mediante pacman -Syu</description>
