@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/pages/</link>
+    <link>https://www.archlinux-es.org/pages/</link>
     <description>Recent content in Pages on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Sun, 26 May 2019 16:19:54 -0300</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bienvenidos al sitio de Arch Linux en Español</title>
-      <link>https://archlinux-es.github.io/pages/about/</link>
+      <link>https://www.archlinux-es.org/pages/about/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 -0300</pubDate>
       
-      <guid>https://archlinux-es.github.io/pages/about/</guid>
+      <guid>https://www.archlinux-es.org/pages/about/</guid>
       <description>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
 Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
     </item>
     
     <item>
       <title>Become a Sponsor</title>
-      <link>https://archlinux-es.github.io/pages/sponsoring/</link>
+      <link>https://www.archlinux-es.org/pages/sponsoring/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
       
-      <guid>https://archlinux-es.github.io/pages/sponsoring/</guid>
+      <guid>https://www.archlinux-es.org/pages/sponsoring/</guid>
       <description>On October 5th and 6th 2019 we will host a community centric event for the Arch Linux staff (developers, trusted users and support staff) in Berlin.
 Native Instruments GmbH was so kind to sponsor their community location for this event, which is located next to their offices in the Kreuzberg district.
 However, Arch Linux consists of an international group of volunteers, that work on several facets of the distribution. To enable us to bring as many of our team to Berlin this year, we need your support!</description>
@@ -34,19 +34,19 @@ However, Arch Linux consists of an international group of volunteers, that work 
     
     <item>
       <title>Schedule</title>
-      <link>https://archlinux-es.github.io/pages/schedule/</link>
+      <link>https://www.archlinux-es.org/pages/schedule/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
       
-      <guid>https://archlinux-es.github.io/pages/schedule/</guid>
+      <guid>https://www.archlinux-es.org/pages/schedule/</guid>
       <description>The schedule has not yet been completed.</description>
     </item>
     
     <item>
       <title>Travel Information</title>
-      <link>https://archlinux-es.github.io/pages/travel/</link>
+      <link>https://www.archlinux-es.org/pages/travel/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
       
-      <guid>https://archlinux-es.github.io/pages/travel/</guid>
+      <guid>https://www.archlinux-es.org/pages/travel/</guid>
       <description>Address The conference takes place at Native Space, Schlesische Straße 30, 10997 Berlin.
 Public Transport The public transport stops closest to Native Space are
  Bus stop Taborstraße (2min walk) U Schlesisches Tor (7min walk) S Warschauer Straße (12min walk)  If you have an Android Phone, the Transportr app works very well with the public transport API of Berlin.

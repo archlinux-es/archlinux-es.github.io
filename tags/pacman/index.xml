@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pacman on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/pacman/</link>
+    <link>https://www.archlinux-es.org/tags/pacman/</link>
     <description>Recent content in Pacman on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Thu, 16 Aug 2018 23:03:57 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>libutf8proc &gt;= 2.1.1-3 , la actualización requiere intervención manual</title>
-      <link>https://archlinux-es.github.io/2018/08/16/libutf8proc--2.1.1-3--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</link>
+      <link>https://www.archlinux-es.org/2018/08/16/libutf8proc--2.1.1-3--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Thu, 16 Aug 2018 23:03:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2018/08/16/libutf8proc--2.1.1-3--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</guid>
+      <guid>https://www.archlinux-es.org/2018/08/16/libutf8proc--2.1.1-3--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</guid>
       <description>El paquete libutf8proc anterior a la version** 2.1.1-3** tenia un enlace soname incorrecto. Esto ha sido solucionado en 2.1.1-3, por lo que la actualización requiere sobre escribir el enlace soname creado por ldconfig. Si al actualizar el sistema obtienen el error:
 libutf8proc: /usr/lib/libutf8proc.so.2 exists in filesystem
 Deberán utilizar la bandera de sobre-escritura:
@@ -26,20 +26,20 @@ Para realizar la actualización correctamente.</description>
     
     <item>
       <title>js52 52.7.3-2: la actualización requiere intervención manual</title>
-      <link>https://archlinux-es.github.io/2018/05/14/js52-52.7.3-2-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</link>
+      <link>https://www.archlinux-es.org/2018/05/14/js52-52.7.3-2-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Mon, 14 May 2018 01:12:30 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2018/05/14/js52-52.7.3-2-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</guid>
+      <guid>https://www.archlinux-es.org/2018/05/14/js52-52.7.3-2-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</guid>
       <description>Debido al cambio de SONAME de /usr/lib/libmozjs-52.so y que no coincide con el nombre del archivo, ldconfig creo un archivo adicional fuera del registro /usr/lib/libmozjs-52.so.0. Esto ya está resuelto y ahora ambos archivos están presentes en el paquete.
 Para pasar la actualización, eliminar /usr/lib/libmozjs-52.so.0 antes de actualizar.</description>
     </item>
     
     <item>
       <title>Importante: glibc 2.27-2 y pam 1.3.0-2 pueden requerir intervención manual</title>
-      <link>https://archlinux-es.github.io/2018/04/23/importante-glibc-2.27-2-y-pam-1.3.0-2-pueden-requerir-intervenci%C3%B3n-manual/</link>
+      <link>https://www.archlinux-es.org/2018/04/23/importante-glibc-2.27-2-y-pam-1.3.0-2-pueden-requerir-intervenci%C3%B3n-manual/</link>
       <pubDate>Mon, 23 Apr 2018 00:13:01 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2018/04/23/importante-glibc-2.27-2-y-pam-1.3.0-2-pueden-requerir-intervenci%C3%B3n-manual/</guid>
+      <guid>https://www.archlinux-es.org/2018/04/23/importante-glibc-2.27-2-y-pam-1.3.0-2-pueden-requerir-intervenci%C3%B3n-manual/</guid>
       <description>La nueva versión de glibc elimina el soporte para NIS y NIS+. El archivo de configuración por defecto, /etc/nsswitch.conf , provisto por el paquete filesystem ya refleja este cambio. Por favor asegurarse de unificar (merge) los cambios del archivo pacnew si existe, previo a la actualización.
 La funcionalidad de NIS aún puede ser activada instalando el paquete** libnss_nis**. No hay reemplazo oficial por NIS+ en los repositorios.
 pam 1.3.0-2 ya no incluye el modulo pam_unix2 ni los enlaces de compatibilidad pamunix*.</description>
@@ -47,10 +47,10 @@ pam 1.3.0-2 ya no incluye el modulo pam_unix2 ni los enlaces de compatibilidad p
     
     <item>
       <title>actualización de zita-resampler 1.6.0-1 a 1.6.0-2 requiere intervención manual</title>
-      <link>https://archlinux-es.github.io/2018/03/05/actualizaci%C3%B3n-de-zita-resampler-1.6.0-1-a-1.6.0-2-requiere-intervenci%C3%B3n-manual/</link>
+      <link>https://www.archlinux-es.org/2018/03/05/actualizaci%C3%B3n-de-zita-resampler-1.6.0-1-a-1.6.0-2-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Mon, 05 Mar 2018 22:45:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2018/03/05/actualizaci%C3%B3n-de-zita-resampler-1.6.0-1-a-1.6.0-2-requiere-intervenci%C3%B3n-manual/</guid>
+      <guid>https://www.archlinux-es.org/2018/03/05/actualizaci%C3%B3n-de-zita-resampler-1.6.0-1-a-1.6.0-2-requiere-intervenci%C3%B3n-manual/</guid>
       <description>Al paquete de zita-resampler 1.6.0-1 le faltaba un enlace simbólico a una biblioteca, que fue re-agregado a 1.6.0-2. Si instalaste 1.6.0-1, ldconfig habrá creado el enlace simbólico al momento de la instalación, y va a causar un conflicto con el que se incluye en 1.6.0-2. En ese caso, eliminar manualmente /usr/lib/libzita-resampler.so.1 antes de actualizar el paquete.
 Resumiendo, si poseen zita-resampler 1.6.0-1 y tienen problemas al actualizar:
 # rm /usr/lib/libzita-resampler.so.1</description>

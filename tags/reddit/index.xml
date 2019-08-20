@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reddit on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/reddit/</link>
+    <link>https://www.archlinux-es.org/tags/reddit/</link>
     <description>Recent content in Reddit on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Tue, 11 Sep 2018 19:39:36 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Se realizo el Arch Linux AMA en Reddit</title>
-      <link>https://archlinux-es.github.io/2018/09/11/se-realizo-el-arch-linux-ama-en-reddit/</link>
+      <link>https://www.archlinux-es.org/2018/09/11/se-realizo-el-arch-linux-ama-en-reddit/</link>
       <pubDate>Tue, 11 Sep 2018 19:39:36 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2018/09/11/se-realizo-el-arch-linux-ama-en-reddit/</guid>
+      <guid>https://www.archlinux-es.org/2018/09/11/se-realizo-el-arch-linux-ama-en-reddit/</guid>
       <description>El día de ayer se realizo un &amp;ldquo;Ask Me Anything&amp;rdquo; (Pregúntame lo que sea) en el Reddit de /r/linux
 Pueden ver las preguntas de los usuarios y las respuestas del equipo de Arch Linux en inglés aquí:
 https://www.reddit.com/r/linux/comments/9emwtu/arch_linux_ama/</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arch on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/arch/</link>
+    <link>https://www.archlinux-es.org/tags/arch/</link>
     <description>Recent content in Arch on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Tue, 16 Jan 2018 01:46:31 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Seguridad y vulnerabilidades en Arch Linux</title>
-      <link>https://archlinux-es.github.io/2018/01/16/seguridad-y-vulnerabilidades-en-arch-linux/</link>
+      <link>https://www.archlinux-es.org/2018/01/16/seguridad-y-vulnerabilidades-en-arch-linux/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2018/01/16/seguridad-y-vulnerabilidades-en-arch-linux/</guid>
+      <guid>https://www.archlinux-es.org/2018/01/16/seguridad-y-vulnerabilidades-en-arch-linux/</guid>
       <description>En vistas de los últimos eventos de seguridad, relacionados con Meltdown y Spectre, aprovecho para recordarles a todos los usuarios de Arch Linux que pueden consultar y hacer seguimiento de las ultimas vulnerabilidades reportadas en nuestro sistema operativo de preferencia en el tracker oficial de seguridad de Arch Linux, allí podrán navegar las ASAs (Arch Linux Security Advisories), AVGs (Arch Linux Vulnerability Groups) y las CVEs (Common Vulnerabilities and Exposures) en los paquetes de Arch Linux.</description>
     </item>
     

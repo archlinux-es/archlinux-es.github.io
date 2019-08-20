@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abs on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/abs/</link>
+    <link>https://www.archlinux-es.org/tags/abs/</link>
     <description>Recent content in Abs on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Wed, 28 Jun 2017 15:38:49 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/abs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/abs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Se descontinua el uso de la herramienta ABS y el rsync endpoint</title>
-      <link>https://archlinux-es.github.io/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</link>
+      <link>https://www.archlinux-es.org/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</link>
       <pubDate>Wed, 28 Jun 2017 15:38:49 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</guid>
+      <guid>https://www.archlinux-es.org/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</guid>
       <description>Debido al alto costo de mantenimiento de los scripts relacionados al Arch Build System (ABS), hemos decidido descontinuar la herramienta abs y por lo tanto el mecanismo de rsync para obtener PKGBUILDs.
 La herramienta asp, disponible actualmente en [extra], provee funcionalidad similar a la de abs.
 asp export pkgname puede ser utilizado como una alternativa directa; pueden encontrar mayor información sobre como utilizarla en la documentación.

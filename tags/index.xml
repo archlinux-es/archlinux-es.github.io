@@ -2,399 +2,399 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/</link>
+    <link>https://www.archlinux-es.org/tags/</link>
     <description>Recent content in Tags on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Wed, 28 Jun 2017 15:38:49 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Abs</title>
-      <link>https://archlinux-es.github.io/tags/abs/</link>
+      <link>https://www.archlinux-es.org/tags/abs/</link>
       <pubDate>Wed, 28 Jun 2017 15:38:49 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/abs/</guid>
+      <guid>https://www.archlinux-es.org/tags/abs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Actualizacion</title>
-      <link>https://archlinux-es.github.io/tags/actualizacion/</link>
+      <link>https://www.archlinux-es.org/tags/actualizacion/</link>
       <pubDate>Thu, 16 Aug 2018 23:03:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/actualizacion/</guid>
+      <guid>https://www.archlinux-es.org/tags/actualizacion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amd64</title>
-      <link>https://archlinux-es.github.io/tags/amd64/</link>
+      <link>https://www.archlinux-es.org/tags/amd64/</link>
       <pubDate>Tue, 14 Nov 2017 01:32:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/amd64/</guid>
+      <guid>https://www.archlinux-es.org/tags/amd64/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arch</title>
-      <link>https://archlinux-es.github.io/tags/arch/</link>
+      <link>https://www.archlinux-es.org/tags/arch/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/arch/</guid>
+      <guid>https://www.archlinux-es.org/tags/arch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Archlinux</title>
-      <link>https://archlinux-es.github.io/tags/archlinux/</link>
+      <link>https://www.archlinux-es.org/tags/archlinux/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/archlinux/</guid>
+      <guid>https://www.archlinux-es.org/tags/archlinux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Asa</title>
-      <link>https://archlinux-es.github.io/tags/asa/</link>
+      <link>https://www.archlinux-es.org/tags/asa/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/asa/</guid>
+      <guid>https://www.archlinux-es.org/tags/asa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Avg</title>
-      <link>https://archlinux-es.github.io/tags/avg/</link>
+      <link>https://www.archlinux-es.org/tags/avg/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/avg/</guid>
+      <guid>https://www.archlinux-es.org/tags/avg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cve</title>
-      <link>https://archlinux-es.github.io/tags/cve/</link>
+      <link>https://www.archlinux-es.org/tags/cve/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/cve/</guid>
+      <guid>https://www.archlinux-es.org/tags/cve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deprecado</title>
-      <link>https://archlinux-es.github.io/tags/deprecado/</link>
+      <link>https://www.archlinux-es.org/tags/deprecado/</link>
       <pubDate>Tue, 14 Nov 2017 01:32:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/deprecado/</guid>
+      <guid>https://www.archlinux-es.org/tags/deprecado/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Equipo</title>
-      <link>https://archlinux-es.github.io/tags/equipo/</link>
+      <link>https://www.archlinux-es.org/tags/equipo/</link>
       <pubDate>Tue, 11 Sep 2018 19:39:36 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/equipo/</guid>
+      <guid>https://www.archlinux-es.org/tags/equipo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Error</title>
-      <link>https://archlinux-es.github.io/tags/error/</link>
+      <link>https://www.archlinux-es.org/tags/error/</link>
       <pubDate>Wed, 13 Sep 2017 15:31:19 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/error/</guid>
+      <guid>https://www.archlinux-es.org/tags/error/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Feral</title>
-      <link>https://archlinux-es.github.io/tags/feral/</link>
+      <link>https://www.archlinux-es.org/tags/feral/</link>
       <pubDate>Fri, 15 Sep 2017 23:14:48 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/feral/</guid>
+      <guid>https://www.archlinux-es.org/tags/feral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Foro</title>
-      <link>https://archlinux-es.github.io/tags/foro/</link>
+      <link>https://www.archlinux-es.org/tags/foro/</link>
       <pubDate>Sun, 27 May 2018 01:00:54 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/foro/</guid>
+      <guid>https://www.archlinux-es.org/tags/foro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Foros</title>
-      <link>https://archlinux-es.github.io/tags/foros/</link>
+      <link>https://www.archlinux-es.org/tags/foros/</link>
       <pubDate>Mon, 11 Dec 2017 14:12:24 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/foros/</guid>
+      <guid>https://www.archlinux-es.org/tags/foros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Glibc</title>
-      <link>https://archlinux-es.github.io/tags/glibc/</link>
+      <link>https://www.archlinux-es.org/tags/glibc/</link>
       <pubDate>Fri, 15 Sep 2017 23:14:48 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/glibc/</guid>
+      <guid>https://www.archlinux-es.org/tags/glibc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hosting</title>
-      <link>https://archlinux-es.github.io/tags/hosting/</link>
+      <link>https://www.archlinux-es.org/tags/hosting/</link>
       <pubDate>Mon, 13 Nov 2017 14:00:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/hosting/</guid>
+      <guid>https://www.archlinux-es.org/tags/hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>I686</title>
-      <link>https://archlinux-es.github.io/tags/i686/</link>
+      <link>https://www.archlinux-es.org/tags/i686/</link>
       <pubDate>Tue, 14 Nov 2017 01:32:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/i686/</guid>
+      <guid>https://www.archlinux-es.org/tags/i686/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Imagen</title>
-      <link>https://archlinux-es.github.io/tags/imagen/</link>
+      <link>https://www.archlinux-es.org/tags/imagen/</link>
       <pubDate>Sun, 10 Dec 2017 23:59:38 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/imagen/</guid>
+      <guid>https://www.archlinux-es.org/tags/imagen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Instalacion</title>
-      <link>https://archlinux-es.github.io/tags/instalacion/</link>
+      <link>https://www.archlinux-es.org/tags/instalacion/</link>
       <pubDate>Sun, 10 Dec 2017 23:59:38 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/instalacion/</guid>
+      <guid>https://www.archlinux-es.org/tags/instalacion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iso</title>
-      <link>https://archlinux-es.github.io/tags/iso/</link>
+      <link>https://www.archlinux-es.org/tags/iso/</link>
       <pubDate>Wed, 05 Sep 2018 20:22:09 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/iso/</guid>
+      <guid>https://www.archlinux-es.org/tags/iso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Juegos</title>
-      <link>https://archlinux-es.github.io/tags/juegos/</link>
+      <link>https://www.archlinux-es.org/tags/juegos/</link>
       <pubDate>Wed, 13 Sep 2017 15:31:19 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/juegos/</guid>
+      <guid>https://www.archlinux-es.org/tags/juegos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lanzamiento</title>
-      <link>https://archlinux-es.github.io/tags/lanzamiento/</link>
+      <link>https://www.archlinux-es.org/tags/lanzamiento/</link>
       <pubDate>Tue, 06 Mar 2018 22:52:00 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/lanzamiento/</guid>
+      <guid>https://www.archlinux-es.org/tags/lanzamiento/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linode</title>
-      <link>https://archlinux-es.github.io/tags/linode/</link>
+      <link>https://www.archlinux-es.org/tags/linode/</link>
       <pubDate>Mon, 13 Nov 2017 14:00:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/linode/</guid>
+      <guid>https://www.archlinux-es.org/tags/linode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://archlinux-es.github.io/tags/linux/</link>
+      <link>https://www.archlinux-es.org/tags/linux/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/linux/</guid>
+      <guid>https://www.archlinux-es.org/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manual</title>
-      <link>https://archlinux-es.github.io/tags/manual/</link>
+      <link>https://www.archlinux-es.org/tags/manual/</link>
       <pubDate>Thu, 16 Aug 2018 23:03:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/manual/</guid>
+      <guid>https://www.archlinux-es.org/tags/manual/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meltdown</title>
-      <link>https://archlinux-es.github.io/tags/meltdown/</link>
+      <link>https://www.archlinux-es.org/tags/meltdown/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/meltdown/</guid>
+      <guid>https://www.archlinux-es.org/tags/meltdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mesa</title>
-      <link>https://archlinux-es.github.io/tags/mesa/</link>
+      <link>https://www.archlinux-es.org/tags/mesa/</link>
       <pubDate>Tue, 14 Mar 2017 01:42:24 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/mesa/</guid>
+      <guid>https://www.archlinux-es.org/tags/mesa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Openvpn</title>
-      <link>https://archlinux-es.github.io/tags/openvpn/</link>
+      <link>https://www.archlinux-es.org/tags/openvpn/</link>
       <pubDate>Tue, 03 Jan 2017 16:04:46 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/openvpn/</guid>
+      <guid>https://www.archlinux-es.org/tags/openvpn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pacman</title>
-      <link>https://archlinux-es.github.io/tags/pacman/</link>
+      <link>https://www.archlinux-es.org/tags/pacman/</link>
       <pubDate>Thu, 16 Aug 2018 23:03:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/pacman/</guid>
+      <guid>https://www.archlinux-es.org/tags/pacman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Path</title>
-      <link>https://archlinux-es.github.io/tags/path/</link>
+      <link>https://www.archlinux-es.org/tags/path/</link>
       <pubDate>Sun, 10 Sep 2017 13:00:48 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/path/</guid>
+      <guid>https://www.archlinux-es.org/tags/path/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perl</title>
-      <link>https://archlinux-es.github.io/tags/perl/</link>
+      <link>https://www.archlinux-es.org/tags/perl/</link>
       <pubDate>Sun, 10 Sep 2017 13:00:48 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/perl/</guid>
+      <guid>https://www.archlinux-es.org/tags/perl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phpbb</title>
-      <link>https://archlinux-es.github.io/tags/phpbb/</link>
+      <link>https://www.archlinux-es.org/tags/phpbb/</link>
       <pubDate>Mon, 11 Dec 2017 14:12:24 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/phpbb/</guid>
+      <guid>https://www.archlinux-es.org/tags/phpbb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portada</title>
-      <link>https://archlinux-es.github.io/tags/portada/</link>
+      <link>https://www.archlinux-es.org/tags/portada/</link>
       <pubDate>Mon, 13 Nov 2017 14:00:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/portada/</guid>
+      <guid>https://www.archlinux-es.org/tags/portada/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reddit</title>
-      <link>https://archlinux-es.github.io/tags/reddit/</link>
+      <link>https://www.archlinux-es.org/tags/reddit/</link>
       <pubDate>Tue, 11 Sep 2018 19:39:36 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/reddit/</guid>
+      <guid>https://www.archlinux-es.org/tags/reddit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Release</title>
-      <link>https://archlinux-es.github.io/tags/release/</link>
+      <link>https://www.archlinux-es.org/tags/release/</link>
       <pubDate>Tue, 06 Mar 2018 22:52:00 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/release/</guid>
+      <guid>https://www.archlinux-es.org/tags/release/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rsync</title>
-      <link>https://archlinux-es.github.io/tags/rsync/</link>
+      <link>https://www.archlinux-es.org/tags/rsync/</link>
       <pubDate>Wed, 28 Jun 2017 15:38:49 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/rsync/</guid>
+      <guid>https://www.archlinux-es.org/tags/rsync/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sitio</title>
-      <link>https://archlinux-es.github.io/tags/sitio/</link>
+      <link>https://www.archlinux-es.org/tags/sitio/</link>
       <pubDate>Mon, 13 Nov 2017 14:00:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/sitio/</guid>
+      <guid>https://www.archlinux-es.org/tags/sitio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spectre</title>
-      <link>https://archlinux-es.github.io/tags/spectre/</link>
+      <link>https://www.archlinux-es.org/tags/spectre/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/spectre/</guid>
+      <guid>https://www.archlinux-es.org/tags/spectre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Steam</title>
-      <link>https://archlinux-es.github.io/tags/steam/</link>
+      <link>https://www.archlinux-es.org/tags/steam/</link>
       <pubDate>Fri, 15 Sep 2017 23:14:48 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/steam/</guid>
+      <guid>https://www.archlinux-es.org/tags/steam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Upgrade</title>
-      <link>https://archlinux-es.github.io/tags/upgrade/</link>
+      <link>https://www.archlinux-es.org/tags/upgrade/</link>
       <pubDate>Thu, 16 Aug 2018 23:03:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/upgrade/</guid>
+      <guid>https://www.archlinux-es.org/tags/upgrade/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Version</title>
-      <link>https://archlinux-es.github.io/tags/version/</link>
+      <link>https://www.archlinux-es.org/tags/version/</link>
       <pubDate>Tue, 06 Mar 2018 22:52:00 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/version/</guid>
+      <guid>https://www.archlinux-es.org/tags/version/</guid>
       <description></description>
     </item>
     
     <item>
       <title>X86_64</title>
-      <link>https://archlinux-es.github.io/tags/x86_64/</link>
+      <link>https://www.archlinux-es.org/tags/x86_64/</link>
       <pubDate>Tue, 14 Nov 2017 01:32:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/x86_64/</guid>
+      <guid>https://www.archlinux-es.org/tags/x86_64/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xorg</title>
-      <link>https://archlinux-es.github.io/tags/xorg/</link>
+      <link>https://www.archlinux-es.org/tags/xorg/</link>
       <pubDate>Tue, 14 Mar 2017 01:42:24 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/tags/xorg/</guid>
+      <guid>https://www.archlinux-es.org/tags/xorg/</guid>
       <description></description>
     </item>
     

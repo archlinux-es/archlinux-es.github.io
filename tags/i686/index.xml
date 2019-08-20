@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I686 on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/i686/</link>
+    <link>https://www.archlinux-es.org/tags/i686/</link>
     <description>Recent content in I686 on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Tue, 14 Nov 2017 01:32:42 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/i686/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/i686/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Finaliza el soporte para la arquitectura i686</title>
-      <link>https://archlinux-es.github.io/2017/11/14/finaliza-el-soporte-para-la-arquitectura-i686/</link>
+      <link>https://www.archlinux-es.org/2017/11/14/finaliza-el-soporte-para-la-arquitectura-i686/</link>
       <pubDate>Tue, 14 Nov 2017 01:32:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/11/14/finaliza-el-soporte-para-la-arquitectura-i686/</guid>
+      <guid>https://www.archlinux-es.org/2017/11/14/finaliza-el-soporte-para-la-arquitectura-i686/</guid>
       <description>Siguiendo los 9 meses del periodo de deprecación, el soporte para la arquitectura i686 ha sido terminado definitivamente el día 8/11/17. Para el fin de noviembre, los paquetes i686 serán removidos de los espejos (mirrors) y luego del archivo histórico de paquetes. El repositorio [multilib] no se verá afectado por el cambio.
 Para los usuarios que no puedan actualizar su hardware hacía la arquitectura x86_64 (amd64), la comunidad ha creado un fork alternativo llamado Arch Linux 32.</description>
     </item>
     
     <item>
       <title>Descontinuando el soporte de la arquitectura i686</title>
-      <link>https://archlinux-es.github.io/2017/02/19/descontinuando-el-soporte-de-la-arquitectura-i686/</link>
+      <link>https://www.archlinux-es.org/2017/02/19/descontinuando-el-soporte-de-la-arquitectura-i686/</link>
       <pubDate>Sun, 19 Feb 2017 18:26:26 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/02/19/descontinuando-el-soporte-de-la-arquitectura-i686/</guid>
+      <guid>https://www.archlinux-es.org/2017/02/19/descontinuando-el-soporte-de-la-arquitectura-i686/</guid>
       <description>Debido a que la comunidad y los desarrolladores están dejando de usar la arquitectura i686, hemos decidido no dar mas soporte a dicha arquitectura de manera progresiva.
 Esta decisión tiene cómo consecuencia que el ISO del mes de Febrero va a ser el último que permita instalar Arch Linux en plataformas de 32 bits. Los siguientes 9 meses van a ser un periodo de adaptación en los que paquetes de 32 bits van a seguir obteniendo actualizaciones.</description>
     </item>

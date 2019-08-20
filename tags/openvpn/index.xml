@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openvpn on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/openvpn/</link>
+    <link>https://www.archlinux-es.org/tags/openvpn/</link>
     <description>Recent content in Openvpn on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Tue, 03 Jan 2017 16:04:46 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OpenVPN 2.4.0 requiere interacción administrativa</title>
-      <link>https://archlinux-es.github.io/2017/01/03/openvpn-2.4.0-requiere-interacci%C3%B3n-administrativa/</link>
+      <link>https://www.archlinux-es.org/2017/01/03/openvpn-2.4.0-requiere-interacci%C3%B3n-administrativa/</link>
       <pubDate>Tue, 03 Jan 2017 16:04:46 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/01/03/openvpn-2.4.0-requiere-interacci%C3%B3n-administrativa/</guid>
+      <guid>https://www.archlinux-es.org/2017/01/03/openvpn-2.4.0-requiere-interacci%C3%B3n-administrativa/</guid>
       <description>La actualización hacía OpenVPN 2.4.0 realiza cambios que son incompatibles con las configuraciones anteriores. Presta especial atención si dependes de una conexión VPN para el acceso remoto!
 La interacción administrativa requerida es la siguiente:
  * La configuración debe encontrarse en sub-directorios. Mueve los archivos de **/etc/openvpn **hacía **/etc/openvpn/server** o hacía **/etc/openvpn/client** * El path requerido por los plugins ha cambiado, se debe remover el directorio **plugins/** de los path relativos.</description>

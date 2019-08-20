@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sitio on Arch Linux en Español</title>
-    <link>https://archlinux-es.github.io/tags/sitio/</link>
+    <link>https://www.archlinux-es.org/tags/sitio/</link>
     <description>Recent content in Sitio on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
     <lastBuildDate>Mon, 13 Nov 2017 14:00:13 +0000</lastBuildDate>
     
-	<atom:link href="https://archlinux-es.github.io/tags/sitio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.archlinux-es.org/tags/sitio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Actualización de portada y foros archlinux-es.org 2017</title>
-      <link>https://archlinux-es.github.io/2017/11/13/actualizaci%C3%B3n-de-portada-y-foros-archlinux-es.org-2017/</link>
+      <link>https://www.archlinux-es.org/2017/11/13/actualizaci%C3%B3n-de-portada-y-foros-archlinux-es.org-2017/</link>
       <pubDate>Mon, 13 Nov 2017 14:00:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/2017/11/13/actualizaci%C3%B3n-de-portada-y-foros-archlinux-es.org-2017/</guid>
+      <guid>https://www.archlinux-es.org/2017/11/13/actualizaci%C3%B3n-de-portada-y-foros-archlinux-es.org-2017/</guid>
       <description>Luego de poco más de un mes de mantenimiento, ya está el nuevo hosting de archlinux-es.org habilitado en Linode (*). El foro aún no estaría funcionando ya que la migración de hosting desde Red Hat OpenShift hacía Linode incluyo la actualización desde PHP 5.5 hacía PHP 7 y de MySQL 5.5 hacía MySQL 5.7, situación que causo algunos retrasos e inconvenientes que aún estoy solucionando.
 En los próximos días estaré aplicando los cambios necesarios para que phpBB funcione correctamente y comenzare las pruebas de migración hacía Discourse.</description>
     </item>
