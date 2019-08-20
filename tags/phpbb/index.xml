@@ -13,10 +13,10 @@
     
     <item>
       <title>Foros Arch Linux en Español funcionando nuevamente</title>
-      <link>https://archlinux-es.github.io/posts/2017-12-11-foros-arch-linux-en-espanol-funcionando-nuevamente-parcialmente/</link>
+      <link>https://archlinux-es.github.io/2017/12/11/foros-arch-linux-en-espa%C3%B1ol-funcionando-nuevamente/</link>
       <pubDate>Mon, 11 Dec 2017 14:12:24 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-12-11-foros-arch-linux-en-espanol-funcionando-nuevamente-parcialmente/</guid>
+      <guid>https://archlinux-es.github.io/2017/12/11/foros-arch-linux-en-espa%C3%B1ol-funcionando-nuevamente/</guid>
       <description>Ya están funcionando parcialmente los foros de Arch Linux en español, aún queda arreglar el template de phpBB que no es compatible con PHP7 y phpBB 3.2.
 Aquellos que quieran colaborar con la actualización del template, pueden visitar el repositorio en Github[1]. También pueden ver los cambios que aplicaron en archlinux.fr (Francia) para hacerlo compatible en su repositorio[2], ya que nuestro theme está basado en ese.
 [1] Repositorio del template para phpBB de archlinux-es:</description>

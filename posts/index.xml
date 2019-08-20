@@ -13,10 +13,10 @@
     
     <item>
       <title>Comunidad Hispana de Arch Linux</title>
-      <link>https://archlinux-es.github.io/posts/2003-07-20-comunidad-hispana-de-arch-linux-espanol/</link>
+      <link>https://archlinux-es.github.io/2003/07/20/comunidad-hispana-de-arch-linux/</link>
       <pubDate>Sun, 20 Jul 2003 04:37:38 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2003-07-20-comunidad-hispana-de-arch-linux-espanol/</guid>
+      <guid>https://archlinux-es.github.io/2003/07/20/comunidad-hispana-de-arch-linux/</guid>
       <description>Bienvenidos al sitio de Arch Linux en Español
 Este es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
 Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
@@ -24,10 +24,10 @@ Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmen
     
     <item>
       <title>Tensorflow &gt;= 1.14.0-5 requiere intervencion manual</title>
-      <link>https://archlinux-es.github.io/posts/2019-08-20-tensorflow-1-14-0-5-requiere-intervencion-manual/</link>
+      <link>https://archlinux-es.github.io/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/</link>
       <pubDate>Tue, 20 Aug 2019 19:58:08 -0300</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2019-08-20-tensorflow-1-14-0-5-requiere-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/</guid>
       <description>Al paquete de tensorflow previo a la version 1.14.0-5 le faltaban enlaces soname. Esto ha sido corregido en la version 1.14.0-5, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados y creados por ldconfig.
 Si al actualizar reciben un error del tipo:
 tensorflow: /usr/lib/libtensorflow.so.1 exists in filesystem tensorflow: /usr/lib/libtensorflow_cc.so.1 exists in filesystem tensorflow: /usr/lib/libtensorflow_framework.so.1 exists in filesystem
@@ -35,11 +35,11 @@ Al actualizar, utilizar la bandera overwrite de la forma siguiente:</description
     </item>
     
     <item>
-      <title>libbloom &gt;= 1.6-2 Requiere Intervencion Manual</title>
-      <link>https://archlinux-es.github.io/posts/2019-07-11-libbloom-1-6-2-requiere-intervencion-manual/</link>
+      <title>libbloom &gt;= 1.6-2 requiere intervención manual</title>
+      <link>https://archlinux-es.github.io/2019/07/11/libbloom--1.6-2-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Thu, 11 Jul 2019 19:39:51 -0300</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2019-07-11-libbloom-1-6-2-requiere-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2019/07/11/libbloom--1.6-2-requiere-intervenci%C3%B3n-manual/</guid>
       <description>El paquete de libbloom previo a 1.6-2 tenia un enlace soname faltante. Esto ha sido corregido en 1.6-2, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados creados por ldconfig.
 Si al actualizar, recibes un error del tipo:
 libbloom: /usr/lib/libbloom.so.1 exists in filesystem
@@ -48,11 +48,11 @@ pacman -Syu --overwrite user/lib/libbloom.so.1  </description>
     </item>
     
     <item>
-      <title>Mariadb 10 4 X Requiere Intervencion Manual</title>
-      <link>https://archlinux-es.github.io/posts/2019-06-27-mariadb-10-4-x-requiere-intervencion-manual/</link>
+      <title>mariadb 10.4.X requiere intervención manual</title>
+      <link>https://archlinux-es.github.io/2019/06/27/mariadb-10.4.x-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Thu, 27 Jun 2019 19:34:42 -0300</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2019-06-27-mariadb-10-4-x-requiere-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2019/06/27/mariadb-10.4.x-requiere-intervenci%C3%B3n-manual/</guid>
       <description>La actualización de Mariadb 10.4.6-1 y posteriores, cambian el formato de la configuración de acuerdo a lo recomendado por el proyecto upstream.
 El archivo de configuración principal se ha movido desde /etc/mysql/my.cnf (incluyendo el directorio /etc/mysql/my.cnf.d/) hacía /etc/my.cnf (y /etc/my.cnf.d/). Asegurarse de mover la configuración.
 Los servicios instanciados como mariadb@foo.service ya no se configuran en archivos separados (como /etc/mysql/myfoo.conf). En lugar de esto, moverlos hacía bloques de configuracion con un sufijo de grupo en el archivo de configuración general, uno por cada servicio.</description>
@@ -60,10 +60,10 @@ Los servicios instanciados como mariadb@foo.service ya no se configuran en archi
     
     <item>
       <title>Se realizo el Arch Linux AMA en Reddit</title>
-      <link>https://archlinux-es.github.io/posts/2018-09-11-se-realizo-el-arch-linux-ama-en-reddit/</link>
+      <link>https://archlinux-es.github.io/2018/09/11/se-realizo-el-arch-linux-ama-en-reddit/</link>
       <pubDate>Tue, 11 Sep 2018 19:39:36 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-09-11-se-realizo-el-arch-linux-ama-en-reddit/</guid>
+      <guid>https://archlinux-es.github.io/2018/09/11/se-realizo-el-arch-linux-ama-en-reddit/</guid>
       <description>El día de ayer se realizo un &amp;ldquo;Ask Me Anything&amp;rdquo; (Pregúntame lo que sea) en el Reddit de /r/linux
 Pueden ver las preguntas de los usuarios y las respuestas del equipo de Arch Linux en inglés aquí:
 https://www.reddit.com/r/linux/comments/9emwtu/arch_linux_ama/</description>
@@ -71,10 +71,10 @@ https://www.reddit.com/r/linux/comments/9emwtu/arch_linux_ama/</description>
     
     <item>
       <title>Ya está disponible la ISO de Arch Linux 2018.09.01</title>
-      <link>https://archlinux-es.github.io/posts/2018-09-05-ya-esta-disponible-la-iso-de-arch-linux-2018-09-01/</link>
+      <link>https://archlinux-es.github.io/2018/09/05/ya-est%C3%A1-disponible-la-iso-de-arch-linux-2018.09.01/</link>
       <pubDate>Wed, 05 Sep 2018 20:22:09 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-09-05-ya-esta-disponible-la-iso-de-arch-linux-2018-09-01/</guid>
+      <guid>https://archlinux-es.github.io/2018/09/05/ya-est%C3%A1-disponible-la-iso-de-arch-linux-2018.09.01/</guid>
       <description>Ya se puede descargar** la última versión de la ISO de Arch Linux ** para instalar vía CD o USB.
 La ISO de Arch Linux 2018.09.01 incluye el kernel 4.18.5 entre otras actualizaciones.
 Pueden encontrar los datos y enlaces en la sección de descarga
@@ -83,10 +83,10 @@ Recuerden que la ISO es únicamente para nuevos usuarios/instalaciones. Los usua
     
     <item>
       <title>libutf8proc &gt;= 2.1.1-3 , la actualización requiere intervención manual</title>
-      <link>https://archlinux-es.github.io/posts/2018-08-16-libutf8proc-2-1-1-3-la-actualizacion-requiere-intervencion-manual/</link>
+      <link>https://archlinux-es.github.io/2018/08/16/libutf8proc--2.1.1-3--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Thu, 16 Aug 2018 23:03:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-08-16-libutf8proc-2-1-1-3-la-actualizacion-requiere-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2018/08/16/libutf8proc--2.1.1-3--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</guid>
       <description>El paquete libutf8proc anterior a la version** 2.1.1-3** tenia un enlace soname incorrecto. Esto ha sido solucionado en 2.1.1-3, por lo que la actualización requiere sobre escribir el enlace soname creado por ldconfig. Si al actualizar el sistema obtienen el error:
 libutf8proc: /usr/lib/libutf8proc.so.2 exists in filesystem
 Deberán utilizar la bandera de sobre-escritura:
@@ -96,20 +96,20 @@ Para realizar la actualización correctamente.</description>
     
     <item>
       <title>Foro con registro de nuevos usuarios desactivado</title>
-      <link>https://archlinux-es.github.io/posts/2018-05-27-foro-en-modo-solo-lectura-a-partir-del-4-de-junio-2018/</link>
+      <link>https://archlinux-es.github.io/2018/05/27/foro-con-registro-de-nuevos-usuarios-desactivado/</link>
       <pubDate>Sun, 27 May 2018 01:00:54 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-05-27-foro-en-modo-solo-lectura-a-partir-del-4-de-junio-2018/</guid>
+      <guid>https://archlinux-es.github.io/2018/05/27/foro-con-registro-de-nuevos-usuarios-desactivado/</guid>
       <description>Luego de más de 13 años del foro de Arch Linux en Español, he decidido desactivar el registro de nuevos usuarios y evaluar el futuro de este, sea el pase a solo lectura o la migración a otra plataforma (discourse).
 Los resultados de la encuesta, conversaciones en el foro y las publicaciones en redes con la consulta popular respecto de su futuro no fueron satisfactorios debido a la baja participación. Llegue a la conclusión de que por el momento, no se justifica sostener el foro en su versión y formato actual.</description>
     </item>
     
     <item>
       <title>Recordatorio: Vota y comenta por que conservar el foro en español!</title>
-      <link>https://archlinux-es.github.io/posts/2018-05-24-recordatorio-vota-y-comenta-por-que-conservar-el-foro-en-espanol/</link>
+      <link>https://archlinux-es.github.io/2018/05/24/recordatorio-vota-y-comenta-por-que-conservar-el-foro-en-espa%C3%B1ol/</link>
       <pubDate>Thu, 24 May 2018 15:37:18 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-05-24-recordatorio-vota-y-comenta-por-que-conservar-el-foro-en-espanol/</guid>
+      <guid>https://archlinux-es.github.io/2018/05/24/recordatorio-vota-y-comenta-por-que-conservar-el-foro-en-espa%C3%B1ol/</guid>
       <description>Recordá que tenemos la encuesta:
 https://twitter.com/archlinuxes/status/997969731549302784
 Opina por que consideras que debemos conservar el foro en linea!</description>
@@ -117,10 +117,10 @@ Opina por que consideras que debemos conservar el foro en linea!</description>
     
     <item>
       <title>Encuesta: Baja del Foro de Arch en Español</title>
-      <link>https://archlinux-es.github.io/posts/2018-05-19-encuesta-baja-del-foro-de-arch-en-espanol/</link>
+      <link>https://archlinux-es.github.io/2018/05/19/encuesta-baja-del-foro-de-arch-en-espa%C3%B1ol/</link>
       <pubDate>Sat, 19 May 2018 22:40:49 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-05-19-encuesta-baja-del-foro-de-arch-en-espanol/</guid>
+      <guid>https://archlinux-es.github.io/2018/05/19/encuesta-baja-del-foro-de-arch-en-espa%C3%B1ol/</guid>
       <description>En los últimos meses se ha notado una baja muy significativa en el trafico y actividad en los https://foros.archlinux-es.org, por lo que estoy considerado darlos de baja, reutilizando el tiempo y recursos que lleva mantenerlos en mejorar la portada y tal vez impulsar las redes sociales.
 Para esto he creado una encuesta en Twitter, me pareció el mecanismo más sencillo y rápido.
 Pueden votar aquí:
@@ -130,20 +130,20 @@ Las opciones luego serán evaluar si:</description>
     
     <item>
       <title>js52 52.7.3-2: la actualización requiere intervención manual</title>
-      <link>https://archlinux-es.github.io/posts/2018-05-14-js52-52-7-3-2-la-actualizacion-requiere-intervencion-manual/</link>
+      <link>https://archlinux-es.github.io/2018/05/14/js52-52.7.3-2-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Mon, 14 May 2018 01:12:30 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-05-14-js52-52-7-3-2-la-actualizacion-requiere-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2018/05/14/js52-52.7.3-2-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</guid>
       <description>Debido al cambio de SONAME de /usr/lib/libmozjs-52.so y que no coincide con el nombre del archivo, ldconfig creo un archivo adicional fuera del registro /usr/lib/libmozjs-52.so.0. Esto ya está resuelto y ahora ambos archivos están presentes en el paquete.
 Para pasar la actualización, eliminar /usr/lib/libmozjs-52.so.0 antes de actualizar.</description>
     </item>
     
     <item>
       <title>Importante: glibc 2.27-2 y pam 1.3.0-2 pueden requerir intervención manual</title>
-      <link>https://archlinux-es.github.io/posts/2018-04-23-importante-glibc-2-27-2-y-pam-1-3-0-2-pueden-requerir-intervencion-manual/</link>
+      <link>https://archlinux-es.github.io/2018/04/23/importante-glibc-2.27-2-y-pam-1.3.0-2-pueden-requerir-intervenci%C3%B3n-manual/</link>
       <pubDate>Mon, 23 Apr 2018 00:13:01 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-04-23-importante-glibc-2-27-2-y-pam-1-3-0-2-pueden-requerir-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2018/04/23/importante-glibc-2.27-2-y-pam-1.3.0-2-pueden-requerir-intervenci%C3%B3n-manual/</guid>
       <description>La nueva versión de glibc elimina el soporte para NIS y NIS+. El archivo de configuración por defecto, /etc/nsswitch.conf , provisto por el paquete filesystem ya refleja este cambio. Por favor asegurarse de unificar (merge) los cambios del archivo pacnew si existe, previo a la actualización.
 La funcionalidad de NIS aún puede ser activada instalando el paquete** libnss_nis**. No hay reemplazo oficial por NIS+ en los repositorios.
 pam 1.3.0-2 ya no incluye el modulo pam_unix2 ni los enlaces de compatibilidad pamunix*.</description>
@@ -151,20 +151,20 @@ pam 1.3.0-2 ya no incluye el modulo pam_unix2 ni los enlaces de compatibilidad p
     
     <item>
       <title>Arch Linux 2018.03.01 disponible</title>
-      <link>https://archlinux-es.github.io/posts/2018-03-06-arch-linux-2018-03-01-disponible/</link>
+      <link>https://archlinux-es.github.io/2018/03/06/arch-linux-2018.03.01-disponible/</link>
       <pubDate>Tue, 06 Mar 2018 22:52:00 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-03-06-arch-linux-2018-03-01-disponible/</guid>
+      <guid>https://archlinux-es.github.io/2018/03/06/arch-linux-2018.03.01-disponible/</guid>
       <description>Ya está disponible para la descarga la ISO de Arch Linux 2018.03.01 , incluye el kernel 4.15.6.
 Pueden pasar por la página de descarga para bajarla.</description>
     </item>
     
     <item>
       <title>actualización de zita-resampler 1.6.0-1 a 1.6.0-2 requiere intervención manual</title>
-      <link>https://archlinux-es.github.io/posts/2018-03-05-actualizacion-de-zita-resampler-1-6-0-1-a-1-6-0-2-requiere-intervencion-manual/</link>
+      <link>https://archlinux-es.github.io/2018/03/05/actualizaci%C3%B3n-de-zita-resampler-1.6.0-1-a-1.6.0-2-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Mon, 05 Mar 2018 22:45:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-03-05-actualizacion-de-zita-resampler-1-6-0-1-a-1-6-0-2-requiere-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2018/03/05/actualizaci%C3%B3n-de-zita-resampler-1.6.0-1-a-1.6.0-2-requiere-intervenci%C3%B3n-manual/</guid>
       <description>Al paquete de zita-resampler 1.6.0-1 le faltaba un enlace simbólico a una biblioteca, que fue re-agregado a 1.6.0-2. Si instalaste 1.6.0-1, ldconfig habrá creado el enlace simbólico al momento de la instalación, y va a causar un conflicto con el que se incluye en 1.6.0-2. En ese caso, eliminar manualmente /usr/lib/libzita-resampler.so.1 antes de actualizar el paquete.
 Resumiendo, si poseen zita-resampler 1.6.0-1 y tienen problemas al actualizar:
 # rm /usr/lib/libzita-resampler.so.1</description>
@@ -172,19 +172,19 @@ Resumiendo, si poseen zita-resampler 1.6.0-1 y tienen problemas al actualizar:
     
     <item>
       <title>Seguridad y vulnerabilidades en Arch Linux</title>
-      <link>https://archlinux-es.github.io/posts/2018-01-16-seguridad-y-vulnerabilidades-en-arch-linux/</link>
+      <link>https://archlinux-es.github.io/2018/01/16/seguridad-y-vulnerabilidades-en-arch-linux/</link>
       <pubDate>Tue, 16 Jan 2018 01:46:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-01-16-seguridad-y-vulnerabilidades-en-arch-linux/</guid>
+      <guid>https://archlinux-es.github.io/2018/01/16/seguridad-y-vulnerabilidades-en-arch-linux/</guid>
       <description>En vistas de los últimos eventos de seguridad, relacionados con Meltdown y Spectre, aprovecho para recordarles a todos los usuarios de Arch Linux que pueden consultar y hacer seguimiento de las ultimas vulnerabilidades reportadas en nuestro sistema operativo de preferencia en el tracker oficial de seguridad de Arch Linux, allí podrán navegar las ASAs (Arch Linux Security Advisories), AVGs (Arch Linux Vulnerability Groups) y las CVEs (Common Vulnerabilities and Exposures) en los paquetes de Arch Linux.</description>
     </item>
     
     <item>
       <title>Limpieza de repositorios 2017 / 2018</title>
-      <link>https://archlinux-es.github.io/posts/2018-01-08-limpieza-de-repositorios-2017-2018/</link>
+      <link>https://archlinux-es.github.io/2018/01/08/limpieza-de-repositorios-2017-/-2018/</link>
       <pubDate>Mon, 08 Jan 2018 00:57:08 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-01-08-limpieza-de-repositorios-2017-2018/</guid>
+      <guid>https://archlinux-es.github.io/2018/01/08/limpieza-de-repositorios-2017-/-2018/</guid>
       <description>Bartłomiej Piotrowski inicio la limpieza de fin de año 2017 de los repositorios en diciembre, luego de un proceso de reasignación y movimiento de paquetes entre los repositorios de [extra] y [community], está finalmente el listado de paquetes que pasaran hacía el [AUR] directamente.
 Pueden ver el listado final de paquetes que se movieron al AUR aquí
 Y el hilo de la limpieza, en la lista de desarrollo publica, aquí</description>
@@ -192,20 +192,20 @@ Y el hilo de la limpieza, en la lista de desarrollo publica, aquí</description>
     
     <item>
       <title>Ya está disponible Arch Linux 2018.01.01</title>
-      <link>https://archlinux-es.github.io/posts/2018-01-06-ya-esta-disponible-arch-linux-2018-01-01/</link>
+      <link>https://archlinux-es.github.io/2018/01/06/ya-est%C3%A1-disponible-arch-linux-2018.01.01/</link>
       <pubDate>Sat, 06 Jan 2018 18:54:12 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2018-01-06-ya-esta-disponible-arch-linux-2018-01-01/</guid>
+      <guid>https://archlinux-es.github.io/2018/01/06/ya-est%C3%A1-disponible-arch-linux-2018.01.01/</guid>
       <description>El primer día del año se publico la ISO de Arch Linux con versión 2018.01.01
 Entre los cambios más significativos respecto de la ISO anterior se encuentra el nuevo kernel Linux 4.14 LTS que incluye varias actualizaciones de seguridad, mayor soporte para Btrfs, y mejoras en el manejo de cpufreq, junto a varios drivers y controladores de nuevos dispositivos de hardware (una de las razones más importantes para las las nuevas ISO).</description>
     </item>
     
     <item>
       <title>Foros Arch Linux en Español funcionando nuevamente</title>
-      <link>https://archlinux-es.github.io/posts/2017-12-11-foros-arch-linux-en-espanol-funcionando-nuevamente-parcialmente/</link>
+      <link>https://archlinux-es.github.io/2017/12/11/foros-arch-linux-en-espa%C3%B1ol-funcionando-nuevamente/</link>
       <pubDate>Mon, 11 Dec 2017 14:12:24 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-12-11-foros-arch-linux-en-espanol-funcionando-nuevamente-parcialmente/</guid>
+      <guid>https://archlinux-es.github.io/2017/12/11/foros-arch-linux-en-espa%C3%B1ol-funcionando-nuevamente/</guid>
       <description>Ya están funcionando parcialmente los foros de Arch Linux en español, aún queda arreglar el template de phpBB que no es compatible con PHP7 y phpBB 3.2.
 Aquellos que quieran colaborar con la actualización del template, pueden visitar el repositorio en Github[1]. También pueden ver los cambios que aplicaron en archlinux.fr (Francia) para hacerlo compatible en su repositorio[2], ya que nuestro theme está basado en ese.
 [1] Repositorio del template para phpBB de archlinux-es:</description>
@@ -213,10 +213,10 @@ Aquellos que quieran colaborar con la actualización del template, pueden visita
     
     <item>
       <title>Ya está disponible la ISO de Arch Linux 2017.12.01</title>
-      <link>https://archlinux-es.github.io/posts/2017-12-10-ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</link>
+      <link>https://archlinux-es.github.io/2017/12/10/ya-est%C3%A1-disponible-la-iso-de-arch-linux-2017.12.01/</link>
       <pubDate>Sun, 10 Dec 2017 23:59:38 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-12-10-ya-esta-disponible-la-iso-de-arch-linux-2017-12-01/</guid>
+      <guid>https://archlinux-es.github.io/2017/12/10/ya-est%C3%A1-disponible-la-iso-de-arch-linux-2017.12.01/</guid>
       <description>Ya se puede descargar** la última version de la ISO de Arch Linux del 2017** para instalar vía CD o USB.
 Pueden encontrar los datos y enlaces en la sección de descarga
 Recuerden que la ISO es únicamente para nuevos usuarios/instalaciones. Los usuarios actuales de Arch Linux deben actualizar su sistema mediante pacman -Syu</description>
@@ -224,40 +224,40 @@ Recuerden que la ISO es únicamente para nuevos usuarios/instalaciones. Los usua
     
     <item>
       <title>Finaliza el soporte para la arquitectura i686</title>
-      <link>https://archlinux-es.github.io/posts/2017-11-14-finaliza-el-soporte-para-la-arquitectura-i686/</link>
+      <link>https://archlinux-es.github.io/2017/11/14/finaliza-el-soporte-para-la-arquitectura-i686/</link>
       <pubDate>Tue, 14 Nov 2017 01:32:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-11-14-finaliza-el-soporte-para-la-arquitectura-i686/</guid>
+      <guid>https://archlinux-es.github.io/2017/11/14/finaliza-el-soporte-para-la-arquitectura-i686/</guid>
       <description>Siguiendo los 9 meses del periodo de deprecación, el soporte para la arquitectura i686 ha sido terminado definitivamente el día 8/11/17. Para el fin de noviembre, los paquetes i686 serán removidos de los espejos (mirrors) y luego del archivo histórico de paquetes. El repositorio [multilib] no se verá afectado por el cambio.
 Para los usuarios que no puedan actualizar su hardware hacía la arquitectura x86_64 (amd64), la comunidad ha creado un fork alternativo llamado Arch Linux 32.</description>
     </item>
     
     <item>
       <title>Actualización de portada y foros archlinux-es.org 2017</title>
-      <link>https://archlinux-es.github.io/posts/2017-11-13-reactivando-el-sitio-archlinux-es-org-2017/</link>
+      <link>https://archlinux-es.github.io/2017/11/13/actualizaci%C3%B3n-de-portada-y-foros-archlinux-es.org-2017/</link>
       <pubDate>Mon, 13 Nov 2017 14:00:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-11-13-reactivando-el-sitio-archlinux-es-org-2017/</guid>
+      <guid>https://archlinux-es.github.io/2017/11/13/actualizaci%C3%B3n-de-portada-y-foros-archlinux-es.org-2017/</guid>
       <description>Luego de poco más de un mes de mantenimiento, ya está el nuevo hosting de archlinux-es.org habilitado en Linode (*). El foro aún no estaría funcionando ya que la migración de hosting desde Red Hat OpenShift hacía Linode incluyo la actualización desde PHP 5.5 hacía PHP 7 y de MySQL 5.5 hacía MySQL 5.7, situación que causo algunos retrasos e inconvenientes que aún estoy solucionando.
 En los próximos días estaré aplicando los cambios necesarios para que phpBB funcione correctamente y comenzare las pruebas de migración hacía Discourse.</description>
     </item>
     
     <item>
       <title>Resuelto: Glibc y juegos de Feral Interactive en Steam</title>
-      <link>https://archlinux-es.github.io/posts/2017-09-15-resuelto-glibc-y-juegos-de-feral-interactive-en-steam/</link>
+      <link>https://archlinux-es.github.io/2017/09/15/resuelto-glibc-y-juegos-de-feral-interactive-en-steam/</link>
       <pubDate>Fri, 15 Sep 2017 23:14:48 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-09-15-resuelto-glibc-y-juegos-de-feral-interactive-en-steam/</guid>
+      <guid>https://archlinux-es.github.io/2017/09/15/resuelto-glibc-y-juegos-de-feral-interactive-en-steam/</guid>
       <description>Han cerradoel bug en el tracker de Arch Linux respecto del problema reportado con los juegos de Feral Interactive que informamos el otro día. La última actualización de Glibc 2.26-4 estaría corrigiendo el fallo.
 Aquellos que se vieron afectados, pueden probar de hacer una nueva actualización completa del sistema (pacman -Syyu) y en caso de seguir teniendo inconvenientes, reabrir el issue en el tracker o comentar en nuestros foros para solicitar ayuda.</description>
     </item>
     
     <item>
       <title>Posibles problemas con juegos de Steam portados por Feral Interactive</title>
-      <link>https://archlinux-es.github.io/posts/2017-09-13-posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</link>
+      <link>https://archlinux-es.github.io/2017/09/13/posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</link>
       <pubDate>Wed, 13 Sep 2017 15:31:19 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-09-13-posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</guid>
+      <guid>https://archlinux-es.github.io/2017/09/13/posibles-problemas-con-juegos-de-steam-portados-por-feral-interactive/</guid>
       <description>ACTUALIZACIÓN: 15/09/17, ya está resuelto. Leer aquí.
 Algunos juegos de Steam portados por Feral Interactive a Linux (y SteamOS), aparentemente están teniendo inconvenientes [1] desde hace un par de días. Según dicen los reportes, tiene que ver con la última actualización de glibc [2] y algo de los scripts de Feral.
 Los juegos que pueden tener inconvenientes son: Total War: Warhammer, Dirt Rally, Mad Max, Deus Ex Mankind, Tomb Raider, Company of Heroes 2, GRID Autosport, Alien Isolation, Shadow of Mordor, los XCOM, entre otros posiblemente [3]</description>
@@ -265,10 +265,10 @@ Los juegos que pueden tener inconvenientes son: Total War: Warhammer, Dirt Rally
     
     <item>
       <title>Perl: Cambio en la ruta de la biblioteca de módulos</title>
-      <link>https://archlinux-es.github.io/posts/2017-09-10-perl-cambio-en-la-ruta-de-la-biblioteca-de-modulos/</link>
+      <link>https://archlinux-es.github.io/2017/09/10/perl-cambio-en-la-ruta-de-la-biblioteca-de-m%C3%B3dulos/</link>
       <pubDate>Sun, 10 Sep 2017 13:00:48 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-09-10-perl-cambio-en-la-ruta-de-la-biblioteca-de-modulos/</guid>
+      <guid>https://archlinux-es.github.io/2017/09/10/perl-cambio-en-la-ruta-de-la-biblioteca-de-m%C3%B3dulos/</guid>
       <description>El paquete de Perl ahora utiliza una ruta versionada para los módulos compilados. Esto quiere decir que los módulos compilados para una versión distinta de Perl no serán cargados y deberán ser recompilados.
 Un hook de Pacman advierte sobre los módulos afectados durante la actualización, mostrando una salida como la siguiente:
 WARNING: &#39;/usr/lib/perl5/vendor_perl&#39; contains data from at least 143 packages which will NOT be used by the installed perl interpreter. -&amp;gt; Run the following command to get a list of affected packages: pacman -Qqo &#39;/usr/lib/perl5/vendor_perl&#39;  Deberás recompilar todos los paquetes afectados contra la nueva versión de Perl antes de poder utilizarlos nuevamente.</description>
@@ -276,10 +276,10 @@ WARNING: &#39;/usr/lib/perl5/vendor_perl&#39; contains data from at least 143 pa
     
     <item>
       <title>Se descontinua el uso de la herramienta ABS y el rsync endpoint</title>
-      <link>https://archlinux-es.github.io/posts/2017-06-28-se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</link>
+      <link>https://archlinux-es.github.io/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</link>
       <pubDate>Wed, 28 Jun 2017 15:38:49 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-06-28-se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</guid>
+      <guid>https://archlinux-es.github.io/2017/06/28/se-descontinua-el-uso-de-la-herramienta-abs-y-el-rsync-endpoint/</guid>
       <description>Debido al alto costo de mantenimiento de los scripts relacionados al Arch Build System (ABS), hemos decidido descontinuar la herramienta abs y por lo tanto el mecanismo de rsync para obtener PKGBUILDs.
 La herramienta asp, disponible actualmente en [extra], provee funcionalidad similar a la de abs.
 asp export pkgname puede ser utilizado como una alternativa directa; pueden encontrar mayor información sobre como utilizarla en la documentación.
@@ -288,10 +288,10 @@ Adicionalmente los checkouts de Subversion, como fueron descriptos aquí, pueden
     
     <item>
       <title>ca-certificates-utils 20170307-1 : la actualización requiere intervención manual</title>
-      <link>https://archlinux-es.github.io/posts/2017-03-19-ca-certificates-utils-20170307-1-la-actualizacion-requiere-intervencion-manual/</link>
+      <link>https://archlinux-es.github.io/2017/03/19/ca-certificates-utils-20170307-1--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Sun, 19 Mar 2017 01:41:46 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-03-19-ca-certificates-utils-20170307-1-la-actualizacion-requiere-intervencion-manual/</guid>
+      <guid>https://archlinux-es.github.io/2017/03/19/ca-certificates-utils-20170307-1--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</guid>
       <description>La actualización del paquete **ca-certificates-utils 20170307-1 **requiere intervención manual. Esto es debido al enlace simbólico que se utilizaba durante el post-install del paquete y ha sido movido dentro de este ultimo.
 Dado que eliminar el enlace simbólico puede evitar la descarga de paquetes, la forma recomendada de realizar la actualización de sistema es en 3 pasos:
  1. descargar paquetes (la bandera extra **w**) 2. remover archivo conflictivo 3. realizar actualización  `# pacman -Syuw</description>
@@ -299,30 +299,30 @@ Dado que eliminar el enlace simbólico puede evitar la descarga de paquetes, la 
     
     <item>
       <title>mesa con soporte para libglvnd ya está en testing</title>
-      <link>https://archlinux-es.github.io/posts/2017-03-14-mesa-con-soporte-para-libglvnd-ya-esta-en-testing/</link>
+      <link>https://archlinux-es.github.io/2017/03/14/mesa-con-soporte-para-libglvnd-ya-est%C3%A1-en-testing/</link>
       <pubDate>Tue, 14 Mar 2017 01:42:24 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-03-14-mesa-con-soporte-para-libglvnd-ya-esta-en-testing/</guid>
+      <guid>https://archlinux-es.github.io/2017/03/14/mesa-con-soporte-para-libglvnd-ya-est%C3%A1-en-testing/</guid>
       <description>mesa-17.0.0-3 ya puede ser instalado junto a el driver nvidia-378.13 del repositorio [testing] sin ningún hack de libgl /libglx, con la ayuda de Fedora y los parches upstream de xorg-server.
 El primer paso fue remover los enlaces simbólicos de libglx con xorg-server-1.19.1-3 y los drivers de mesa / nvidia asociados mediante la remoción de varios paquetes de libgl. Fue un momento dificil por que estaba rompiendo el sistema &amp;ldquo;optimus&amp;rdquo; y la configuración de xorg-server requería una actualización manual.</description>
     </item>
     
     <item>
       <title>Descontinuando el soporte de la arquitectura i686</title>
-      <link>https://archlinux-es.github.io/posts/2017-02-19-descontinuando-el-soporte-de-la-arquitectura-i686/</link>
+      <link>https://archlinux-es.github.io/2017/02/19/descontinuando-el-soporte-de-la-arquitectura-i686/</link>
       <pubDate>Sun, 19 Feb 2017 18:26:26 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-02-19-descontinuando-el-soporte-de-la-arquitectura-i686/</guid>
+      <guid>https://archlinux-es.github.io/2017/02/19/descontinuando-el-soporte-de-la-arquitectura-i686/</guid>
       <description>Debido a que la comunidad y los desarrolladores están dejando de usar la arquitectura i686, hemos decidido no dar mas soporte a dicha arquitectura de manera progresiva.
 Esta decisión tiene cómo consecuencia que el ISO del mes de Febrero va a ser el último que permita instalar Arch Linux en plataformas de 32 bits. Los siguientes 9 meses van a ser un periodo de adaptación en los que paquetes de 32 bits van a seguir obteniendo actualizaciones.</description>
     </item>
     
     <item>
       <title>xorg-server 1.19.1 ahora está ubicado en extra</title>
-      <link>https://archlinux-es.github.io/posts/2017-02-19-xorg-server-1-19-1-ahora-esta-ubicado-en-extra/</link>
+      <link>https://archlinux-es.github.io/2017/02/19/xorg-server-1.19.1-ahora-est%C3%A1-ubicado-en-extra/</link>
       <pubDate>Sun, 19 Feb 2017 16:20:33 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-02-19-xorg-server-1-19-1-ahora-esta-ubicado-en-extra/</guid>
+      <guid>https://archlinux-es.github.io/2017/02/19/xorg-server-1.19.1-ahora-est%C3%A1-ubicado-en-extra/</guid>
       <description>La nueva versión viene con los siguientes cambios:
 xf86-input-libinput es el driver de entrada por defecto, pero synaptics, evdev y wacom todavía están disponibles.
 Estos paquetes ahora están obsoletos y se han movido a AUR: xf86-input-joystick, xf86-input-acecad, xf86-video-apm, xf86-video-ark, xf86-video-chips, xf86-video-glint, xf86-video-i128, xf86-video-i740, xf86-video-mach64, xf86-video-neomagic, xf86-video-nv, xf86-video-r128, xf86-video-rendition, xf86-video-s3, xf86-video-s3virge, xf86-video-savage, xf86-video-siliconmotion, xf86-video-sis, xf86-video-tdfx, xf86-video-trident, xf86-video-tseng
@@ -332,10 +332,10 @@ Gracias a @pierregermain por la traducción y notificación.</description>
     
     <item>
       <title>OpenVPN 2.4.0 requiere interacción administrativa</title>
-      <link>https://archlinux-es.github.io/posts/2017-01-03-openvpn-2-4-0-requiere-interaccion-administrativa/</link>
+      <link>https://archlinux-es.github.io/2017/01/03/openvpn-2.4.0-requiere-interacci%C3%B3n-administrativa/</link>
       <pubDate>Tue, 03 Jan 2017 16:04:46 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2017-01-03-openvpn-2-4-0-requiere-interaccion-administrativa/</guid>
+      <guid>https://archlinux-es.github.io/2017/01/03/openvpn-2.4.0-requiere-interacci%C3%B3n-administrativa/</guid>
       <description>La actualización hacía OpenVPN 2.4.0 realiza cambios que son incompatibles con las configuraciones anteriores. Presta especial atención si dependes de una conexión VPN para el acceso remoto!
 La interacción administrativa requerida es la siguiente:
  * La configuración debe encontrarse en sub-directorios. Mueve los archivos de **/etc/openvpn **hacía **/etc/openvpn/server** o hacía **/etc/openvpn/client** * El path requerido por los plugins ha cambiado, se debe remover el directorio **plugins/** de los path relativos.</description>
@@ -343,10 +343,10 @@ La interacción administrativa requerida es la siguiente:
     
     <item>
       <title>ttf-dejavu 2.37 requiere una actualización forzada</title>
-      <link>https://archlinux-es.github.io/posts/2016-12-18-ttf-dejavu-2-37-requiere-una-actualizacion-forzada/</link>
+      <link>https://archlinux-es.github.io/2016/12/18/ttf-dejavu-2.37-requiere-una-actualizaci%C3%B3n-forzada/</link>
       <pubDate>Sun, 18 Dec 2016 21:53:14 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2016-12-18-ttf-dejavu-2-37-requiere-una-actualizacion-forzada/</guid>
+      <guid>https://archlinux-es.github.io/2016/12/18/ttf-dejavu-2.37-requiere-una-actualizaci%C3%B3n-forzada/</guid>
       <description>ttf-dejavu 2.37 cambiará la configuración de fontconfig. En versiones anteriores la configuración era enlazada simbólicamente (symlinked) desde post_install/post_upgrade, la nueva versión crea los archivos dentro del paquete, como se hace en fontconfig.
 Para más información sobre este cambio pueden leer el ticket oficial en ingles: https://bugs.archlinux.org/task/32312
 Para actualiza a ttf-dejavu 2.37 se recomienda actualizar el paquete de forma independiente primero:
@@ -356,10 +356,10 @@ Publicamos un poco retrasada la noticia, es de noviembre, pero no todos actualiz
     
     <item>
       <title>Actualización de portada y foros 2016</title>
-      <link>https://archlinux-es.github.io/posts/2016-11-22-actualizacion-de-portada-y-foros-2016/</link>
+      <link>https://archlinux-es.github.io/2016/11/22/actualizaci%C3%B3n-de-portada-y-foros-2016/</link>
       <pubDate>Tue, 22 Nov 2016 06:57:01 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2016-11-22-actualizacion-de-portada-y-foros-2016/</guid>
+      <guid>https://archlinux-es.github.io/2016/11/22/actualizaci%C3%B3n-de-portada-y-foros-2016/</guid>
       <description>Buenas a todos!
 Luego de un año aprovecho a realizar algunas actualizaciones pendientes de la gráfica y un par de cosas que había en el tintero.
 Reimplementamos el theme con el diseño original de archlinux.org para la portada y uno &amp;ldquo;inspirado en&amp;rdquo; para los foros. Ambos están basados en el trabajo de la comunidad francesa de Arch Linux. Voy a estar incorporando en el repositorio de Github los themes de WordPress y phpBB para los que quieran colaborar arreglando bugs o aplicar mejoras.</description>
@@ -367,10 +367,10 @@ Reimplementamos el theme con el diseño original de archlinux.org para la portad
     
     <item>
       <title>Actualización de portada y foros 2015</title>
-      <link>https://archlinux-es.github.io/posts/2015-06-29-actualizacion-de-portada-y-foros-2015/</link>
+      <link>https://archlinux-es.github.io/2015/06/29/actualizaci%C3%B3n-de-portada-y-foros-2015/</link>
       <pubDate>Mon, 29 Jun 2015 06:58:20 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2015-06-29-actualizacion-de-portada-y-foros-2015/</guid>
+      <guid>https://archlinux-es.github.io/2015/06/29/actualizaci%C3%B3n-de-portada-y-foros-2015/</guid>
       <description>He actualizado las versiones del foro (phpbb) y la portada (wordpress). Si notan un inconveniente o problema, pueden contactarnos en el foro, a los correos de los administradores/moderadores o por aquí.
 En los próximos días iremos afinando el tema de la estética, ya que no he tenido tiempo de migrar la parte gráfica.
 Junto con la migración de versiones he pasado a OpenShift, la plataforma PaaS de RedHat: https://openshift.redhat.com/
@@ -379,10 +379,10 @@ La intención es darle mayor estabilidad y seguridad al sitio, ya que elimino la
     
     <item>
       <title>Transición de KDE hacia el KDE framework y Qt 5</title>
-      <link>https://archlinux-es.github.io/posts/2015-04-07-transicion-de-kde-hacia-el-kde-framework-y-qt-5/</link>
+      <link>https://archlinux-es.github.io/2015/04/07/transici%C3%B3n-de-kde-hacia-el-kde-framework-y-qt-5/</link>
       <pubDate>Tue, 07 Apr 2015 06:49:03 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2015-04-07-transicion-de-kde-hacia-el-kde-framework-y-qt-5/</guid>
+      <guid>https://archlinux-es.github.io/2015/04/07/transici%C3%B3n-de-kde-hacia-el-kde-framework-y-qt-5/</guid>
       <description>La colección de software de KDE ha sido actualizada a KDE Applications 14.12
 Los desarrolladores de KDE han comenzado a portar el software hacia KDE Frameworks y Qt 5. Para ver una lista completa del software que ha sido portado, visitar el anuncio.
 Cuando una migración de KDE hacia KDE Frameworks es considerada estable, se publica con KDE Applications y no se sigue desarrollando ni se arreglan bugs en la version Qt4/KDE4.</description>
@@ -390,20 +390,20 @@ Cuando una migración de KDE hacia KDE Frameworks es considerada estable, se pub
     
     <item>
       <title>Cambios en los paquetes de lirc 0.9.2</title>
-      <link>https://archlinux-es.github.io/posts/2015-04-06-cambios-en-los-paquetes-de-lirc-0-9-2/</link>
+      <link>https://archlinux-es.github.io/2015/04/06/cambios-en-los-paquetes-de-lirc-0.9.2/</link>
       <pubDate>Mon, 06 Apr 2015 03:46:46 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2015-04-06-cambios-en-los-paquetes-de-lirc-0-9-2/</guid>
+      <guid>https://archlinux-es.github.io/2015/04/06/cambios-en-los-paquetes-de-lirc-0.9.2/</guid>
       <description>Para tener consistencia con la nomenclatura de upstream, el paquete lirc-utils fue renombrado a lirc. Los drivers wpc8769l del kernel han sido descontinuados y pueden ser obtenidos instalándolos desde el AUR con el paquete lirc-wpc8769l.
 Tener en cuenta que la version 0.9.2 es un lanzamiento mayor y ha venido con varios cambios de upstream. En particular, la unidad del servicio de systemd irexec.service ha sido removida. Por favor copiar y editar el template de /usr/share/lirc/contrib/irexec.</description>
     </item>
     
     <item>
       <title>Actualización de ca-certificates</title>
-      <link>https://archlinux-es.github.io/posts/2015-04-05-actualizacion-de-ca-certificates/</link>
+      <link>https://archlinux-es.github.io/2015/04/05/actualizaci%C3%B3n-de-ca-certificates/</link>
       <pubDate>Sun, 05 Apr 2015 03:34:14 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2015-04-05-actualizacion-de-ca-certificates/</guid>
+      <guid>https://archlinux-es.github.io/2015/04/05/actualizaci%C3%B3n-de-ca-certificates/</guid>
       <description>La forma en la que los certificados CA son administrados ha cambiado. Si has añadido algún certificado confiable localmente:
 Mueve /usr/local/share/ca-certificates/.crt hacia /etc/ca-certificates/trust-source/anchors/ Has lo mismo con todos los archivos /etc/ssl/certs/.pem que has añadido manualmente y renombralos hacia *.crt En lugar de correr update-ca-certificates, ejecuta: trust extract-compat
 También revisa man 8 update-ca-trust y trust &amp;ndash;help
@@ -412,20 +412,20 @@ Consultas y comentarios en el foro.</description>
     
     <item>
       <title>Cambios en las actualizaciones de Intel microcode</title>
-      <link>https://archlinux-es.github.io/posts/2014-10-29-cambios-en-las-actualizaciones-de-intel-microcode/</link>
+      <link>https://archlinux-es.github.io/2014/10/29/cambios-en-las-actualizaciones-de-intel-microcode/</link>
       <pubDate>Wed, 29 Oct 2014 00:01:37 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-10-29-cambios-en-las-actualizaciones-de-intel-microcode/</guid>
+      <guid>https://archlinux-es.github.io/2014/10/29/cambios-en-las-actualizaciones-de-intel-microcode/</guid>
       <description>En los procesadores Intel, microcode ya no se carga de forma automática ya que tiene que cargarse de forma muy temprana en el proceso de arranque. Esto hace necesario configurar algunos ajustes en el bootloader. En caso de tener un procesador Intel, seguir las instrucciones de la wiki.
 Traducción oficial y discusión de la noticia en el foro.</description>
     </item>
     
     <item>
       <title>Atención usuarios de java: intervención manual necesaria antes de actualizar</title>
-      <link>https://archlinux-es.github.io/posts/2014-10-27-atencion-java/</link>
+      <link>https://archlinux-es.github.io/2014/10/27/atenci%C3%B3n-usuarios-de-java-intervenci%C3%B3n-manual-necesaria-antes-de-actualizar/</link>
       <pubDate>Mon, 27 Oct 2014 21:00:09 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-10-27-atencion-java/</guid>
+      <guid>https://archlinux-es.github.io/2014/10/27/atenci%C3%B3n-usuarios-de-java-intervenci%C3%B3n-manual-necesaria-antes-de-actualizar/</guid>
       <description>Si se tiene instalado el paquete java-common, hace falta intervención manual del usuario para sortear un problema de conflicto entre ficheros. Se puede comprobar ejecutando el siguiente comando:
 `$ pacman -Q java-common  java-common &amp;hellip;` De ser así, antes de proceder con la actualización, hay que ejecutar lo siguiente:
 `# archlinux-java unset  pacman -Sydd &amp;ndash;asdeps java-runtime-common :: java-runtime-common and java-common are in conflict. Remove java-common? [y/N] y
@@ -434,116 +434,116 @@ archlinux-java fix` Una vez hecho esto, se puede proceder a actualizar:</descrip
     
     <item>
       <title>Nvidia-340xx y nvidia</title>
-      <link>https://archlinux-es.github.io/posts/2014-10-26-nvidia-340xx-y-nvidia/</link>
+      <link>https://archlinux-es.github.io/2014/10/26/nvidia-340xx-y-nvidia/</link>
       <pubDate>Sun, 26 Oct 2014 20:55:54 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-10-26-nvidia-340xx-y-nvidia/</guid>
+      <guid>https://archlinux-es.github.io/2014/10/26/nvidia-340xx-y-nvidia/</guid>
       <description>Dado que con el lanzamiento de la versión 343.22 del driver NVIDIA ha dejado de dar soporte para los procesadores gráficos G8x, G9x, y GT2xx, ahora hay un conjunto de paquetes con soporte para esos procesadores gráficos antiguos. Según NVIDIA, 340xx seguirá teniendo soporte hasta finales de 2019. Los usuarios que cuenten con tarjetas gráficas antiguas deberán instalar nvidia-340xx. Los paquetes nvidia-343.22 y nvidia-340xx-340.46 estarán en fase de pruebas durante unos días.</description>
     </item>
     
     <item>
       <title>mesa actualizado a la versión 10.3.0</title>
-      <link>https://archlinux-es.github.io/posts/2014-10-25-mesa-actualizado-a-la-version-10-3-0/</link>
+      <link>https://archlinux-es.github.io/2014/10/25/mesa-actualizado-a-la-versi%C3%B3n-10.3.0/</link>
       <pubDate>Sat, 25 Oct 2014 20:54:19 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-10-25-mesa-actualizado-a-la-version-10-3-0/</guid>
+      <guid>https://archlinux-es.github.io/2014/10/25/mesa-actualizado-a-la-versi%C3%B3n-10.3.0/</guid>
       <description>La nueva versión de mesa se encuentra ya disponible con los siguientes cambios en el empaquetado:
  * En relación a los cambios realizados en el megadriver, los drivers dri por separado no tienen sentido alguno ya. Todos los drivers dri ahora se encuentran en el paquete `mesa-dri` * Los drivers vdpau ahora se incluyen en el paquete `mesa-vdpau`  Traducción oficial y discusión de la noticia en el foro.</description>
     </item>
     
     <item>
       <title>Paquetes de Vim reorganizados</title>
-      <link>https://archlinux-es.github.io/posts/2014-10-24-paquetes-de-vim-reorganizados/</link>
+      <link>https://archlinux-es.github.io/2014/10/24/paquetes-de-vim-reorganizados/</link>
       <pubDate>Fri, 24 Oct 2014 20:51:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-10-24-paquetes-de-vim-reorganizados/</guid>
+      <guid>https://archlinux-es.github.io/2014/10/24/paquetes-de-vim-reorganizados/</guid>
       <description>El juego de paquetes de Vim se ha reorganizado para poder proveer funciones mejores y más avanzadas en el paquete estándar de Vim y, asimismo, para separar la versión CLI o command line interface; es decir, la versión de Vim que se usa en la consola; y la GUI (graphical user interface) que es la versión en ventana. Los paquetes nuevos son los siguientes:
  * vim-minimal: sin cambios; exactamente igual que el paquete de vim anterior.</description>
     </item>
     
     <item>
       <title>¡Xorg-server 1.16 disponible!</title>
-      <link>https://archlinux-es.github.io/posts/2014-08-15-xorg-server-1-16-disponible/</link>
+      <link>https://archlinux-es.github.io/2014/08/15/xorg-server-1.16-disponible/</link>
       <pubDate>Fri, 15 Aug 2014 10:45:10 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-08-15-xorg-server-1-16-disponible/</guid>
+      <guid>https://archlinux-es.github.io/2014/08/15/xorg-server-1.16-disponible/</guid>
       <description>Cambios a destacar en esta nueva versión:
  * Gracias a systemd-logind, ahora es posible iniciar el servidor gráfico X sin ser usuario _root_ o administrador. Esto lleva a tener que tener en cuenta un par de cosas: la primera es que hay que iniciar el servidor gráfico desde la misma terminal desde la que el usuario hizo el login; la segunda es que redirigir _stderr_ anula la posibilidad de iniciar el servidor gráfico sin ser usuario _root_ o administrador.</description>
     </item>
     
     <item>
       <title>MariaDB 10.0 llega a [extra]</title>
-      <link>https://archlinux-es.github.io/posts/2014-07-23-mariadb-10-0-llega-a-extra/</link>
+      <link>https://archlinux-es.github.io/2014/07/23/mariadb-10.0-llega-a-extra/</link>
       <pubDate>Wed, 23 Jul 2014 20:06:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-07-23-mariadb-10-0-llega-a-extra/</guid>
+      <guid>https://archlinux-es.github.io/2014/07/23/mariadb-10.0-llega-a-extra/</guid>
       <description>El nuevo gran lanzamiento de MariaDB estará pronto disponible en [extra]. El cambio en el sistema de numerado de versiones se ha hecho pensando en diferenciar de manera clara la funcionalidad que MariaDB ofrece con respecto a MySQL 5.6. De ahora en adelante ya no será posible migrar fácilmente entre las diferentes versiones de MySQL que se ponen a disposición de los usuarios en los repositorios oficiales.
 Se recomienda (aunque no es del todo necesario) exportar las tablar antes de actualizar y, una vez que se haya actualizado, volver a cargar el fichero que contiene las tablas.</description>
     </item>
     
     <item>
       <title>Actualización de Perl a la versión 5.20</title>
-      <link>https://archlinux-es.github.io/posts/2014-06-08-actualizacion-de-perl-a-la-version-5-20/</link>
+      <link>https://archlinux-es.github.io/2014/06/08/actualizaci%C3%B3n-de-perl-a-la-versi%C3%B3n-5.20/</link>
       <pubDate>Sun, 08 Jun 2014 10:50:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-06-08-actualizacion-de-perl-a-la-version-5-20/</guid>
+      <guid>https://archlinux-es.github.io/2014/06/08/actualizaci%C3%B3n-de-perl-a-la-versi%C3%B3n-5.20/</guid>
       <description>Como viene sucediendo con otras actualizaciones de Perl, la versión 5.20 necesita que todos los módulos que no estén escritos con código perl vuelvan a ser compilados. Algo que ya hemos hecho con todos los paquetes presentes en nuestros repositorios.
 Las dos últimas grandes actualizaciones devolvían un mensaje al tratar de cargar los módulos compilados de acuerdo a una versión que no era la correcta. La versión 5.20 produce segfaults. Hay que asegurarse de recompilar todos los modulos CPAN, así como los ficheros binarios, que se tengan instalados y que apunten a libperl.</description>
     </item>
     
     <item>
       <title>Administración de paquetes Haskell con GHC 7.8.2</title>
-      <link>https://archlinux-es.github.io/posts/2014-05-22-administracion-de-paquetes-haskell-con-ghc-7-8-2/</link>
+      <link>https://archlinux-es.github.io/2014/05/22/administraci%C3%B3n-de-paquetes-haskell-con-ghc-7.8.2/</link>
       <pubDate>Thu, 22 May 2014 11:04:07 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-05-22-administracion-de-paquetes-haskell-con-ghc-7-8-2/</guid>
+      <guid>https://archlinux-es.github.io/2014/05/22/administraci%C3%B3n-de-paquetes-haskell-con-ghc-7.8.2/</guid>
       <description>Esta versión recién estrenada incluye, entre otros, los siguientes cambios:
  1. Todos los paquetes que no sean ghc o caball-install pasan a estar en `[community]`. Esto permitirá prestar mejor soporte a las librerías haskell comunes del nucleo puesto que, de hecho, ya no se usan estos paquetes con cabal-install. 2. Estas son las distintas formas disponibles para que los usuarios puedan instalar los paquetes: 1. Usar cabal-install para instalar paquetes haskell.</description>
     </item>
     
     <item>
       <title>screen-4.2.1 tampoco puede conectar con instancias anteriores</title>
-      <link>https://archlinux-es.github.io/posts/2014-04-30-screen-4-2-1-tampoco-puede-conectar-con-instancias-anteriores/</link>
+      <link>https://archlinux-es.github.io/2014/04/30/screen-4.2.1-tampoco-puede-conectar-con-instancias-anteriores/</link>
       <pubDate>Wed, 30 Apr 2014 10:23:55 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-04-30-screen-4-2-1-tampoco-puede-conectar-con-instancias-anteriores/</guid>
+      <guid>https://archlinux-es.github.io/2014/04/30/screen-4.2.1-tampoco-puede-conectar-con-instancias-anteriores/</guid>
       <description>Los cambios introducidos en la versión 4.2.1 de screen hacen imposible a los usuarios conectar con las instancias creadas con la versión 4.2.0 o anterior. Se ruega actualizar a screen-4.2.1-2 una vez que se esté totalmente seguro que las instancias anteriores ya no son necesarias. De nuevo, pedimos disculpas por las por las molestias que haya podido ocasionar la actualización de este programa.
 Traducción oficial y discusión de la noticia en el foro.</description>
     </item>
     
     <item>
       <title>screen-4.2.0 no puede conectar con instancias anteriores</title>
-      <link>https://archlinux-es.github.io/posts/2014-04-26-screen-4-2-0-no-puede-conectar-con-instancias-anteriores/</link>
+      <link>https://archlinux-es.github.io/2014/04/26/screen-4.2.0-no-puede-conectar-con-instancias-anteriores/</link>
       <pubDate>Sat, 26 Apr 2014 13:42:16 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-04-26-screen-4-2-0-no-puede-conectar-con-instancias-anteriores/</guid>
+      <guid>https://archlinux-es.github.io/2014/04/26/screen-4.2.0-no-puede-conectar-con-instancias-anteriores/</guid>
       <description>Los usuarios de screen no podrán conectar con instancias anteriores del programa una vez que hayan actualizado a la versión 4.2.0. Esto se debe a que los desarrolladores han llevado a cabo muchos cambios internos en el programa y pasado de usar para la comunicación filtros de redireccionamiento con nombre o _named pipes_ a sockets. Los usuarios deben asegurarse de que las instancias de screen actuales ya no sean necesarias antes de proceder con la actualización.</description>
     </item>
     
     <item>
       <title>ATENCIÓN con Linux 3.13: el soporte del teclado PS/2 pasa a ser modular</title>
-      <link>https://archlinux-es.github.io/posts/2014-03-03-atencion-con-linux-3-13-el-soporte-del-teclado-ps2-pasa-a-ser-modular/</link>
+      <link>https://archlinux-es.github.io/2014/03/03/atenci%C3%B3n-con-linux-3.13-el-soporte-del-teclado-ps/2-pasa-a-ser-modular/</link>
       <pubDate>Mon, 03 Mar 2014 22:30:51 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-03-03-atencion-con-linux-3-13-el-soporte-del-teclado-ps2-pasa-a-ser-modular/</guid>
+      <guid>https://archlinux-es.github.io/2014/03/03/atenci%C3%B3n-con-linux-3.13-el-soporte-del-teclado-ps/2-pasa-a-ser-modular/</guid>
       <description>Se nos pidió que implementáramos el soporte para el controlador teclado y ratón i8042 de forma que estos fuesen modulares. Algunos usuarios estarán viendo errores un tanto raros porque no disponen de uno de estos dispositivos y el hecho de tener que reconocerlos de forma manual les estará realentizando el arranque del equipo. Tom se ocupó de este asunto en el kernel (muchas gracias, por cierto) y finalmente hemos podido apreciar este cambio en la versión 3.</description>
     </item>
     
     <item>
       <title>Mantenimiento de BBS, la Wiki y AUR</title>
-      <link>https://archlinux-es.github.io/posts/2014-03-02-mantenimiento-de-bbs-la-wiki-y-aur/</link>
+      <link>https://archlinux-es.github.io/2014/03/02/mantenimiento-de-bbs-la-wiki-y-aur/</link>
       <pubDate>Sun, 02 Mar 2014 19:20:26 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2014-03-02-mantenimiento-de-bbs-la-wiki-y-aur/</guid>
+      <guid>https://archlinux-es.github.io/2014/03/02/mantenimiento-de-bbs-la-wiki-y-aur/</guid>
       <description>BBS, la wiki y AUR estuvieron temporalmente no disponibles durante alrededor de dos horas durante el día 17 de febrero de 2014. La interrupción en el servicio se debió a que fue necesario realizar labores de mantenimiento y demás tareas variadas que eran necesarias.</description>
     </item>
     
     <item>
       <title>Se reactivo el registro de usuarios en el foro!</title>
-      <link>https://archlinux-es.github.io/posts/2013-12-24-se-reactivo-el-registro-de-usuarios-en-el-foro/</link>
+      <link>https://archlinux-es.github.io/2013/12/24/se-reactivo-el-registro-de-usuarios-en-el-foro/</link>
       <pubDate>Tue, 24 Dec 2013 19:49:29 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-12-24-se-reactivo-el-registro-de-usuarios-en-el-foro/</guid>
+      <guid>https://archlinux-es.github.io/2013/12/24/se-reactivo-el-registro-de-usuarios-en-el-foro/</guid>
       <description>Luego de superar los inconvenientes de este mes por el spam, hemos reactivado el registro de usuarios nuevos en el foro.
 Lamentablemente llevo unos días más de lo esperado, pero hemos aprovechado la oportunidad para realizar una serie de mantenimientos pendientes. Seguramente en este verano estemos retocando algunas cosas para el año entrante.
 Gracias por la paciencia a todos y que tengan unas muy felices fiestas despidiendo este 2013!</description>
@@ -551,30 +551,30 @@ Gracias por la paciencia a todos y que tengan unas muy felices fiestas despidien
     
     <item>
       <title>/etc/sysctl.conf queda obsoleto</title>
-      <link>https://archlinux-es.github.io/posts/2013-09-19-etcsysctl-conf-queda-obsoleto/</link>
+      <link>https://archlinux-es.github.io/2013/09/19/etc/sysctl.conf-queda-obsoleto/</link>
       <pubDate>Thu, 19 Sep 2013 21:51:22 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-09-19-etcsysctl-conf-queda-obsoleto/</guid>
+      <guid>https://archlinux-es.github.io/2013/09/19/etc/sysctl.conf-queda-obsoleto/</guid>
       <description>A partir de la versión 207, systemd no aplicará la configuración especificada en el fichero /etc/sysctl.conf. Tan solo usará la que contenga el fichero /etc/sysctl.d/*. Hemos decidido dejar de usar este fichero ya que la configuración del fichero /etc/sysctl.conf, perteneciente al paquete procps-ng, ha pasado a estar presente por defecto en el kernel. .
 Al actualizar a procps-ng-3.3.8-3 veremos un aviso en el que se nos dirá que hay que pasar los cambios que se hayan podido hacer en /etc/sysctl.</description>
     </item>
     
     <item>
       <title>PHP 5.5 disponible en [extra]</title>
-      <link>https://archlinux-es.github.io/posts/2013-08-19-php-5-5-disponible-en-extra/</link>
+      <link>https://archlinux-es.github.io/2013/08/19/php-5.5-disponible-en-extra/</link>
       <pubDate>Mon, 19 Aug 2013 22:35:54 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-08-19-php-5-5-disponible-en-extra/</guid>
+      <guid>https://archlinux-es.github.io/2013/08/19/php-5.5-disponible-en-extra/</guid>
       <description>Por fin tenemos disponible PHP 5.5 en nuestro repositorio [extra]. La guía en inglés para migrar de una versión a otra incluye información acerca de los cambios que hay con respecto a la versión 5.4. El log de cambios de PHP proporciona un listado más detallado de los cambios que se han hecho en el programa.
 El paquete APC es ahora APCu. APCu hace posible la caché de los datos del usuario.</description>
     </item>
     
     <item>
       <title>La actualización de TeXLive 2013 puede necesitar intervención del usuario</title>
-      <link>https://archlinux-es.github.io/posts/2013-07-15-la-actualizacion-de-texlive-2013-puede-necesitar-intervencion-del-usuario/</link>
+      <link>https://archlinux-es.github.io/2013/07/15/la-actualizaci%C3%B3n-de-texlive-2013-puede-necesitar-intervenci%C3%B3n-del-usuario/</link>
       <pubDate>Mon, 15 Jul 2013 12:20:01 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-07-15-la-actualizacion-de-texlive-2013-puede-necesitar-intervencion-del-usuario/</guid>
+      <guid>https://archlinux-es.github.io/2013/07/15/la-actualizaci%C3%B3n-de-texlive-2013-puede-necesitar-intervenci%C3%B3n-del-usuario/</guid>
       <description>Los paquetes correspondientes a TeXLive 2013 estarán disponibles próximamente en [extra]. Es posible que TexLive 2012 dé el siguiente mensaje de error al intentar usar un motor TeX; bien sea latex, xelatex o luatex:
 (Fatal format file error; I&#39;m stymied)
 Durante la instalación, pacman devolverá lo siguiente al usuario:
@@ -584,10 +584,10 @@ Para resolver este problema, lo más sencillo (si es que no se han modificado lo
     
     <item>
       <title>Intervención del usuario para mover binarios a /usr/bin durante la actualización</title>
-      <link>https://archlinux-es.github.io/posts/2013-06-03-intervencion-del-usuario-para-mover-binarios-a-usrbin-durante-la-actualizacion/</link>
+      <link>https://archlinux-es.github.io/2013/06/03/intervenci%C3%B3n-del-usuario-para-mover-binarios-a-/usr/bin-durante-la-actualizaci%C3%B3n/</link>
       <pubDate>Mon, 03 Jun 2013 15:30:00 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-06-03-intervencion-del-usuario-para-mover-binarios-a-usrbin-durante-la-actualizacion/</guid>
+      <guid>https://archlinux-es.github.io/2013/06/03/intervenci%C3%B3n-del-usuario-para-mover-binarios-a-/usr/bin-durante-la-actualizaci%C3%B3n/</guid>
       <description>Al actualizar se obtendrá un mensaje de error:
 error: failed to commit transaction (conflicting files) filesystem: /bin exists in filesystem
 La actualización aunará todos los binarios en un único directorio /usr/bin. Con esto se consigue eliminar una distinción sin sentido alguno para Arch y simplificar el proceso de mantenimiento de paquetes por parte de los desarrolladores. Consultar este post en inglés para una explicación más amplia de los motivos por los que se lleva a cabo este cambio.</description>
@@ -595,49 +595,49 @@ La actualización aunará todos los binarios en un único directorio /usr/bin. C
     
     <item>
       <title>Netctl llega a [core]</title>
-      <link>https://archlinux-es.github.io/posts/2013-04-12-netctl-llega-a-core/</link>
+      <link>https://archlinux-es.github.io/2013/04/12/netctl-llega-a-core/</link>
       <pubDate>Fri, 12 Apr 2013 02:34:16 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-04-12-netctl-llega-a-core/</guid>
+      <guid>https://archlinux-es.github.io/2013/04/12/netctl-llega-a-core/</guid>
       <description>Os presentamos netctl. Un gestor de redes a base de perfiles de conexiones de red para la consola o interfaz de línea de comandos —del inglés: CLI, _command line interface_— y que usa systemd. Próximamente se retirará el ya anticuado netcfg de [core]. Se recomienda encarecidamente cambiar a netctl a aquellos usuarios que lo estén usando en este momento. Migrar de uno a otro es un proceso manual durante el cual probablemente no haya acceso a internet por lo que se recomienda precaución y leer las páginas man correspondientes: netctl(1), netctl.</description>
     </item>
     
     <item>
       <title>MariaDB sustituye a MySQL en los repositorios</title>
-      <link>https://archlinux-es.github.io/posts/2013-03-26-mariadb-sustituye-a-mysql-en-los-repositorios/</link>
+      <link>https://archlinux-es.github.io/2013/03/26/mariadb-sustituye-a-mysql-en-los-repositorios/</link>
       <pubDate>Tue, 26 Mar 2013 14:07:00 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-03-26-mariadb-sustituye-a-mysql-en-los-repositorios/</guid>
+      <guid>https://archlinux-es.github.io/2013/03/26/mariadb-sustituye-a-mysql-en-los-repositorios/</guid>
       <description>MariaDB es oficialmente nuestra forma de implementar MySQL por defecto. Usar MariaDB apenas supone un reemplazo como tal. Es por ello que realizar el cambio no debería suponer un problema. Sin embargo, y puesto que todavía hay que pulir algunas aspectos de compatibilidad, la sustitución no se hará de forma automática.
 Se recomienda a todos los usuarios que realicen esta actualización. En un mes se reubicará MySQL: dejará de estar en los repositorios oficiales para pasar al AUR.</description>
     </item>
     
     <item>
       <title>qt4 sustituye a qt</title>
-      <link>https://archlinux-es.github.io/posts/2013-03-04-qt4-sustituye-a-qt/</link>
+      <link>https://archlinux-es.github.io/2013/03/04/qt4-sustituye-a-qt/</link>
       <pubDate>Mon, 04 Mar 2013 23:51:14 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-03-04-qt4-sustituye-a-qt/</guid>
+      <guid>https://archlinux-es.github.io/2013/03/04/qt4-sustituye-a-qt/</guid>
       <description>El nuevo paquete qt4 está disponible en el repositorio [extra]. Este paquete va a sustituir a qt, también presente hasta la fecha en los repositorios.
 Hay que volver a compilar los paquetes que tuviesen como dependencia qt para que ahora lo hagan con qt4. Nos hemos encargargado de hacer esto con todos los paquetes oficiales pero el usuario tendrá que hacer esto con los que haya instalado desde AUR y que contasen a qt como una de sus dependencias.</description>
     </item>
     
     <item>
       <title>Cambios en LVM</title>
-      <link>https://archlinux-es.github.io/posts/2013-02-14-cambios-en-lvm/</link>
+      <link>https://archlinux-es.github.io/2013/02/14/cambios-en-lvm/</link>
       <pubDate>Thu, 14 Feb 2013 02:04:02 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-02-14-cambios-en-lvm/</guid>
+      <guid>https://archlinux-es.github.io/2013/02/14/cambios-en-lvm/</guid>
       <description>El nuevo lvm2 2.02.98-3 se sirve de lvmetad para activar los volúmenes LVM —Gestión de Volúmenes Lógicos; del inglés _Logical Volume Management_— de forma automática. Esto conlleva los siguientes cambios:
  * El _hook_ de initramfs `lvm2` ahora requiere el _hook_ de `udev`. * La opción `use_lvmetad = 1` debe aparecer tal cual en el fichero `/etc/lvm/lvm.conf`. Es la configuración por defecto. Si se cuenta con un fichero `lvm.conf.pacnew`, **hay** que reflejar y actualizar este cambio.</description>
     </item>
     
     <item>
       <title>Último aviso: sysvinit oficialmente declarado obsoleto</title>
-      <link>https://archlinux-es.github.io/posts/2013-02-05-ultimo-aviso-sysvinit-oficialmente-declarado-obsoleto/</link>
+      <link>https://archlinux-es.github.io/2013/02/05/%C3%BAltimo-aviso-sysvinit-oficialmente-declarado-obsoleto/</link>
       <pubDate>Tue, 05 Feb 2013 00:13:23 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-02-05-ultimo-aviso-sysvinit-oficialmente-declarado-obsoleto/</guid>
+      <guid>https://archlinux-es.github.io/2013/02/05/%C3%BAltimo-aviso-sysvinit-oficialmente-declarado-obsoleto/</guid>
       <description>Anteriormente anunciamos que initscripts iba a quedarse sin «testeo» y que varios paquetes se iban a quedar sin mantenimiento ni desarrollo activo. Los usuarios que todavía usen dichos paquetes deben migrar a systemd.
 Se van a eliminar de los repositorios initscripts, sysvinit y los diferentes scripts rc para evitar posibles confusiones acerca del estado de desarrollo en el que se encuentran.
 Traducción oficial en el foro.</description>
@@ -645,20 +645,20 @@ Traducción oficial en el foro.</description>
     
     <item>
       <title>Actualización conjunta: filesystem-2013.01-1 y glibc-2.17-2</title>
-      <link>https://archlinux-es.github.io/posts/2013-01-29-actualizacion-conjunta-filesystem-2013-01-1-y-glibc-2-17-2/</link>
+      <link>https://archlinux-es.github.io/2013/01/29/actualizaci%C3%B3n-conjunta-filesystem-2013.01-1-y-glibc-2.17-2/</link>
       <pubDate>Tue, 29 Jan 2013 01:50:23 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2013-01-29-actualizacion-conjunta-filesystem-2013-01-1-y-glibc-2-17-2/</guid>
+      <guid>https://archlinux-es.github.io/2013/01/29/actualizaci%C3%B3n-conjunta-filesystem-2013.01-1-y-glibc-2.17-2/</guid>
       <description>Es necesario actualizar glibc-2.17-2 y filesystem-2013.01-1 para mover el enlace simbólico /lib del paquete glibc al paquete filesystem; el cual es más apropiado. Esto tendrá lugar de forma automática al ejecutar &amp;ldquo;pacman -Syu&amp;rdquo;. No sirve actualizarlos de forma individual y bajo ningún concepto hay que usar la opción &amp;ldquo;&amp;ndash;force&amp;rdquo;.
 Es muy posible dar con un error en la actualización de sistemas con arquitectura x86_64, el cual causará un conflicto de ficheros en /usr/lib64.</description>
     </item>
     
     <item>
       <title>Medios de instalación Arch Linux 2012.12.01 (imágenes ISO)</title>
-      <link>https://archlinux-es.github.io/posts/2012-12-10-dispositivos-de-instalacion-2012-12-01/</link>
+      <link>https://archlinux-es.github.io/2012/12/10/medios-de-instalaci%C3%B3n-arch-linux-2012.12.01-im%C3%A1genes-iso/</link>
       <pubDate>Mon, 10 Dec 2012 04:20:55 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-12-10-dispositivos-de-instalacion-2012-12-01/</guid>
+      <guid>https://archlinux-es.github.io/2012/12/10/medios-de-instalaci%C3%B3n-arch-linux-2012.12.01-im%C3%A1genes-iso/</guid>
       <description>En la página de descarga se encuentra la versión 2012.12.01 del dispositivo de instalación y recuperación.
 Esta nueva imagen incluye:
  * arch-install-scripts 9, con un generador de fstab mejorado. * kernel linux 3.6.8 * systemd 196 * Y las ya tradicionales actualizaciones de los paquetes del repositorio core.  Está previsto que la próxima captura de los repositorios —otra más— vea la luz en enero de 2013.
@@ -667,39 +667,39 @@ Traducción oficial en el foro.</description>
     
     <item>
       <title>Medios de instalación Arch Linux 2012.11.01 (imágenes ISO)</title>
-      <link>https://archlinux-es.github.io/posts/2012-11-07-iso-de-instalacion-arch-linux-2012-11-disponible/</link>
+      <link>https://archlinux-es.github.io/2012/11/07/medios-de-instalaci%C3%B3n-arch-linux-2012.11.01-im%C3%A1genes-iso/</link>
       <pubDate>Wed, 07 Nov 2012 12:36:23 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-11-07-iso-de-instalacion-arch-linux-2012-11-disponible/</guid>
+      <guid>https://archlinux-es.github.io/2012/11/07/medios-de-instalaci%C3%B3n-arch-linux-2012.11.01-im%C3%A1genes-iso/</guid>
       <description>La versión más reciente de la imagen ISO para la instalación y/o recuperación del sistema está disponible en la página de descarga. Con respecto a anterior edición, la ISO 2012.11.01 contiene sobre todo corrección de errores menores, limpiezas de código y nuevos paquetes:
  * Primera imagen ISO con linux 3.6. * Con copytoram=n, se puede usar para evitar copiar la imagen a la RAM cuando arranquemos el sistema a través de la red.</description>
     </item>
     
     <item>
       <title>Initscripts se queda sin soporte</title>
-      <link>https://archlinux-es.github.io/posts/2012-11-06-initscripts-se-queda-sin-soporte/</link>
+      <link>https://archlinux-es.github.io/2012/11/06/initscripts-se-queda-sin-soporte/</link>
       <pubDate>Tue, 06 Nov 2012 01:20:39 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-11-06-initscripts-se-queda-sin-soporte/</guid>
+      <guid>https://archlinux-es.github.io/2012/11/06/initscripts-se-queda-sin-soporte/</guid>
       <description>Puesto que systemd es ahora el sistema de arranque por defecto, cada vez se tienen menos noticias de cómo sigue funcionando el arranque de Arch Linux con initscripts. Dada la falta de recursos y de interés, es poco probable que sigamos corrigiendo fallos de programación relacionados con initscripts. Es posible que, en el sistema de seguimiento de fallos —bugtracker— se cierren y se les cuelgue la etiqueta WONTFIX —que no se va a arreglar—.</description>
     </item>
     
     <item>
       <title>Sábado, 17 de noviembre: ¡a la &#34;caza&#34; del bug!</title>
-      <link>https://archlinux-es.github.io/posts/2012-11-03-sabado-17-de-noviembre-a-la-caza-del-bug/</link>
+      <link>https://archlinux-es.github.io/2012/11/03/s%C3%A1bado-17-de-noviembre-a-la-caza-del-bug/</link>
       <pubDate>Sat, 03 Nov 2012 03:43:15 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-11-03-sabado-17-de-noviembre-a-la-caza-del-bug/</guid>
+      <guid>https://archlinux-es.github.io/2012/11/03/s%C3%A1bado-17-de-noviembre-a-la-caza-del-bug/</guid>
       <description>La cantidad de fallos de programación —más conocidos como bugs— de los que se ha informado en el sistema de seguimiento de errores —bug tracker— de Arch Linux no deja de aumentar. Por tanto, es hora de «fumigar» un poco.
 Es una forma estupenda de que la comunidad de usuarios se involucre; además, sirve para echarle una mano al equipo de Arch Linux. El procedimiento a seguir, muy sencillo, es el siguiente:</description>
     </item>
     
     <item>
       <title>Logind reemplaza a ConsoleKit</title>
-      <link>https://archlinux-es.github.io/posts/2012-10-31-logind-reemplaza-a-consolekit/</link>
+      <link>https://archlinux-es.github.io/2012/10/31/logind-reemplaza-a-consolekit/</link>
       <pubDate>Wed, 31 Oct 2012 20:53:43 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-10-31-logind-reemplaza-a-consolekit/</guid>
+      <guid>https://archlinux-es.github.io/2012/10/31/logind-reemplaza-a-consolekit/</guid>
       <description>Aprovechando la versión 3.6 de GNOME y el hecho de que tanto polkit como networkmanager ahora estén en el repositorio [extra], se ha eliminado ConsoleKit de los repositorios. Todos los paquetes que dependiesen de ConsoleKit pasan a ser dependencias de systemd-logind. Esto quiere decir que el sistema ha de arrancar con systemd para ser completamente operativo.
 Además de a GNOME, este cambio también afecta a KDE y XFCE.
 Consultas y comentarios en la traducción oficial del foro hispano: http://foros.</description>
@@ -707,29 +707,29 @@ Consultas y comentarios en la traducción oficial del foro hispano: http://foros
     
     <item>
       <title>Nueva portada en linea</title>
-      <link>https://archlinux-es.github.io/posts/2012-10-30-nueva-portada-en-linea/</link>
+      <link>https://archlinux-es.github.io/2012/10/30/nueva-portada-en-linea/</link>
       <pubDate>Tue, 30 Oct 2012 03:57:08 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-10-30-nueva-portada-en-linea/</guid>
+      <guid>https://archlinux-es.github.io/2012/10/30/nueva-portada-en-linea/</guid>
       <description>He habilitado una nueva version de la portada con una adaptación del theme &amp;ldquo;portfolio press&amp;rdquo;. Vamos a ver como resulta el consumo de está forma y proximamente esperamos tener otra versión inclusive más optimizada.</description>
     </item>
     
     <item>
       <title>Dispositivo de instalación 2012.10.06 con systemd integrado</title>
-      <link>https://archlinux-es.github.io/posts/2012-10-20-dispositivo-de-instalacion-2012-10-06-con-systemd-integrado/</link>
+      <link>https://archlinux-es.github.io/2012/10/20/dispositivo-de-instalaci%C3%B3n-2012.10.06-con-systemd-integrado/</link>
       <pubDate>Sat, 20 Oct 2012 19:41:57 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-10-20-dispositivo-de-instalacion-2012-10-06-con-systemd-integrado/</guid>
+      <guid>https://archlinux-es.github.io/2012/10/20/dispositivo-de-instalaci%C3%B3n-2012.10.06-con-systemd-integrado/</guid>
       <description>La edición del dispositivo de instalación de Arch Linux correspondiente al mes de octubre está disponible en la página de descarga y se puede usar para instalaciones nuevas o para recuperar el sistema. Contiene paquetes actualizados y una serie de cambios que merece la pena destacar:
  * El Live CD se sirve de systemd para arrancar el sistema. * El sistema que arranca el Live CD ya no cuenta con initscripts.</description>
     </item>
     
     <item>
       <title>Las nuevas instalaciones tendrán systemd por defecto</title>
-      <link>https://archlinux-es.github.io/posts/2012-10-13-las-nuevas-instalaciones-tendran-systemd-por-defecto/</link>
+      <link>https://archlinux-es.github.io/2012/10/13/las-nuevas-instalaciones-tendr%C3%A1n-systemd-por-defecto/</link>
       <pubDate>Sat, 13 Oct 2012 06:25:31 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-10-13-las-nuevas-instalaciones-tendran-systemd-por-defecto/</guid>
+      <guid>https://archlinux-es.github.io/2012/10/13/las-nuevas-instalaciones-tendr%C3%A1n-systemd-por-defecto/</guid>
       <description>El grupo base contiene ahora el paquete systemd-sysvcompat. Esto significa que todas las instalaciones nuevas arrancarán por defecto con systemd.
 Como varios paquetes carecen todavía de sus versiones nativas para systemd correspondientes, el usuario puede instalar el paquete initscripts y usar la línea DAEMONS en /etc/rc.conf para iniciar los servicios usando los scripts de rc.d anteriores.
 Este cambio no afecta a instalaciones previas. De momento, initscripts y sysvinit seguirán estando disponibles en los repositorios.</description>
@@ -737,19 +737,19 @@ Este cambio no afecta a instalaciones previas. De momento, initscripts y sysvini
     
     <item>
       <title>Portada en Mantenimiento!</title>
-      <link>https://archlinux-es.github.io/posts/2012-10-05-portada-en-mantenimiento/</link>
+      <link>https://archlinux-es.github.io/2012/10/05/portada-en-mantenimiento/</link>
       <pubDate>Fri, 05 Oct 2012 23:28:28 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-10-05-portada-en-mantenimiento/</guid>
+      <guid>https://archlinux-es.github.io/2012/10/05/portada-en-mantenimiento/</guid>
       <description>Estamos haciendo un mantenimiento de la portada y el foro. Las tareas se han prolongado más de lo esperado pero esperamos terminar de resolver los temas pendientes pronto y restaurar los estilos en ambas secciones. Gracias por la paciencia.</description>
     </item>
     
     <item>
       <title>Dispositivos de instalación 2012.09.07</title>
-      <link>https://archlinux-es.github.io/posts/2012-09-08-dispositivos-de-instalacion-2012-09-07/</link>
+      <link>https://archlinux-es.github.io/2012/09/08/dispositivos-de-instalaci%C3%B3n-2012.09.07/</link>
       <pubDate>Sat, 08 Sep 2012 06:01:45 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-09-08-dispositivos-de-instalacion-2012-09-07/</guid>
+      <guid>https://archlinux-es.github.io/2012/09/08/dispositivos-de-instalaci%C3%B3n-2012.09.07/</guid>
       <description>Como es costumbre a principio de mes, ya hay disponible un nuevo dispositivo de instalación. El Live CD se puede conseguir a través de la página de descarga y se puede usar para instalaciones nuevas o para recuperar el sistema.
 Además de un par de paquetes actualizados y de la corrección de errores, hemos de destacar estos cambios:
  * Primera imagen con linux 3.5, concretamente el 3.5.3. * El parámetro de arranque script vuelve a funcionar ([FS#31022](https://bugs.</description>
@@ -757,10 +757,10 @@ Además de un par de paquetes actualizados y de la corrección de errores, hemos
     
     <item>
       <title>Fontconfig 2.10.1: requiere intervención del usuario</title>
-      <link>https://archlinux-es.github.io/posts/2012-09-06-fontconfig-2-10-1-requiere-intervencion-del-usuario/</link>
+      <link>https://archlinux-es.github.io/2012/09/06/fontconfig-2.10.1-requiere-intervenci%C3%B3n-del-usuario/</link>
       <pubDate>Thu, 06 Sep 2012 05:47:42 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-09-06-fontconfig-2-10-1-requiere-intervencion-del-usuario/</guid>
+      <guid>https://archlinux-es.github.io/2012/09/06/fontconfig-2.10.1-requiere-intervenci%C3%B3n-del-usuario/</guid>
       <description>La nueva versión de fontconfig, 2.10.1, sobreescribe los enlaces simbólicos que la anterior versión del paquete creaba. Hay que eliminar dichos enlaces simbólicos antes de proceder a actualizarlo: ` rm /etc/fonts/conf.d/20-unhint-small-vera.conf rm /etc/fonts/conf.d/29-replace-bitmap-fonts.conf rm /etc/fonts/conf.d/30-metric-aliases.conf rm /etc/fonts/conf.d/30-urw-aliases.conf rm /etc/fonts/conf.d/40-nonlatin.conf rm /etc/fonts/conf.d/45-latin.conf rm /etc/fonts/conf.d/49-sansserif.conf rm /etc/fonts/conf.d/50-user.conf rm /etc/fonts/conf.d/51-local.conf rm /etc/fonts/conf.d/60-latin.conf rm /etc/fonts/conf.d/65-fonts-persian.conf rm /etc/fonts/conf.d/65-nonlatin.conf rm /etc/fonts/conf.d/69-unifont.conf rm /etc/fonts/conf.d/80-delicious.conf rm /etc/fonts/conf.d/90-synthetic.conf
 pacman -Sy fontconfig`
 La configuración global del sistema hay que hacerla a través de enlaces simbólicos.</description>
@@ -768,39 +768,39 @@ La configuración global del sistema hay que hacerla a través de enlaces simbó
     
     <item>
       <title>Problemas con el foro</title>
-      <link>https://archlinux-es.github.io/posts/2012-08-23-problemas-con-el-foro/</link>
+      <link>https://archlinux-es.github.io/2012/08/23/problemas-con-el-foro/</link>
       <pubDate>Thu, 23 Aug 2012 22:04:14 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-08-23-problemas-con-el-foro/</guid>
+      <guid>https://archlinux-es.github.io/2012/08/23/problemas-con-el-foro/</guid>
       <description>Estimados, estamos teniendo un problema de capacidad con el servidor de la base de datos. Esperamos resolverlo pronto. Mientras tanto, les pedimos paciencia! Gracias. Ya debería estar resuelto!</description>
     </item>
     
     <item>
       <title>netcfg-2.8.9 ya no es compatible con rc.conf</title>
-      <link>https://archlinux-es.github.io/posts/2012-08-13-netcfg-2-8-9-ya-no-es-compatible-con-rc-conf/</link>
+      <link>https://archlinux-es.github.io/2012/08/13/netcfg-2.8.9-ya-no-es-compatible-con-rc.conf/</link>
       <pubDate>Mon, 13 Aug 2012 01:25:23 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-08-13-netcfg-2-8-9-ya-no-es-compatible-con-rc-conf/</guid>
+      <guid>https://archlinux-es.github.io/2012/08/13/netcfg-2.8.9-ya-no-es-compatible-con-rc.conf/</guid>
       <description>A partir de ahora, hay que configurar cada interfaz en /etc/conf.d/netcfg en lugar de en /etc/rc.conf.
 Comentarios o consultas, en la traducción del anuncio en el foro.</description>
     </item>
     
     <item>
       <title>Nuevas ISO de instalación 2012.08.04 disponibles</title>
-      <link>https://archlinux-es.github.io/posts/2012-08-10-nuevas-iso-de-instalacion-2012-08-04-disponibles/</link>
+      <link>https://archlinux-es.github.io/2012/08/10/nuevas-iso-de-instalaci%C3%B3n-2012.08.04-disponibles/</link>
       <pubDate>Fri, 10 Aug 2012 01:04:33 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-08-10-nuevas-iso-de-instalacion-2012-08-04-disponibles/</guid>
+      <guid>https://archlinux-es.github.io/2012/08/10/nuevas-iso-de-instalaci%C3%B3n-2012.08.04-disponibles/</guid>
       <description>La imagen de Agosto de nuestro medio de instalación y versión Live, viene con los siguientes cambios ademas de los ya disponibles en la ISO previa:
  * GRUB 2.0 reemplaza el GRUB 0.9 Legacy, cual fuera descontinuado hace un tiempo. * [La guía de instalación](https://wiki.archlinux.org/index.php/Installation_Guide_(Espa%C3%B1ol)) ahora puede ser encontrada en /root/Install.txt. (En ingles) * ZSH con la [configuración de Grml](http://grml.org/zsh/) es usada como shell interactivo para proveer un entorno más amigable.</description>
     </item>
     
     <item>
       <title>Cambios en rc.conf y crypttab</title>
-      <link>https://archlinux-es.github.io/posts/2012-07-31-cambios-en-rc-conf-y-crypttab/</link>
+      <link>https://archlinux-es.github.io/2012/07/31/cambios-en-rc.conf-y-crypttab/</link>
       <pubDate>Tue, 31 Jul 2012 03:30:25 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-07-31-cambios-en-rc-conf-y-crypttab/</guid>
+      <guid>https://archlinux-es.github.io/2012/07/31/cambios-en-rc.conf-y-crypttab/</guid>
       <description>Se ha cambiado el formato por defecto de /etc/rc.conf y /etc/crypttab con la última actualización de initscripts: initscripts-2012.07.5. Para más información, consultar las respectivas páginas man.
 Con este cambio se pretende unificar la configuración de systemd e initscripts. También nos permitirá compartir tanto el código como la documentación, así como simplificar el desarrollo de initscripts a largo plazo.
 El formato anterior seguirá teniendo validez por lo que los ficheros de configuración previos deben seguir funcionando sin necesidad de alterarlos.</description>
@@ -808,10 +808,10 @@ El formato anterior seguirá teniendo validez por lo que los ficheros de configu
     
     <item>
       <title>pkgstats ahora recopila información de uso sobre los módulos</title>
-      <link>https://archlinux-es.github.io/posts/2012-07-30-pkgstats-ahora-recopila-informacion-de-uso-sobre-los-modulos/</link>
+      <link>https://archlinux-es.github.io/2012/07/30/pkgstats-ahora-recopila-informaci%C3%B3n-de-uso-sobre-los-m%C3%B3dulos/</link>
       <pubDate>Mon, 30 Jul 2012 00:21:32 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-07-30-pkgstats-ahora-recopila-informacion-de-uso-sobre-los-modulos/</guid>
+      <guid>https://archlinux-es.github.io/2012/07/30/pkgstats-ahora-recopila-informaci%C3%B3n-de-uso-sobre-los-m%C3%B3dulos/</guid>
       <description>Nos gustaría recopilar información sobre qué módulos del kernel son los más extendidos —así como las arquitecturas del procesador— con el fin de hacer el kernel por defecto e initramfs más consistentes para la mayoría de los usuarios.
 Es por ello que la versión 2.3 de pkgstats recopila ahora dicha información. Animamos a todos los usuarios a que instalen pkgstats para que su configuración se tenga en cuenta.
 Comenta o consulta sobre este tema en el hilo del foro.</description>
@@ -819,50 +819,50 @@ Comenta o consulta sobre este tema en el hilo del foro.</description>
     
     <item>
       <title>Medios de instalación 2012.07.15 disponibles</title>
-      <link>https://archlinux-es.github.io/posts/2012-07-26-medios-de-instalacion-2012-07-15-disponibles/</link>
+      <link>https://archlinux-es.github.io/2012/07/26/medios-de-instalaci%C3%B3n-2012.07.15-disponibles/</link>
       <pubDate>Thu, 26 Jul 2012 22:32:09 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-07-26-medios-de-instalacion-2012-07-15-disponibles/</guid>
+      <guid>https://archlinux-es.github.io/2012/07/26/medios-de-instalaci%C3%B3n-2012.07.15-disponibles/</guid>
       <description>Las nuevas imágenes ISO con la captura actual de Arch Linux se acaban de publicar y ya están disponibles para su descarga.
 El cambio más significativo consiste en que ya no se distribuye con AIF (cuyas siglas en inglés hacen referencia al programa de instalación de Arch: Arch Installation Framework) y en su lugar se incluyen una serie de sencillos scripts de instalación. Esto significa que la instalación ya no transcurre en un entorno en el que navegaremos por diferentes menús y, con esto, nos apoyaremos más en la documentación para ir guiando a los nuevos usuarios.</description>
     </item>
     
     <item>
       <title>Renovamos el sitio</title>
-      <link>https://archlinux-es.github.io/posts/2012-07-25-nuevo-sitio/</link>
+      <link>https://archlinux-es.github.io/2012/07/25/renovamos-el-sitio/</link>
       <pubDate>Wed, 25 Jul 2012 03:58:41 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-07-25-nuevo-sitio/</guid>
+      <guid>https://archlinux-es.github.io/2012/07/25/renovamos-el-sitio/</guid>
       <description>Inauguramos nuevamente la portada del sitio Hispano. Hemos migrado a WordPress para simplificar la carga de noticias e incorporar novedades más fácilmente. Además, actualizamos el estilo, para estar al día con el del sitio oficial. Bienvenidos nuevamente!
 Mientras terminamos de trabajar, los invitamos a pasar por el foro hispano, el punto de encuentro más importante del sitio, que tambien tuvo su lavado de cara. Pueden dejar comentarios respecto de la actualización estética del foro y la migración a WordPress en el hilo del anuncio.</description>
     </item>
     
     <item>
       <title>El GRUB clásico se queda sin soporte</title>
-      <link>https://archlinux-es.github.io/posts/2012-07-23-el-grub-clasico-se-queda-sin-soporte/</link>
+      <link>https://archlinux-es.github.io/2012/07/23/el-grub-cl%C3%A1sico-se-queda-sin-soporte/</link>
       <pubDate>Mon, 23 Jul 2012 06:09:30 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-07-23-el-grub-clasico-se-queda-sin-soporte/</guid>
+      <guid>https://archlinux-es.github.io/2012/07/23/el-grub-cl%C3%A1sico-se-queda-sin-soporte/</guid>
       <description>GRUB 2.x se encuentra ahora en el repositorio [core]. Debido a esto, el paquete que corresponde a la versión previa de GRUB (o GRUB legacy; es decir, la 0.9x) va a quedarse sin soporte. Tal es esto que, de ahora en adelante, estará disponible en AUR.
 Los usuarios podrán mantener GRUB _legacy_ instalado y totalmente operativo en sus equipos. Sin embargo, se recomienda la actualización a la versión 2.x o la sustitución por cualquier otro de los gestores de arranque que todavía cuentan con soporte parte de los desarrolladores.</description>
     </item>
     
     <item>
       <title>Systemd-tools sustituye a udev</title>
-      <link>https://archlinux-es.github.io/posts/2012-06-03-systemd-tools-sustituye-a-udev/</link>
+      <link>https://archlinux-es.github.io/2012/06/03/systemd-tools-sustituye-a-udev/</link>
       <pubDate>Sun, 03 Jun 2012 05:39:13 +0000</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2012-06-03-systemd-tools-sustituye-a-udev/</guid>
+      <guid>https://archlinux-es.github.io/2012/06/03/systemd-tools-sustituye-a-udev/</guid>
       <description>Hemos unido systemd y udev; aunque todavía estarán disponibles en paquetes separados. Sin embargo, y para hacerlo todo más sencillo, ahora udev formará parte de un paquete llamado systemd-tools. Este paquete contiene una serie de herramientas independientes que se pueden ejecutar sin systemd. Ni que decir tiene que esto también significa que el conjunto de systemd en su totalidad se encuentra en el repositorio core.
 Confirmar la sustitución de systemd-tools por udev cuando se pregunte al actualizar.</description>
     </item>
     
     <item>
       <title>2008 08 14 Prueba Sitio Django</title>
-      <link>https://archlinux-es.github.io/posts/2008-08-14-prueba-sitio-django/</link>
+      <link>https://archlinux-es.github.io/2008/08/14/2008-08-14-prueba-sitio-django/</link>
       <pubDate>Thu, 14 Aug 2008 21:33:42 -0300</pubDate>
       
-      <guid>https://archlinux-es.github.io/posts/2008-08-14-prueba-sitio-django/</guid>
+      <guid>https://archlinux-es.github.io/2008/08/14/2008-08-14-prueba-sitio-django/</guid>
       <description>Probando la nueva portada de Arch Hispano!
 Estamos implementando la migración hacia Django como administrador de contenidos del portal Hispano de Arch. Pueden encontrar errores y/o problemas mientras se lleva a cabo la implementación, les pedimos tengan paciencia y reporten cualquier problema en el foro: http://www.archlinux-es.org/foros/viewforum.php?f=7</description>
     </item>
