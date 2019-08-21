@@ -24,6 +24,17 @@ Al actualizar, utilizar la bandera overwrite de la forma siguiente:</description
     </item>
     
     <item>
+      <title>Descargar</title>
+      <link>https://www.archlinux-es.org/pages/descargar/</link>
+      <pubDate>Mon, 19 Aug 2019 20:44:16 -0300</pubDate>
+      
+      <guid>https://www.archlinux-es.org/pages/descargar/</guid>
+      <description>Información de la última versión: La imagen ISO de Arch Linux puede ser grabada a un CD o copiarse directamente vía ‘dd‘ hacia un Pendrive o disco USB booteable. Está imagen es para instalaciones nuevas o para utilizarla como entorno “Live” (booteo directo) en casos de reparación.
+Si ya sos usuario de Arch Linux y deseas actualizar tu sistema, deberías utilizar pacman -Syu
+Si tenes dudas o necesitas ayuda, tanto para instalar o actualizar, consulta en el foro.</description>
+    </item>
+    
+    <item>
       <title>libbloom &gt;= 1.6-2 requiere intervención manual</title>
       <link>https://www.archlinux-es.org/2019/07/11/libbloom--1.6-2-requiere-intervenci%C3%B3n-manual/</link>
       <pubDate>Thu, 11 Jul 2019 19:39:51 -0300</pubDate>

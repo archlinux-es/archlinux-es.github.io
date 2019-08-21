@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Arch Linux en Español</title>
-    <link rel="stylesheet" type="text/css" href="../../../../css/arch.css" media="screen, projection" />
-		<link rel="icon" type="image/x-icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../css/arch.css" media="screen, projection" />
+		<link rel="icon" type="image/x-icon" href="../../favicon.ico">
 </head>
 <body class="">
     <div id="archnavbar" class="anb-home">
@@ -37,30 +37,54 @@
     <div id="content-left-wrapper">
         <div id="content-left">
 
-<div id="content">
-<div id="archdev-navbar">
-
-</div>
 <div class="news-article box">
-    <h2>Se descontinua el uso de la herramienta ABS y el rsync endpoint</h2>
-    <p class="article-info">2017-06-28 - sud_crow </p>
-    <div class="article-content" itemprop="articleBody"><p>Debido al alto costo de mantenimiento de los scripts relacionados al Arch Build System (ABS), hemos decidido descontinuar la herramienta abs y por lo tanto el mecanismo de rsync para obtener PKGBUILDs.</p>
+    <h2>Descargar</h2>
+    <div class="article-content" itemprop="articleBody">
 
-<p>La herramienta <strong>asp</strong>, disponible actualmente en [extra], provee funcionalidad similar a la de <strong>abs</strong>.</p>
+<h1 id="información-de-la-última-versión">Información de la última versión:</h1>
 
-<p><strong>asp export pkgname</strong> puede ser utilizado como una alternativa directa; pueden encontrar mayor información sobre como utilizarla <a href="https://github.com/falconindy/asp/blob/master/man/asp.1.txt">en la documentación</a>.</p>
+<p>La imagen ISO de Arch Linux puede ser grabada a un CD  o copiarse directamente vía ‘dd‘ hacia un Pendrive o disco USB booteable. Está imagen es para instalaciones nuevas o para utilizarla como entorno “Live” (booteo directo) en casos de reparación.</p>
 
-<p>Adicionalmente los checkouts de Subversion, como fueron descriptos <a href="https://www.archlinux.org/svn/">aquí</a>, pueden ser utilizados para obtener un resultado similar. Para obtener todos los PKGBUILDs, la mejor forma es clonar los mirrors de <a href="https://git.archlinux.org/svntogit/">svntogit</a></p>
+<p>Si ya sos usuario de Arch Linux y deseas actualizar tu sistema, deberías utilizar pacman -Syu</p>
 
-<p>El paquete extra/abs ha sido eliminado y el endpoint de rsync (rsync://rsync.archlinux.org/abs) a sido desactivado a fines de mayo.</p>
+<p>Si tenes dudas o necesitas ayuda, tanto para instalar o actualizar, consulta en el foro.</p>
 
-<p>Nota original (mayo 2017, tarde pero seguro):</p>
+<pre><code>Versión ISO actual:  2019.08.01
+Kernel: 5.2.5
+Tamaño de la ISO: 622.0 MB
+Guía de Instalación
+</code></pre>
 
-<p><a href="https://www.archlinux.org/news/deprecation-of-abs/">https://www.archlinux.org/news/deprecation-of-abs/</a></p>
+<h1 id="descargar-vía-bittorrent">Descargar vía BitTorrent:</h1>
 
-<p>Foro (comentarios, dudas, etc.):</p>
+<p>Para descargar Arch Linux y colaborar con los servidores de toda la comunidad, recomendamos hacerlo vía Bittorrent. El enlace siguiente es para el torrent de ambas arquitecturas; x86 y x86-64 (32 y 64bits respectivamente). Utilizando Bittorrent ayudas a bajar el consumo de ancho de banda de los mirrors de Arch Linux y la descarga te va a ir mucho mas rápido.</p>
 
-<p><a href="https://foros.archlinux-es.org/viewtopic.php?f=1&amp;t=8207">https://foros.archlinux-es.org/viewtopic.php?f=1&amp;t=8207</a></p>
+<pre><code>[Descarga vía Magnet Torrent](magnet:?xt=urn:btih:5f4fe04fe53f6601fee1e850aebdce4a4a7f4d27&amp;dn=archlinux-2019.08.01-x86_64.iso&amp;tr=udp://tracker.archlinux.org:6969&amp;tr=http://tracker.archlinux.org:6969/announce)
+[Opciones de Descarga vía Torrent](https://www.archlinux.org/releng/releases/2019.08.01/torrent/)
+</code></pre>
+
+<h1 id="otros-métodos-de-descarga">Otros métodos de descarga:</h1>
+
+<p>Si deseas buscar otras opciones de descarga (FTP, HTTP) <a href="https://www.archlinux.org/download">visita el sitio oficial de Arch Linux en inglés</a> para obtener el último enlace de descarga oficial. En lo posible recorda utilizar Bittorrent para colaborar con la comunidad y reducir los gastos de ancho de banda.
+Instalación:</p>
+
+<p>Una vez que hayas descargado podes seguir los pasos de la Wiki en español para instalarlo.
+Si te surgen dudas o queres compartir algún comentario podes visitar los foros en español  de Arch Linux. Allí encontraras el foro de instalación, entre otros.</p>
+
+<h1 id="vagrant">Vagrant</h1>
+
+<p>Hay imagenes oficiales de Arch Linux para Vagrant con libvirt y virtualbox en <a href="https://app.vagrantup.com/archlinux/boxes/archlinux">Vagrant Cloud</a>. Tambien pueden hacer un boostrap de la imagen de vagrant:</p>
+
+<pre><code>vagrant init archlinux/archlinux
+vagrant up
+</code></pre>
+
+<h1 id="docker">Docker</h1>
+
+<p>Hay una imagen oficial de Docker de Arch Linux que pueden encontrar en <a href="https://hub.docker.com/r/archlinux/base/">Docker Hub</a>. O correr la imagen con el siguiente comando.</p>
+
+<pre><code>docker run -it archlinux/base
+</code></pre>
 </div>
 </div>
         </div>
@@ -70,9 +94,9 @@
             <h4>Información</h4>
             <ul>
                 
-                <li><a href="../../../../" title="Portada">Portada</a></li>
+                <li><a href="../../" title="Portada">Portada</a></li>
                 
-                <li><a href="../../../../pages/about" title="Acerca de">Acerca de</a></li>
+                <li><a href="../../pages/about" title="Acerca de">Acerca de</a></li>
                 
                 <li><a href="https://wiki.archlinux.org/index.php/Installation_guide_%28Espa%C3%B1ol%29" title="Acerca de">Guia de Instalación</a></li>
                 
@@ -110,4 +134,5 @@
 </div>
 </body>
 </html>
+
 

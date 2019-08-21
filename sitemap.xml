@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://www.archlinux-es.org/pages/descargar/</loc>
+    <lastmod>2019-08-19T20:44:16-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.archlinux-es.org/2019/07/11/libbloom--1.6-2-requiere-intervenci%C3%B3n-manual/</loc>
     <lastmod>2019-07-11T19:39:51-03:00</lastmod>
   </url>
@@ -620,7 +625,7 @@
   
   <url>
     <loc>https://www.archlinux-es.org/pages/</loc>
-    <lastmod>2019-05-26T16:19:54-03:00</lastmod>
+    <lastmod>2019-08-19T20:44:16-03:00</lastmod>
     <priority>0</priority>
   </url>
   
