@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.archlinux-es.org/2003/07/20/comunidad-hispana-de-arch-linux/</loc>
-    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.archlinux-es.org/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/</loc>
     <lastmod>2019-08-20T19:58:08-03:00</lastmod>
   </url>
@@ -423,8 +418,13 @@
   </url>
   
   <url>
-    <loc>https://www.archlinux-es.org/2008/08/14/2008-08-14-prueba-sitio-django/</loc>
+    <loc>https://www.archlinux-es.org/2008/08/14/prueba-sitio-django/</loc>
     <lastmod>2008-08-14T21:33:42-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.archlinux-es.org/2003/07/20/comunidad-hispana-de-arch-linux/</loc>
+    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
   </url>
   
   <url>
@@ -453,7 +453,7 @@
   
   <url>
     <loc>https://www.archlinux-es.org/</loc>
-    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
+    <lastmod>2019-08-20T19:58:08-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -602,7 +602,7 @@
   
   <url>
     <loc>https://www.archlinux-es.org/categories/noticias/</loc>
-    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
+    <lastmod>2018-09-11T19:39:36+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -650,7 +650,7 @@
   
   <url>
     <loc>https://www.archlinux-es.org/posts/</loc>
-    <lastmod>2003-07-20T04:37:38+00:00</lastmod>
+    <lastmod>2019-08-20T19:58:08-03:00</lastmod>
     <priority>0</priority>
   </url>
   

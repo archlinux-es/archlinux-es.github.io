@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Arch Linux en Español</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/arch.css" media="screen, projection" />
+		<link rel="icon" type="image/x-icon" href="../../../../../favicon.ico">
+</head>
+<body class="">
+    <div id="archnavbar" class="anb-home">
+        <div id="archnavbarlogo"><h1><a href="./" title="Ir a la portada">Arch Linux en Español</a></h1></div>
+        <div id="archnavbarmenu">
+            <ul id="archnavbarlist">
+                
+                <li class="anb-Portada"><a href="https://archlinux-es.github.io/" title="Ir a la portada">Portada</a></li>
+                
+                <li class="anb-Paquetes"><a href="https://archlinux.org/packages/" title="Arch Package Database">Paquetes</a></li>
+                
+                <li class="anb-Foros"><a href="https://bbs.archlinux.org/viewforum.php?id=30" title="Foros de la comunidad">Foros</a></li>
+                
+                <li class="anb-Wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+                
+                <li class="anb-Bugs"><a href="https://bugs.archlinux.org/" title="Report and track bugs">Bugs</a></li>
+                
+                <li class="anb-Seguridad"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Seguridad</a></li>
+                
+                <li class="anb-AUR"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+                
+                <li class="anb-Download"><a href="https://archlinux.org/download" title="Descargar Arch Linux">Download</a></li>
+                
+            </ul>
+        </div>
+    </div>
+<div id="content">
+    <div id="archdev-navbar">
+    </div>
+    <div id="content-left-wrapper">
+        <div id="content-left">
+
+<div id="content">
+<div id="archdev-navbar">
+
+</div>
+<div class="news-article box">
+    <h2>ATENCIÓN con Linux 3.13: el soporte del teclado PS/2 pasa a ser modular</h2>
+    <p class="article-info">2014-03-03 - sud_crow </p>
+    <div class="article-content" itemprop="articleBody"><p>Se nos pidió que implementáramos el soporte para el controlador teclado y ratón i8042 de forma que estos fuesen modulares. Algunos usuarios estarán viendo errores un tanto raros porque no disponen de uno de estos dispositivos y el hecho de tener que reconocerlos de forma manual les estará realentizando el arranque del equipo. Tom se ocupó de este asunto en el kernel (muchas gracias, por cierto) y finalmente hemos podido apreciar este cambio en la versión 3.13 del kernel.</p>
+
+<p>Para que el teclado funcione al principio del arranque, si es que no funciona todavía, hay que añadir el <em>hook</em> <code>keyboard</code> a la línea <code>HOOKS=</code> en <code>/etc/mkinitcpio.conf</code> y ejecutar <code>mkinitcpio -P</code>. Durante algún tiempo fue la configuración por defecto.</p>
+
+<p>ATENCIÓN: hay una pega con todo este asunto y es la siguiente: en algunas placas base (sobre todo las más antiguas, pero también en algunas nuevas), el controlador i8042 no se puede detectar automáticamente. Se trata de algo muy excepcional pero es seguro que habrá usuarios que se queden sin teclado. Se puede detectar de antemano si este va a ser nuestro caso ejecutando lo siguiente:</p>
+
+<p><code>$ dmesg -t | grep '^i8042'
+i8042: PNP: No PS/2 controller found. Probing ports directly.</code></p>
+
+<p>Si se tiene un puerto PS/2 y se obtiene dicho mensaje, hay que añadir <code>atkbd</code> a la línea <code>MODULES=</code> en <code>mkinitcpio.conf</code> y ejecutar <code>mkinitcpio -P</code>. Si por algún casual el usuario ve que no puede usar el teclado después de reiniciar, ¡que no cunda el pánico! Simplemente hay que añadir lo siguiente a la línea de comandos del kernel en el <em>bootloader</em>:</p>
+
+<p><code>earlymodules=atkbd modules-load=atkbd</code></p>
+
+<p>Moveremos Linux 3.13 a [core] dentro de unas horas para dar la oportunidad a todo el mundo de leer esta noticia antes de actualizar. Pedimos disculpas por las molestias que esta transición pueda provocar.</p>
+
+<p><a href="http://foros.archlinux-es.org/viewtopic.php?f=1&amp;t=7599&amp;p=44856#p44856">Traducción oficial y discusión de la noticia en el foro.</a></p>
+</div>
+</div>
+        </div>
+    </div>
+    <div id="content-right">
+        <div id="nav-sidebar" class="widget">
+            <h4>Información</h4>
+            <ul>
+                
+                <li><a href="../../../../../" title="Portada">Portada</a></li>
+                
+                <li><a href="../../../../../pages/about" title="Acerca de">Acerca de</a></li>
+                
+                <li><a href="https://wiki.archlinux.org/index.php/Installation_guide_%28Espa%C3%B1ol%29" title="Acerca de">Guia de Instalación</a></li>
+                
+            </ul>
+        </div> 
+        <div id="nav-sidebar" class="widget">
+            <h4>Redes Sociales</h4>
+            <ul>
+                
+                <li><a href="https://www.facebook.com/pages/Arch-Linux-Hispano/163041013798520" title="Facebook de Arch Linux en Español">Facebook</a></li>
+                
+                <li><a href="https://www.keybase.io/team/archlinux_es" title="Keybase Arch Linux en Español">Keybase</a></li>
+                
+                <li><a href="https://www.linkedin.com/groups/2162424/" title="Linkedin Arch Linux">Linkedin</a></li>
+                
+                <li><a href="https://steamcommunity.com/groups/archlinux-es" title="Steam Arch Linux en Español">Steam</a></li>
+                
+                <li><a href="https://www.twitter.com/archlinuxes" title="Twitter Arch Linux en Español">Twitter</a></li>
+                
+            </ul>
+        </div> 
+
+    </div>
+    <div id="footer">
+        <p>Arch Linux © Copyright 2002-2019 <a href="mailto:jvinet@zeroflux.org" title="Contactar a Judd Vinet">Judd Vinet</a> y <a href="mailto:aaron@archlinux.org" title="Contactar a Aaron Griffin">Aaron Griffin</a>.</p>
+        <p>El nombre de Arch Linux y el logo son marcas reconocidas
+        <a href="https://wiki.archlinux.org/index.php/DeveloperWiki:TrademarkPolicy"
+            title="Arch Linux Trademark Policy">trademarks</a>. Algunos derechos reservados.</p>
+        <p>El sitio de archlinux-es.org es Copyright 2003-2019 de <a href="mailto:leonardo@archlinux-es.org" title="Conactar a Leonardo Gallego">Leonardo Gallego</a>.
+
+        <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,
+        the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
+

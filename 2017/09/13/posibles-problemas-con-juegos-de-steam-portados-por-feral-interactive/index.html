@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Arch Linux en Español</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/arch.css" media="screen, projection" />
+		<link rel="icon" type="image/x-icon" href="../../../../favicon.ico">
+</head>
+<body class="">
+    <div id="archnavbar" class="anb-home">
+        <div id="archnavbarlogo"><h1><a href="./" title="Ir a la portada">Arch Linux en Español</a></h1></div>
+        <div id="archnavbarmenu">
+            <ul id="archnavbarlist">
+                
+                <li class="anb-Portada"><a href="https://archlinux-es.github.io/" title="Ir a la portada">Portada</a></li>
+                
+                <li class="anb-Paquetes"><a href="https://archlinux.org/packages/" title="Arch Package Database">Paquetes</a></li>
+                
+                <li class="anb-Foros"><a href="https://bbs.archlinux.org/viewforum.php?id=30" title="Foros de la comunidad">Foros</a></li>
+                
+                <li class="anb-Wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+                
+                <li class="anb-Bugs"><a href="https://bugs.archlinux.org/" title="Report and track bugs">Bugs</a></li>
+                
+                <li class="anb-Seguridad"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Seguridad</a></li>
+                
+                <li class="anb-AUR"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
+                
+                <li class="anb-Download"><a href="https://archlinux.org/download" title="Descargar Arch Linux">Download</a></li>
+                
+            </ul>
+        </div>
+    </div>
+<div id="content">
+    <div id="archdev-navbar">
+    </div>
+    <div id="content-left-wrapper">
+        <div id="content-left">
+
+<div id="content">
+<div id="archdev-navbar">
+
+</div>
+<div class="news-article box">
+    <h2>Posibles problemas con juegos de Steam portados por Feral Interactive</h2>
+    <p class="article-info">2017-09-13 - sud_crow </p>
+    <div class="article-content" itemprop="articleBody"><p><a href="https://www.archlinux-es.org/2017/09/15/resuelto-glibc-y-juegos-de-feral-interactive-en-steam/">ACTUALIZACIÓN: 15/09/17, ya está resuelto. Leer aquí.</a></p>
+
+<p>Algunos juegos de Steam portados por Feral Interactive a Linux (y SteamOS), aparentemente están teniendo inconvenientes [1] desde hace un par de días. Según dicen los reportes, tiene que ver con la última actualización de glibc [2] y algo de los scripts de Feral.</p>
+
+<p>Los juegos que pueden tener inconvenientes son: Total War: Warhammer, Dirt Rally, Mad Max, Deus Ex Mankind, Tomb Raider, Company of Heroes 2, GRID Autosport, Alien Isolation, Shadow of Mordor, los XCOM, entre otros posiblemente [3]</p>
+
+<p>Aquellos que hayan realizado un <strong>pacman -Syu</strong> y se encontraron con el inconveniente, pueden recurrir a &ldquo;<em>workarounds</em>&rdquo; (parches temporales) hasta tanto se resuelva la cuestión de fondo:</p>
+
+<ol>
+<li><p>Según reportan algunos, al utilizar Steam (Native) podrían evitar los problemas de las bibliotecas del sistema operativo utilizadas por Steam (Runtime). No todos los juegos funcionan correctamente con este mecanismo, puede funcionar como no.</p></li>
+
+<li><p>Setear la variable (reemplazar RUTA A STEAM y NOMBREJUEGO por lo que corresponda):</p></li>
+</ol>
+
+<blockquote>
+
+>     
+>     LD_LIBRARY_PATH="/RUTA/A/STEAM/games/steamapps/common/NOMBREJUEGO/lib/x86_64/" %command%
+> 
+> 
+</blockquote>
+
+<ol>
+<li>Downgradear glibc y sus dependencias a la versión anterior (mirar en /var/cache/pacman/pkg si aún la tienen). <em><strong>No recomendado</strong></em>.</li>
+</ol>
+
+<p><a href="https://foros.archlinux-es.org/viewtopic.php?f=2&amp;t=8228&amp;p=46794">Ayuda, consultas y comentarios, aquí en el foro</a>.</p>
+
+<p><strong>Fuentes:</strong></p>
+
+<p>[1] <a href="https://bugs.archlinux.org/task/55563">https://bugs.archlinux.org/task/55563</a></p>
+
+<p>[2]</p>
+
+<pre><code>  * https://www.reddit.com/r/linux_gaming/comments/6zpnci/gol_a_bunch_of_feral_interactive_linux_ports_may/
+  * https://www.reddit.com/r/linux_gaming/comments/6z9vx0/is_anyone_on_arch_able_to_play_max_max_right_now/
+</code></pre>
+
+<p>[3] <a href="http://www.feralinteractive.com/en/linux-games/">http://www.feralinteractive.com/en/linux-games/</a></p>
+
+<p>[4] <a href="https://www.gamingonlinux.com/articles/a-bunch-of-feral-interactive-linux-ports-may-be-broken-on-arch-and-others-heres-a-possible-workaround.10324">https://www.gamingonlinux.com/articles/a-bunch-of-feral-interactive-linux-ports-may-be-broken-on-arch-and-others-heres-a-possible-workaround.10324</a></p>
+</div>
+</div>
+        </div>
+    </div>
+    <div id="content-right">
+        <div id="nav-sidebar" class="widget">
+            <h4>Información</h4>
+            <ul>
+                
+                <li><a href="../../../../" title="Portada">Portada</a></li>
+                
+                <li><a href="../../../../pages/about" title="Acerca de">Acerca de</a></li>
+                
+                <li><a href="https://wiki.archlinux.org/index.php/Installation_guide_%28Espa%C3%B1ol%29" title="Acerca de">Guia de Instalación</a></li>
+                
+            </ul>
+        </div> 
+        <div id="nav-sidebar" class="widget">
+            <h4>Redes Sociales</h4>
+            <ul>
+                
+                <li><a href="https://www.facebook.com/pages/Arch-Linux-Hispano/163041013798520" title="Facebook de Arch Linux en Español">Facebook</a></li>
+                
+                <li><a href="https://www.keybase.io/team/archlinux_es" title="Keybase Arch Linux en Español">Keybase</a></li>
+                
+                <li><a href="https://www.linkedin.com/groups/2162424/" title="Linkedin Arch Linux">Linkedin</a></li>
+                
+                <li><a href="https://steamcommunity.com/groups/archlinux-es" title="Steam Arch Linux en Español">Steam</a></li>
+                
+                <li><a href="https://www.twitter.com/archlinuxes" title="Twitter Arch Linux en Español">Twitter</a></li>
+                
+            </ul>
+        </div> 
+
+    </div>
+    <div id="footer">
+        <p>Arch Linux © Copyright 2002-2019 <a href="mailto:jvinet@zeroflux.org" title="Contactar a Judd Vinet">Judd Vinet</a> y <a href="mailto:aaron@archlinux.org" title="Contactar a Aaron Griffin">Aaron Griffin</a>.</p>
+        <p>El nombre de Arch Linux y el logo son marcas reconocidas
+        <a href="https://wiki.archlinux.org/index.php/DeveloperWiki:TrademarkPolicy"
+            title="Arch Linux Trademark Policy">trademarks</a>. Algunos derechos reservados.</p>
+        <p>El sitio de archlinux-es.org es Copyright 2003-2019 de <a href="mailto:leonardo@archlinux-es.org" title="Conactar a Leonardo Gallego">Leonardo Gallego</a>.
+
+        <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,
+        the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
+

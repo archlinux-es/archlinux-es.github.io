@@ -6,21 +6,10 @@
     <description>Recent content in Noticias on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Sun, 20 Jul 2003 04:37:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 19:39:36 +0000</lastBuildDate>
     
 	<atom:link href="https://www.archlinux-es.org/categories/noticias/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Comunidad Hispana de Arch Linux</title>
-      <link>https://www.archlinux-es.org/2003/07/20/comunidad-hispana-de-arch-linux/</link>
-      <pubDate>Sun, 20 Jul 2003 04:37:38 +0000</pubDate>
-      
-      <guid>https://www.archlinux-es.org/2003/07/20/comunidad-hispana-de-arch-linux/</guid>
-      <description>Bienvenidos al sitio de Arch Linux en Español
-Este es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
-Originalmente el foro de &amp;ldquo;Arch Linux en Español&amp;rdquo;, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
-    </item>
     
     <item>
       <title>Se realizo el Arch Linux AMA en Reddit</title>
@@ -553,8 +542,7 @@ Para resolver este problema, lo más sencillo (si es que no se han modificado lo
       
       <guid>https://www.archlinux-es.org/2013/06/03/intervenci%C3%B3n-del-usuario-para-mover-binarios-a-/usr/bin-durante-la-actualizaci%C3%B3n/</guid>
       <description>Al actualizar se obtendrá un mensaje de error:
-error: failed to commit transaction (conflicting files) filesystem: /bin exists in filesystem
-La actualización aunará todos los binarios en un único directorio /usr/bin. Con esto se consigue eliminar una distinción sin sentido alguno para Arch y simplificar el proceso de mantenimiento de paquetes por parte de los desarrolladores. Consultar este post en inglés para una explicación más amplia de los motivos por los que se lleva a cabo este cambio.</description>
+error: failed to commit transaction (conflicting files) filesystem: /bin exists in filesystem  La actualización aunará todos los binarios en un único directorio /usr/bin. Con esto se consigue eliminar una distinción sin sentido alguno para Arch y simplificar el proceso de mantenimiento de paquetes por parte de los desarrolladores. Consultar este post en inglés para una explicación más amplia de los motivos por los que se lleva a cabo este cambio.</description>
     </item>
     
     <item>
