@@ -6,10 +6,20 @@
     <description>Recent content in Pages on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Mon, 19 Aug 2019 20:44:16 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 16:19:54 -0300</lastBuildDate>
     
 	<atom:link href="https://www.archlinux-es.org/pages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bienvenidos al sitio de Arch Linux en Español</title>
+      <link>https://www.archlinux-es.org/pages/about/</link>
+      <pubDate>Sun, 26 May 2019 16:19:54 -0300</pubDate>
+      
+      <guid>https://www.archlinux-es.org/pages/about/</guid>
+      <description>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
+Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
+    </item>
     
     <item>
       <title>Descargar</title>
@@ -20,16 +30,6 @@
       <description>Información de la última versión: La imagen ISO de Arch Linux puede ser grabada a un CD o copiarse directamente vía ‘dd‘ hacia un Pendrive o disco USB booteable. Está imagen es para instalaciones nuevas o para utilizarla como entorno “Live” (booteo directo) en casos de reparación.
 Si ya sos usuario de Arch Linux y deseas actualizar tu sistema, deberías utilizar pacman -Syu
 Si tenes dudas o necesitas ayuda, tanto para instalar o actualizar, consulta en el foro.</description>
-    </item>
-    
-    <item>
-      <title>Bienvenidos al sitio de Arch Linux en Español</title>
-      <link>https://www.archlinux-es.org/pages/about/</link>
-      <pubDate>Sun, 26 May 2019 16:19:54 -0300</pubDate>
-      
-      <guid>https://www.archlinux-es.org/pages/about/</guid>
-      <description>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
-Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
     </item>
     
     <item>

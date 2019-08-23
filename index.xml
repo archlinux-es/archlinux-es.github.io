@@ -6,10 +6,20 @@
     <description>Recent content on Arch Linux en Español</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ar</language>
-    <lastBuildDate>Tue, 20 Aug 2019 19:58:08 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 16:19:54 -0300</lastBuildDate>
     
 	<atom:link href="https://www.archlinux-es.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bienvenidos al sitio de Arch Linux en Español</title>
+      <link>https://www.archlinux-es.org/pages/about/</link>
+      <pubDate>Sun, 26 May 2019 16:19:54 -0300</pubDate>
+      
+      <guid>https://www.archlinux-es.org/pages/about/</guid>
+      <description>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
+Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
+    </item>
     
     <item>
       <title>Tensorflow &gt;= 1.14.0-5 requiere intervencion manual</title>
@@ -56,16 +66,6 @@ pacman -Syu --overwrite user/lib/libbloom.so.1  </description>
       <description>La actualización de Mariadb 10.4.6-1 y posteriores, cambian el formato de la configuración de acuerdo a lo recomendado por el proyecto upstream.
 El archivo de configuración principal se ha movido desde /etc/mysql/my.cnf (incluyendo el directorio /etc/mysql/my.cnf.d/) hacía /etc/my.cnf (y /etc/my.cnf.d/). Asegurarse de mover la configuración.
 Los servicios instanciados como mariadb@foo.service ya no se configuran en archivos separados (como /etc/mysql/myfoo.conf). En lugar de esto, moverlos hacía bloques de configuracion con un sufijo de grupo en el archivo de configuración general, uno por cada servicio.</description>
-    </item>
-    
-    <item>
-      <title>Bienvenidos al sitio de Arch Linux en Español</title>
-      <link>https://www.archlinux-es.org/pages/about/</link>
-      <pubDate>Sun, 26 May 2019 16:19:54 -0300</pubDate>
-      
-      <guid>https://www.archlinux-es.org/pages/about/</guid>
-      <description>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
-Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
     </item>
     
     <item>

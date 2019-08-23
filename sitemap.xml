@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.archlinux-es.org/pages/about/</loc>
+    <lastmod>2019-05-26T16:19:54-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.archlinux-es.org/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/</loc>
     <lastmod>2019-08-20T19:58:08-03:00</lastmod>
   </url>
@@ -20,11 +25,6 @@
   <url>
     <loc>https://www.archlinux-es.org/2019/06/27/mariadb-10.4.x-requiere-intervenci%C3%B3n-manual/</loc>
     <lastmod>2019-06-27T19:34:42-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.archlinux-es.org/pages/about/</loc>
-    <lastmod>2019-05-26T16:19:54-03:00</lastmod>
   </url>
   
   <url>
@@ -458,7 +458,7 @@
   
   <url>
     <loc>https://www.archlinux-es.org/</loc>
-    <lastmod>2019-08-20T19:58:08-03:00</lastmod>
+    <lastmod>2019-05-26T16:19:54-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -625,7 +625,7 @@
   
   <url>
     <loc>https://www.archlinux-es.org/pages/</loc>
-    <lastmod>2019-08-19T20:44:16-03:00</lastmod>
+    <lastmod>2019-05-26T16:19:54-03:00</lastmod>
     <priority>0</priority>
   </url>
   
