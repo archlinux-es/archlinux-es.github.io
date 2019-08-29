@@ -1,0 +1,15 @@
+---
+title: "astyle >= 3.1-2 requiere intervencion manual"
+date: 2019-08-28T21:47:22-03:00
+draft: false
+---
+
+El paquete previo a `astyle` 3.1-2 tenia un enlace soname faltante. Esto ha sido corregido en la 3.1-2, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados creados por ldconfig. Si reciben un error:
+
+`astyle: /usr/lib/libastyle.so.3 exists in filesystem`
+
+Al actualizar, utilizar:
+
+```
+pacman -Suy --overwrite usr/lib/libastyle.so.3
+```

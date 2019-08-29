@@ -29,8 +29,7 @@ Originalmente el foro de “Arch Linux en Español“, actualmente desde este es
       <guid>https://www.archlinux-es.org/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/</guid>
       <description>Al paquete de tensorflow previo a la version 1.14.0-5 le faltaban enlaces soname. Esto ha sido corregido en la version 1.14.0-5, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados y creados por ldconfig.
 Si al actualizar reciben un error del tipo:
-tensorflow: /usr/lib/libtensorflow.so.1 exists in filesystem tensorflow: /usr/lib/libtensorflow_cc.so.1 exists in filesystem tensorflow: /usr/lib/libtensorflow_framework.so.1 exists in filesystem
-Al actualizar, utilizar la bandera overwrite de la forma siguiente:</description>
+tensorflow: /usr/lib/libtensorflow.so.1 exists in filesystem tensorflow: /usr/lib/libtensorflow_cc.so.1 exists in filesystem tensorflow: /usr/lib/libtensorflow_framework.so.1 exists in filesystem  Al actualizar, utilizar la bandera overwrite:</description>
     </item>
     
     <item>
