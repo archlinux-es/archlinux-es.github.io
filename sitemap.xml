@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://www.archlinux-es.org/2019/08/28/astyle--3.1-2-requiere-intervencion-manual/</loc>
+    <lastmod>2019-08-28T21:47:22-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.archlinux-es.org/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/</loc>
     <lastmod>2019-08-20T19:58:08-03:00</lastmod>
   </url>
@@ -655,7 +660,7 @@
   
   <url>
     <loc>https://www.archlinux-es.org/posts/</loc>
-    <lastmod>2019-08-20T19:58:08-03:00</lastmod>
+    <lastmod>2019-08-28T21:47:22-03:00</lastmod>
     <priority>0</priority>
   </url>
   

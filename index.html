@@ -58,6 +58,20 @@
             </h3>
             <a href="./index.xml" title="Arch Linux en Español RSS Feed" class="rss-icon"><img width="16" height="16" src="./rss.png" alt="RSS Feed" /></a>
                 
+                <h4><a href="https://www.archlinux-es.org/2019/08/28/astyle--3.1-2-requiere-intervencion-manual/" title="astyle &gt;= 3.1-2 requiere intervencion manual"> astyle &gt;= 3.1-2 requiere intervencion manual</a></h4>
+                <p class="timestamp">2019-08-28<p>
+                <div class="article-content">
+                    <p>El paquete previo a <code>astyle</code> 3.1-2 tenia un enlace soname faltante. Esto ha sido corregido en la 3.1-2, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados creados por ldconfig. Si reciben un error:</p>
+
+<p><code>astyle: /usr/lib/libastyle.so.3 exists in filesystem</code></p>
+
+<p>Al actualizar, utilizar:</p>
+
+<pre><code>pacman -Suy --overwrite usr/lib/libastyle.so.3
+</code></pre>
+
+                </div>
+                
                 <h4><a href="https://www.archlinux-es.org/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/" title="Tensorflow &gt;= 1.14.0-5 requiere intervencion manual"> Tensorflow &gt;= 1.14.0-5 requiere intervencion manual</a></h4>
                 <p class="timestamp">2019-08-20<p>
                 <div class="article-content">

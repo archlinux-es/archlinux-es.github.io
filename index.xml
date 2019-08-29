@@ -22,6 +22,18 @@ Originalmente el foro de “Arch Linux en Español“, actualmente desde este es
     </item>
     
     <item>
+      <title>astyle &gt;= 3.1-2 requiere intervencion manual</title>
+      <link>https://www.archlinux-es.org/2019/08/28/astyle--3.1-2-requiere-intervencion-manual/</link>
+      <pubDate>Wed, 28 Aug 2019 21:47:22 -0300</pubDate>
+      
+      <guid>https://www.archlinux-es.org/2019/08/28/astyle--3.1-2-requiere-intervencion-manual/</guid>
+      <description>El paquete previo a astyle 3.1-2 tenia un enlace soname faltante. Esto ha sido corregido en la 3.1-2, y por lo tanto, la actualización va a requerir sobre-escribir los enlaces soname no registrados creados por ldconfig. Si reciben un error:
+astyle: /usr/lib/libastyle.so.3 exists in filesystem
+Al actualizar, utilizar:
+pacman -Suy --overwrite usr/lib/libastyle.so.3  </description>
+    </item>
+    
+    <item>
       <title>Tensorflow &gt;= 1.14.0-5 requiere intervencion manual</title>
       <link>https://www.archlinux-es.org/2019/08/20/tensorflow--1.14.0-5-requiere-intervencion-manual/</link>
       <pubDate>Tue, 20 Aug 2019 19:58:08 -0300</pubDate>
