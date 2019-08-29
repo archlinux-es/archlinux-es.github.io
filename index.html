@@ -451,25 +451,23 @@ pacman -Qqo '/usr/lib/perl5/vendor_perl'
 
                 </div>
                 
-                <h4><a href="https://www.archlinux-es.org/2017/03/19/ca-certificates-utils-20170307-1--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/" title="ca-certificates-utils 20170307-1 : la actualización requiere intervención manual"> ca-certificates-utils 20170307-1 : la actualización requiere intervención manual</a></h4>
+                <h4><a href="https://www.archlinux-es.org/2017/03/19/ca-certificates-utils-20170307-1-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/" title="ca-certificates-utils-20170307-1 la actualización requiere intervención manual"> ca-certificates-utils-20170307-1 la actualización requiere intervención manual</a></h4>
                 <p class="timestamp">2017-03-19<p>
                 <div class="article-content">
-                    
-
-<p>La actualización del paquete **ca-certificates-utils 20170307-1 **requiere intervención manual. Esto es debido al enlace simbólico que se utilizaba durante el post-install del paquete y ha sido movido dentro de este ultimo.</p>
+                    <p>La actualización del paquete <code>ca-certificates-utils-20170307-1</code> requiere intervención manual. Esto es debido al enlace simbólico que se utilizaba durante el post-install del paquete y que ha sido movido dentro de este ultimo.</p>
 
 <p>Dado que eliminar el enlace simbólico puede evitar la descarga de paquetes, la forma recomendada de realizar la actualización de sistema es en 3 pasos:</p>
 
-<pre><code>  1. descargar paquetes (la bandera extra **w**)
-  2. remover archivo conflictivo
-  3. realizar actualización
+<ol>
+<li>descargar paquetes (la bandera extra <strong>w</strong>)</li>
+<li>remover archivo conflictivo</li>
+<li>realizar actualización</li>
+</ol>
+
+<pre><code># pacman -Syuw
+# rm /etc/ssl/certs/ca-certificates.crt
+# pacman -Su
 </code></pre>
-
-<p>`# pacman -Syuw</p>
-
-<h1 id="rm-etc-ssl-certs-ca-certificates-crt">rm /etc/ssl/certs/ca-certificates.crt</h1>
-
-<h1 id="pacman-su">pacman -Su `</h1>
 
 <p>Publicación original en <a href="https://www.archlinux.org/news/ca-certificates-utils-20170307-1-upgrade-requires-manual-intervention/">el sitio oficial.</a></p>
 
@@ -652,31 +650,23 @@ En lugar de correr update-ca-certificates, ejecuta:  trust extract-compat</p>
                 <h4><a href="https://www.archlinux-es.org/2014/10/27/atenci%C3%B3n-usuarios-de-java-intervenci%C3%B3n-manual-necesaria-antes-de-actualizar/" title="Atención usuarios de java: intervención manual necesaria antes de actualizar"> Atención usuarios de java: intervención manual necesaria antes de actualizar</a></h4>
                 <p class="timestamp">2014-10-27<p>
                 <div class="article-content">
-                    
+                    <p>Si se tiene instalado el paquete java-common, hace falta intervención manual del usuario para sortear un problema de conflicto entre ficheros. Se puede comprobar ejecutando el siguiente comando:</p>
 
-<p>Si se tiene instalado el paquete java-common, hace falta intervención manual del usuario para sortear un problema de conflicto entre ficheros. Se puede comprobar ejecutando el siguiente comando:</p>
+<p><code>$ pacman -Q java-common</code></p>
 
-<pre><code>`$ pacman -Q java-common
+<p>De ser así, antes de proceder con la actualización, hay que ejecutar lo siguiente:</p>
+
+<pre><code># archlinux-java unset
+# pacman -Sydd --asdeps java-runtime-common
+:: java-runtime-common and java-common are in conflict. Remove java-common? [y/N] y
+# archlinux-java fix
 </code></pre>
-
-<p>java-common &hellip;`
-De ser así, antes de proceder con la actualización, hay que ejecutar lo siguiente:</p>
-
-<pre><code>`# archlinux-java unset
-</code></pre>
-
-<h1 id="pacman-sydd-asdeps-java-runtime-common">pacman -Sydd &ndash;asdeps java-runtime-common</h1>
-
-<p>:: java-runtime-common and java-common are in conflict. Remove java-common? [y/N] y</p>
-
-<h1 id="archlinux-java-fix">archlinux-java fix`</h1>
 
 <p>Una vez hecho esto, se puede proceder a actualizar:</p>
 
-<pre><code>`# pacman -Su`
-</code></pre>
+<p><code># pacman -Su</code></p>
 
-<p>Hay que tener en cuenta que el paquete <a href="https://www.archlinux.org/packages/extra/any/java-common/"><code>java-runtime-common</code></a> nuevo no usa ni soporta el forzado de <code>JAVA_HOME</code> como el antiguo <code>java-common</code> solía. Para más información, leer <a href="https://wiki.archlinux.org/index.php/Java">el artículo de la wiki sobre Java</a>.</p>
+<p>Hay que tener en cuenta que el paquete <a href="https://www.archlinux.org/packages/extra/any/java-common/">java-runtime-common</a> nuevo no usa ni soporta el forzado de <code>JAVA_HOME</code> como el antiguo <code>java-common</code> solía. Para más información, leer <a href="https://wiki.archlinux.org/index.php/Java">el artículo de la wiki sobre Java</a>.</p>
 
 <p><a href="http://foros.archlinux-es.org/viewtopic.php?f=1&amp;t=7777">Traducción oficial y discusión de la noticia en el foro.</a></p>
 

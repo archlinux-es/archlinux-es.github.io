@@ -13,20 +13,20 @@
     
     <item>
       <title>Bienvenidos al sitio de Arch Linux en Español</title>
-      <link>https://www.archlinux-es.org/pages/about/</link>
+      <link>https://www.archlinux-es.org/about/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 -0300</pubDate>
       
-      <guid>https://www.archlinux-es.org/pages/about/</guid>
+      <guid>https://www.archlinux-es.org/about/</guid>
       <description>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).
 Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma.</description>
     </item>
     
     <item>
       <title>Descargar</title>
-      <link>https://www.archlinux-es.org/pages/descargar/</link>
+      <link>https://www.archlinux-es.org/descargar/</link>
       <pubDate>Mon, 19 Aug 2019 20:44:16 -0300</pubDate>
       
-      <guid>https://www.archlinux-es.org/pages/descargar/</guid>
+      <guid>https://www.archlinux-es.org/descargar/</guid>
       <description>Información de la última versión: La imagen ISO de Arch Linux puede ser grabada a un CD o copiarse directamente vía ‘dd‘ hacia un Pendrive o disco USB booteable. Está imagen es para instalaciones nuevas o para utilizarla como entorno “Live” (booteo directo) en casos de reparación.
 Si ya sos usuario de Arch Linux y deseas actualizar tu sistema, deberías utilizar pacman -Syu
 Si tenes dudas o necesitas ayuda, tanto para instalar o actualizar, consulta en el foro.</description>
@@ -34,10 +34,10 @@ Si tenes dudas o necesitas ayuda, tanto para instalar o actualizar, consulta en 
     
     <item>
       <title>Become a Sponsor</title>
-      <link>https://www.archlinux-es.org/pages/sponsoring/</link>
+      <link>https://www.archlinux-es.org/sponsoring/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
       
-      <guid>https://www.archlinux-es.org/pages/sponsoring/</guid>
+      <guid>https://www.archlinux-es.org/sponsoring/</guid>
       <description>On October 5th and 6th 2019 we will host a community centric event for the Arch Linux staff (developers, trusted users and support staff) in Berlin.
 Native Instruments GmbH was so kind to sponsor their community location for this event, which is located next to their offices in the Kreuzberg district.
 However, Arch Linux consists of an international group of volunteers, that work on several facets of the distribution. To enable us to bring as many of our team to Berlin this year, we need your support!</description>
@@ -45,19 +45,19 @@ However, Arch Linux consists of an international group of volunteers, that work 
     
     <item>
       <title>Schedule</title>
-      <link>https://www.archlinux-es.org/pages/schedule/</link>
+      <link>https://www.archlinux-es.org/schedule/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
       
-      <guid>https://www.archlinux-es.org/pages/schedule/</guid>
+      <guid>https://www.archlinux-es.org/schedule/</guid>
       <description>The schedule has not yet been completed.</description>
     </item>
     
     <item>
       <title>Travel Information</title>
-      <link>https://www.archlinux-es.org/pages/travel/</link>
+      <link>https://www.archlinux-es.org/travel/</link>
       <pubDate>Sun, 26 May 2019 16:19:54 +0200</pubDate>
       
-      <guid>https://www.archlinux-es.org/pages/travel/</guid>
+      <guid>https://www.archlinux-es.org/travel/</guid>
       <description>Address The conference takes place at Native Space, Schlesische Straße 30, 10997 Berlin.
 Public Transport The public transport stops closest to Native Space are
  Bus stop Taborstraße (2min walk) U Schlesisches Tor (7min walk) S Warschauer Straße (12min walk)  If you have an Android Phone, the Transportr app works very well with the public transport API of Berlin.

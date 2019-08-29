@@ -42,27 +42,26 @@
 
 </div>
 <div class="news-article box">
-    <h2>Atención usuarios de java: intervención manual necesaria antes de actualizar</h2>
-    <p class="article-info">2014-10-27 - sud_crow </p>
-    <div class="article-content" itemprop="articleBody"><p>Si se tiene instalado el paquete java-common, hace falta intervención manual del usuario para sortear un problema de conflicto entre ficheros. Se puede comprobar ejecutando el siguiente comando:</p>
+    <h2>ca-certificates-utils-20170307-1 la actualización requiere intervención manual</h2>
+    <p class="article-info">2017-03-19 - sud_crow </p>
+    <div class="article-content" itemprop="articleBody"><p>La actualización del paquete <code>ca-certificates-utils-20170307-1</code> requiere intervención manual. Esto es debido al enlace simbólico que se utilizaba durante el post-install del paquete y que ha sido movido dentro de este ultimo.</p>
 
-<p><code>$ pacman -Q java-common</code></p>
+<p>Dado que eliminar el enlace simbólico puede evitar la descarga de paquetes, la forma recomendada de realizar la actualización de sistema es en 3 pasos:</p>
 
-<p>De ser así, antes de proceder con la actualización, hay que ejecutar lo siguiente:</p>
+<ol>
+<li>descargar paquetes (la bandera extra <strong>w</strong>)</li>
+<li>remover archivo conflictivo</li>
+<li>realizar actualización</li>
+</ol>
 
-<pre><code># archlinux-java unset
-# pacman -Sydd --asdeps java-runtime-common
-:: java-runtime-common and java-common are in conflict. Remove java-common? [y/N] y
-# archlinux-java fix
+<pre><code># pacman -Syuw
+# rm /etc/ssl/certs/ca-certificates.crt
+# pacman -Su
 </code></pre>
 
-<p>Una vez hecho esto, se puede proceder a actualizar:</p>
+<p>Publicación original en <a href="https://www.archlinux.org/news/ca-certificates-utils-20170307-1-upgrade-requires-manual-intervention/">el sitio oficial.</a></p>
 
-<p><code># pacman -Su</code></p>
-
-<p>Hay que tener en cuenta que el paquete <a href="https://www.archlinux.org/packages/extra/any/java-common/">java-runtime-common</a> nuevo no usa ni soporta el forzado de <code>JAVA_HOME</code> como el antiguo <code>java-common</code> solía. Para más información, leer <a href="https://wiki.archlinux.org/index.php/Java">el artículo de la wiki sobre Java</a>.</p>
-
-<p><a href="http://foros.archlinux-es.org/viewtopic.php?f=1&amp;t=7777">Traducción oficial y discusión de la noticia en el foro.</a></p>
+<p>Pueden consultar en el <a href="https://foros.archlinux-es.org">foro</a>  en español si tienen inconvenientes.</p>
 </div>
 </div>
         </div>

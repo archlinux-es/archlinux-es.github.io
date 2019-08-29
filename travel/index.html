@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Arch Linux en Español</title>
-    <link rel="stylesheet" type="text/css" href="../../../../css/arch.css" media="screen, projection" />
-		<link rel="icon" type="image/x-icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/arch.css" media="screen, projection" />
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
 </head>
 <body class="">
     <div id="archnavbar" class="anb-home">
@@ -26,7 +26,7 @@
                 
                 <li class="anb-AUR"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
                 
-                <li class="anb-Download"><a href="../../../../pages/descargar" title="Descargar Arch Linux">Download</a></li>
+                <li class="anb-Download"><a href="../pages/descargar" title="Descargar Arch Linux">Download</a></li>
                 
             </ul>
         </div>
@@ -37,32 +37,46 @@
     <div id="content-left-wrapper">
         <div id="content-left">
 
-<div id="content">
-<div id="archdev-navbar">
-
-</div>
 <div class="news-article box">
-    <h2>Atención usuarios de java: intervención manual necesaria antes de actualizar</h2>
-    <p class="article-info">2014-10-27 - sud_crow </p>
-    <div class="article-content" itemprop="articleBody"><p>Si se tiene instalado el paquete java-common, hace falta intervención manual del usuario para sortear un problema de conflicto entre ficheros. Se puede comprobar ejecutando el siguiente comando:</p>
+    <h2>Travel Information</h2>
+    <div class="article-content" itemprop="articleBody">
 
-<p><code>$ pacman -Q java-common</code></p>
+<h1 id="address">Address</h1>
 
-<p>De ser así, antes de proceder con la actualización, hay que ejecutar lo siguiente:</p>
+<p>The conference takes place at <a href="https://www.openstreetmap.org/node/5650394474">Native
+Space</a>, Schlesische Straße 30,
+10997 Berlin.</p>
 
-<pre><code># archlinux-java unset
-# pacman -Sydd --asdeps java-runtime-common
-:: java-runtime-common and java-common are in conflict. Remove java-common? [y/N] y
-# archlinux-java fix
-</code></pre>
+<h1 id="public-transport">Public Transport</h1>
 
-<p>Una vez hecho esto, se puede proceder a actualizar:</p>
+<p>The <a href="https://www.bvg.de/en">public transport</a> stops closest to Native Space are</p>
 
-<p><code># pacman -Su</code></p>
+<ul>
+<li>Bus stop Taborstraße (2min walk)</li>
+<li>U Schlesisches Tor (7min walk)</li>
+<li>S Warschauer Straße (12min walk)</li>
+</ul>
 
-<p>Hay que tener en cuenta que el paquete <a href="https://www.archlinux.org/packages/extra/any/java-common/">java-runtime-common</a> nuevo no usa ni soporta el forzado de <code>JAVA_HOME</code> como el antiguo <code>java-common</code> solía. Para más información, leer <a href="https://wiki.archlinux.org/index.php/Java">el artículo de la wiki sobre Java</a>.</p>
+<p>If you have an Android Phone, the
+<a href="https://f-droid.org/en/packages/de.grobox.liberario">Transportr</a> app works
+very well with the public transport API of Berlin.</p>
 
-<p><a href="http://foros.archlinux-es.org/viewtopic.php?f=1&amp;t=7777">Traducción oficial y discusión de la noticia en el foro.</a></p>
+<h1 id="airplane">Airplane</h1>
+
+<p>Berlin&rsquo;s two major airports Schönefeld
+(<a href="https://www.berlin-airport.de/en/travellers-sxf/index.php">SXF</a>) and Tegel
+(<a href="https://www.berlin-airport.de/en/travellers-txl/index.php">TXL</a>) are fairly
+well connected with public transport. However, Schönefeld airport might be
+faster to get to/ travel from.</p>
+
+<h1 id="train">Train</h1>
+
+<p>If you&rsquo;re coming in by train (with <a href="https://www.bahn.com/en/view/index.shtml">Deutsche
+Bahn</a>), you can either go to Berlin
+Hauptbahnhof (Main Station), or Berlin Ostbahnhof (East Station).</p>
+
+<p>While the latter is closer to the location, both are connect to public
+transport by S-Bahn (local train) and bus.</p>
 </div>
 </div>
         </div>
@@ -72,7 +86,7 @@
             <h4>Información</h4>
             <ul>
                 
-                <li><a href="../../../../" title="Portada">Portada</a></li>
+                <li><a href="../" title="Portada">Portada</a></li>
                 
                 <li><a href="https://wiki.archlinux.org/index.php/Installation_guide_%28Espa%C3%B1ol%29" title="Guía de Instalación">Guía de Instalación</a></li>
                 
@@ -110,4 +124,5 @@
 </div>
 </body>
 </html>
+
 

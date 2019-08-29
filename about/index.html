@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Arch Linux en Español</title>
-    <link rel="stylesheet" type="text/css" href="../../../../css/arch.css" media="screen, projection" />
-		<link rel="icon" type="image/x-icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/arch.css" media="screen, projection" />
+		<link rel="icon" type="image/x-icon" href="../favicon.ico">
 </head>
 <body class="">
     <div id="archnavbar" class="anb-home">
@@ -26,7 +26,7 @@
                 
                 <li class="anb-AUR"><a href="https://aur.archlinux.org/" title="Arch Linux User Repository">AUR</a></li>
                 
-                <li class="anb-Download"><a href="../../../../pages/descargar" title="Descargar Arch Linux">Download</a></li>
+                <li class="anb-Download"><a href="../pages/descargar" title="Descargar Arch Linux">Download</a></li>
                 
             </ul>
         </div>
@@ -37,32 +37,13 @@
     <div id="content-left-wrapper">
         <div id="content-left">
 
-<div id="content">
-<div id="archdev-navbar">
-
-</div>
 <div class="news-article box">
-    <h2>Atención usuarios de java: intervención manual necesaria antes de actualizar</h2>
-    <p class="article-info">2014-10-27 - sud_crow </p>
-    <div class="article-content" itemprop="articleBody"><p>Si se tiene instalado el paquete java-common, hace falta intervención manual del usuario para sortear un problema de conflicto entre ficheros. Se puede comprobar ejecutando el siguiente comando:</p>
+    <h2>Bienvenidos al sitio de Arch Linux en Español</h2>
+    <div class="article-content" itemprop="articleBody"><p>Arch Linux en Español es el sitio de la Comunidad Hispana de Arch Linux, una distribución Linux liviana y flexible que intenta mantener las cosas simples, siguiendo la filosofía KISS (Keep It Simple, Stupid!).</p>
 
-<p><code>$ pacman -Q java-common</code></p>
+<p>Originalmente el foro de “Arch Linux en Español“, actualmente desde este espacio intentamos complementar el soporte que da la gran comunidad oficial de Arch Linux en inglés, creando un espacio para los hispano-parlantes que desean intercambiar opiniones y conocimiento en su propio idioma. En este sitio nos encontramos usuarios de Arch Linux de toda América Latina, así como de España.</p>
 
-<p>De ser así, antes de proceder con la actualización, hay que ejecutar lo siguiente:</p>
-
-<pre><code># archlinux-java unset
-# pacman -Sydd --asdeps java-runtime-common
-:: java-runtime-common and java-common are in conflict. Remove java-common? [y/N] y
-# archlinux-java fix
-</code></pre>
-
-<p>Una vez hecho esto, se puede proceder a actualizar:</p>
-
-<p><code># pacman -Su</code></p>
-
-<p>Hay que tener en cuenta que el paquete <a href="https://www.archlinux.org/packages/extra/any/java-common/">java-runtime-common</a> nuevo no usa ni soporta el forzado de <code>JAVA_HOME</code> como el antiguo <code>java-common</code> solía. Para más información, leer <a href="https://wiki.archlinux.org/index.php/Java">el artículo de la wiki sobre Java</a>.</p>
-
-<p><a href="http://foros.archlinux-es.org/viewtopic.php?f=1&amp;t=7777">Traducción oficial y discusión de la noticia en el foro.</a></p>
+<p>Actualmente la distribución cuenta con paquetes oficiales optimizados para las arquitectura x86-64 (amd64) y hay versiones comunitarias para las arquitecturas i686 y ARM. Estos están complementados con un repositorio de paquetes operado por la comunidad (AUR – del inglés “Arch Users Repository”) que crece en tamaño y calidad cada día.</p>
 </div>
 </div>
         </div>
@@ -72,7 +53,7 @@
             <h4>Información</h4>
             <ul>
                 
-                <li><a href="../../../../" title="Portada">Portada</a></li>
+                <li><a href="../" title="Portada">Portada</a></li>
                 
                 <li><a href="https://wiki.archlinux.org/index.php/Installation_guide_%28Espa%C3%B1ol%29" title="Guía de Instalación">Guía de Instalación</a></li>
                 
@@ -110,4 +91,5 @@
 </div>
 </body>
 </html>
+
 

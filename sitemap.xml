@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.archlinux-es.org/pages/about/</loc>
+    <loc>https://www.archlinux-es.org/about/</loc>
     <lastmod>2019-05-26T16:19:54-03:00</lastmod>
   </url>
   
@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>https://www.archlinux-es.org/pages/descargar/</loc>
+    <loc>https://www.archlinux-es.org/descargar/</loc>
     <lastmod>2019-08-19T20:44:16-03:00</lastmod>
   </url>
   
@@ -28,17 +28,17 @@
   </url>
   
   <url>
-    <loc>https://www.archlinux-es.org/pages/sponsoring/</loc>
+    <loc>https://www.archlinux-es.org/sponsoring/</loc>
     <lastmod>2019-05-26T16:19:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.archlinux-es.org/pages/schedule/</loc>
+    <loc>https://www.archlinux-es.org/schedule/</loc>
     <lastmod>2019-05-26T16:19:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.archlinux-es.org/pages/travel/</loc>
+    <loc>https://www.archlinux-es.org/travel/</loc>
     <lastmod>2019-05-26T16:19:54+02:00</lastmod>
   </url>
   
@@ -148,7 +148,7 @@
   </url>
   
   <url>
-    <loc>https://www.archlinux-es.org/2017/03/19/ca-certificates-utils-20170307-1--la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</loc>
+    <loc>https://www.archlinux-es.org/2017/03/19/ca-certificates-utils-20170307-1-la-actualizaci%C3%B3n-requiere-intervenci%C3%B3n-manual/</loc>
     <lastmod>2017-03-19T01:41:46+00:00</lastmod>
   </url>
   
